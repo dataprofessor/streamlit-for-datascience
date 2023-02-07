@@ -2,10 +2,6 @@
 
 > ❗ **About:** This *Streamlit for Data Science* course will show you how to use Streamlit to prepare and analyze data as well as embed data visualizations and machine learning models right inside the Streamlit app. The best part of is that you can use various input and output widgets to make the app interactive and data-driven! Finally you can deploy the Streamlit app to the cloud and share with the community.
 
-## Streamlit
-
-Streamlit is a Python library you can use to build interactive data-driven web apps.
-
 ## Table of contents
 - [**Lesson 1** - Getting up to speed with Streamlit](./lesson-1.md)
 
