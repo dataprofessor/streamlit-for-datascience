@@ -1,16 +1,18 @@
 # 📓 Lesson 1 - Getting up to speed with Streamlit
 
-## What is Streamlit?
+## 1.1. What is Streamlit?
 
 Streamlit is a Python library you can use to build interactive data-driven web apps.
 
-## Prerequisite
+## 1.2. Prerequisite
 
 Here's what you need to use Streamlit:
 - Have basic Python knowledge.
 - Write scripts to perform specific tasks (like taking several Excel files as input and combining them into one).
 - Build and grow the Streamlit app line by line instead of starting with a predefined layout (it takes only a few lines of code).
 If you can do all this, congratulations! You're ready to plunge into the world of Streamlit.
+
+## 1.3. Setting up your Streamlit workspace
 
 ## Installing Streamlit
 
@@ -20,7 +22,7 @@ Streamlit can be installed using `pip` as shown below:
 pip install streamlit
 ```
 
-## Creating your first Streamlit app
+## 1.4. Creating your first Streamlit app
 
 Before we get into the nuts and bolts of the Streamlit library, let's take a hands-on approach for learning how to use Streamlit. Particularly, creating a simple **Hello world app** would probably be an expected rite of passage to learning Streamlit!
 
