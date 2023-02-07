@@ -77,7 +77,7 @@ streamlit run app.py
 
 You’ll see the web app browser pop up:
 
-<img src="./img/EDA-app.png" width="600">
+<img src="./img/EDA-app.png" width="75%">
 
 ## 1.5. Creating your first Streamlit app
 
