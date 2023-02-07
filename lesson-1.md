@@ -6,7 +6,7 @@ Streamlit is a Python library you can use to build interactive data-driven web a
 
 ## Prerequisite
 
-What you need to use Streamlit:
+Here's what you need to use Streamlit:
 - Have basic Python knowledge.
 - Write scripts to perform specific tasks (like taking several Excel files as input and combining them into one).
 - Build and grow the Streamlit app line by line instead of starting with a predefined layout (it takes only a few lines of code).
