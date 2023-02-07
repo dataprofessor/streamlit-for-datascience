@@ -8,3 +8,7 @@ import streamlit as st
 st.write('Hello world!')
 ```
 </details>
+
+# Admonitions
+> :memo: **Note:** This is the note!
+> :bulb: **Tip:** This is the tip!
