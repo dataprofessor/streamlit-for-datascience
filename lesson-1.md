@@ -1,5 +1,9 @@
 # 📓 Lesson 1 - Getting up to speed with Streamlit
 
+## What is Streamlit?
+
+Streamlit is a Python library you can use to build interactive data-driven web apps.
+
 ## Installing Streamlit
 
 Streamlit can be installed using `pip` as shown below:
