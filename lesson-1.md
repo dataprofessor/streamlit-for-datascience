@@ -1,8 +1,20 @@
-# 📓 Lesson 1
+# 📓 Lesson 1 - Getting up to speed with Streamlit
 
-Creating a simple **Hello world app** would be a great rite of passage to learning Streamlit.
+## Installing Streamlit
 
-In fact, it takes only 2 lines of code to do just that!
+Streamlit can be installed using `pip` as shown below:
+
+```
+pip install streamlit
+```
+
+## Creating your first Streamlit app
+
+Before we get into the nuts and bolts of the Streamlit library, let's take a hands-on approach for learning how to use Streamlit. Particularly, creating a simple **Hello world** app would probably be an expected rite of passage to learning a new framework.
+
+It's not as difficult as you may think. In fact, it takes only 2 lines of code to do just that!
+
+Click on the *See code* toggle button to reveal the code box:
 
 <details>
 <summary>See code</summary>
@@ -12,3 +24,4 @@ import streamlit as st
 st.write('Hello world!')
 ```
 </details>
+
