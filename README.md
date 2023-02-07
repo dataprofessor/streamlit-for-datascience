@@ -7,3 +7,4 @@
 
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/)
+- [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet)
