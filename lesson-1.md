@@ -81,7 +81,7 @@ You’ll see the web app browser pop up:
 
 The functionality of this EDA app leverages the capabilities of pandas-profiling. Let's take a look at the app in action:
 
-<img src="./img/EDA-app-screencast.png" width="75%">
+<img src="./img/EDA-app-screencast.png" width="75%" style="display:block; margin-left:auto; margin-right:auto;">
 
 Congratulations! You now know how to clone a Streamlit app from a GitHub repo, setup a dedicated conda environment, and successfully launch the app!
 
