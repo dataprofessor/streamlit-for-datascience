@@ -11,4 +11,5 @@ st.write('Hello world!')
 
 # Admonitions
 > :memo: **Note:** This is the note!
+
 > :bulb: **Tip:** This is the tip!
