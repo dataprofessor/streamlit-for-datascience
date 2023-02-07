@@ -42,13 +42,13 @@ conda create -n eda python=3.7.9
 conda activate eda
 ```
 
-**Step 3A.** Install prerequisite libraries by first downloading the requirements.txt file (it contains the library version numbers):
+**Step 3.** To install prerequisite libraries we must first download the requirements.txt file (it contains the library version numbers):
 
 ```
 wget https://raw.githubusercontent.com/dataprofessor/eda-app/main/requirements.txt
 ```
 
-**Step 3B.** Install prerequisite libraries using the requirements.txt file
+**Step 4.** To actually install prerequisite libraries using the requirements.txt file
 
 ```
 pip install -r requirements.txt
@@ -67,7 +67,17 @@ Jinja2==3.0.3
 
 You'll notice that in the above contents, we're using legacy versions of the Python libraries, which is to be expected as this is from a tutorial from 2 years ago. In spite of this, the app should still work as the specific dependent Python libraries are specified in the `requirements.txt` file.
 
+**Step 5.** Download and unzip contents from the GitHub repo: https://github.com/dataprofessor/eda-app/archive/main.zip
 
+**Step 6.** Launch the app:
+
+```
+streamlit run app.py
+```
+
+You’ll see the web app browser pop up:
+
+![](EDA-app.png)
 
 ## 1.5. Creating your first Streamlit app
 
