@@ -24,10 +24,8 @@ st.write('Hello world!')
 <details>
 <summary>See code explanation</summary>
 
-```
 Here's a line-by-line breakdown of the code:
   1. Import the `streamlit` library as `st` (so that we can later refer to `streamlit` literally as `st` instead of having to type the full word `streamlit`.
   2. Use `st.write` to write a text output and inside the `st.write` command we use the `'Hello world!'` string as the input argument.
-```
 </details>
 
