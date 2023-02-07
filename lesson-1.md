@@ -79,6 +79,12 @@ You’ll see the web app browser pop up:
 
 <img src="./img/EDA-app.png" width="75%">
 
+The functionality of this EDA app leverages the capabilities of pandas-profiling. Let's take a look at the app in action:
+
+<img src="./img/EDA-app-screencast.png" width="75%">
+
+Congratulations! You now know how to clone a Streamlit app from a GitHub repo, setup a dedicated conda environment, and successfully launch the app!
+
 ## 1.5. Creating your first Streamlit app
 
 Before we get into the nuts and bolts of the Streamlit library, let's take a hands-on approach for learning how to use Streamlit. Particularly, creating a simple **Hello world app** would probably be an expected rite of passage to learning Streamlit!
