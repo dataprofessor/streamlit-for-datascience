@@ -77,7 +77,7 @@ streamlit run app.py
 
 You’ll see the web app browser pop up:
 
-![](EDA-app.png)
+![](./img/EDA-app.png)
 
 ## 1.5. Creating your first Streamlit app
 
