@@ -1,4 +1,4 @@
-# Lesson 1
+# 📓 Lesson 1
 
 Creating a simple **Hello world app** would be a great rite of passage to learning Streamlit.
 
