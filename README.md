@@ -8,3 +8,4 @@
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet)
+- [#30DaysOfStreamlit](https://30days.streamlit.app/)
