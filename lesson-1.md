@@ -14,12 +14,12 @@ Before we get into the nuts and bolts of the Streamlit library, let's take a han
 
 It's not as difficult as you may think. In fact, it takes only 2 lines of code to do just that!
 
-Click on the **See code** toggle button to reveal the code box:
-
 ```Python
 import streamlit as st
 st.write('Hello world!')
 ```
+
+Click on the **See code explanation** toggle button to reveal the explanatory text:
 
 <details>
 <summary>See code explanation</summary>
