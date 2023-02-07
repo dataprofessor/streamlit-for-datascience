@@ -16,12 +16,9 @@ It's not as difficult as you may think. In fact, it takes only 2 lines of code t
 
 Click on the *See code* toggle button to reveal the code box:
 
-<details>
-<summary>See code</summary>
-
 ```Python
 import streamlit as st
 st.write('Hello world!')
 ```
-</details>
+
 
