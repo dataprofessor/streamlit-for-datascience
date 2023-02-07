@@ -6,6 +6,6 @@
 - [**Lesson 1** - Getting up to speed with Streamlit](./lesson-1.md)
 
 ## Resources
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet)
-- [#30DaysOfStreamlit](https://30days.streamlit.app/)
+- [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
+- [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet) - All Streamlit commands on one-page.
+- [#30DaysOfStreamlit](https://30days.streamlit.app/) - A Streamlit learning challenge.
