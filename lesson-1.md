@@ -14,7 +14,36 @@ If you can do all this, congratulations! You're ready to plunge into the world o
 
 ## 1.3. Setting up your Streamlit workspace
 
-## Installing Streamlit
+It is typically good practice to house the Streamlit app in their own dedicated conda environment. This way the library dependencies don’t get entangled with other Python libraries used by other apps.
+
+Here, we're going to replicate a Streamlit app from an existing GitHub repo available at https://github.com/dataprofessor/eda-app/.
+
+Particularly, we're going to clone the EDA app from a YouTube tutorial video on *How to Build an EDA app using Pandas Profiling*.
+
+**Step 1.** Create a conda environment
+
+Create a conda environment called eda:
+
+```
+conda create -n eda python=3.7.9
+```
+
+**Step 2.** Activate the eda environment:
+
+```
+conda activate eda
+```
+
+**Step 3.** Install prerequisite libraries by downloading the requirements.txt file (it contains the library version numbers):
+
+```
+wget https://raw.githubusercontent.com/dataprofessor/eda-app/main/requirements.txt
+```
+
+
+
+
+### Installing Streamlit
 
 Streamlit can be installed using `pip` as shown below:
 
