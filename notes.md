@@ -13,3 +13,8 @@ st.write('Hello world!')
 > :memo: **Note:** This is the note!
 
 > :bulb: **Tip:** This is the tip!
+
+# Notes
+- Explore data via EDA
+- Gain insights from ML models
+-- Shap
