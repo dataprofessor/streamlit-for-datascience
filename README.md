@@ -12,3 +12,14 @@
 - [#30DaysOfStreamlit](https://30days.streamlit.app/) - A Streamlit learning challenge.
 - [Streamlit Gallery](https://streamlit.io/gallery) - A collection of community apps for inspiring your own projects
 - [Streamlit Forum](https://discuss.streamlit.io/) - Get unstuck and help others in using Streamlit.
+
+## Citing us
+Please use the following to cite this content:
+```
+@misc{st4ds,
+    author       = {Streamlit Open Source, Snowflake Inc.},
+    title        = {Streamlit for Data Science},
+    howpublished = {\url{https://education.streamlit.app/}},
+    year         = {2023}
+}
+```
