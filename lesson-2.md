@@ -27,3 +27,13 @@ Python library | Brief description | OSEMN phase
 `Scikit-learn` | Machine learning | Model / iNterpret
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
+
+### 1.2.1. NumPy
+
+NumPy is a Python library that allows you to perform numerical processing. 
+
+Here are some of the following features that NumPy can do:
+- Supports N-dimensional array and matrix data structures
+- Perform various mathematical operations on arrays and matrices
+- Transposing and reshaping matrices
+- etc.
