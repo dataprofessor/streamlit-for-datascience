@@ -28,7 +28,7 @@ Python library | Brief description | OSEMN phase
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
 
-### 1.2.1. NumPy
+## 1.3. NumPy
 
 NumPy is a Python library that allows you to perform numerical processing. 
 
@@ -38,3 +38,34 @@ Here are some of the following features that NumPy can do:
 - Transposing and reshaping matrices
 - Random number generation
 - etc.
+
+### 1.3.1. Using NumPy
+
+Let's start by installing NumPy that can be performed as follows:
+
+```
+pip install numpy
+```
+
+To start using Numpy, we can import NumPy as follows:
+```Python
+import numpy as np
+```
+
+We'll use the `np.array()` method to create scalar, vector and matrix:
+```Python
+# Create a scalar (0D Tensor)
+x1 = np.array(1)
+
+# Create a vector (1D Tensor)
+x2 = np.array([0, 1, 2])
+
+# Create a matrix (2D Tensor)
+x3 = np.array([0, 1, 2], [3, 4, 5])
+
+# Create a 3D Tensor
+x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
+               [[ 9, 10, 11],[12, 13, 14],[15, 16, 17]],
+               [[18, 19, 20],[21, 22, 23],[24, 25, 26]]])
+```
+
