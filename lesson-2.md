@@ -52,7 +52,7 @@ To start using Numpy, we can import NumPy as follows:
 import numpy as np
 ```
 
-We'll use the `np.array()` method to create scalar, vector and matrix:
+We'll use the `np.array()` method to create scalar, vector, matrix and a 3D tensor:
 ```Python
 # Create a scalar (0D Tensor)
 x1 = np.array(1)
