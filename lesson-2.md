@@ -36,4 +36,5 @@ Here are some of the following features that NumPy can do:
 - Supports N-dimensional array and matrix data structures
 - Perform various mathematical operations on arrays and matrices
 - Transposing and reshaping matrices
+- Random number generation
 - etc.
