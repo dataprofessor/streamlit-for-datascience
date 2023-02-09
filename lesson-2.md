@@ -5,13 +5,15 @@
 Data science boils down to the conversion of data to knowledge and insights. At a high-level, the science of data science implies that we're appying the scientific methodology to tackle data problems that essentially starts with the formulation of a working hypothesis or initial assumptions that you have. From there, you can decide which particular data to collect and perform the analysis.
 
 This involves a series of steps and the typical data science process can best be summarized by data frameworks such as [OSEMN](https://web.archive.org/web/20211219192027/http://www.dataists.com/2010/09/a-taxonomy-of-data-science/) that encompasses the following steps involving data:
-- Obtain
-- Scrub
+- Obtain - Any data projects essentially starts with access to data and one can do this by compiling a dataset based on objectives of projects.
+- Scrub - Data is often messy, pre-mature and not suitable for data analysis. As a result, one must first pre-process the data such that any missing data and inconsistencies are addressed so that they are amenable for further analysis.
 - Explore
 - Model
 - iNterpret
 
 ## Toolkits for Data Science
+
+Now that we have a fundmanetal knowledge of data science, let's take a look at the tools of the trade.
 
 Common toolkits that are helpful for any data science projects includes the following:
 - `NumPy` - Numerical processing
@@ -22,4 +24,4 @@ Common toolkits that are helpful for any data science projects includes the foll
 - `Altair` - Data visualization
 - `Scikit-learn` - Machine learning
 
-These toolkits provide ready-to-use functions that can be harnessed to retrieve, prepare, visualize and analyze data.
+These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
