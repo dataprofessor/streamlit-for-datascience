@@ -69,4 +69,6 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
                [[18, 19, 20],[21, 22, 23],[24, 25, 26]]])
 ```
 
-<img src="./img/lesson-2-numpy-tensor-illustration.png" width="75%">
+<center>
+  <img src="./img/lesson-2-numpy-tensor-illustration.png" width="75%">
+</center>
