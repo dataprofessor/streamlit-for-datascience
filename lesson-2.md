@@ -52,7 +52,7 @@ To start using Numpy, we can import NumPy as follows:
 import numpy as np
 ```
 
-Let's consider a simple use case of NumPy for creating various data structures. Particularly, we'll use the `np.array()` method to create scalar, vector, matrix and a 3D tensor:
+Let's consider a simple use case of NumPy for creating various data structures particularly tensors. Particularly, we'll use the `np.array()` method to create scalar, vector, matrix and a 3D tensor:
 ```Python
 # Create a scalar (0D Tensor)
 x1 = np.array(0)
@@ -72,3 +72,5 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
 <p align="center">
   <img src="./img/lesson-2-numpy-tensor-illustration.png" width="50%">
 </p>
+
+In essence, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
