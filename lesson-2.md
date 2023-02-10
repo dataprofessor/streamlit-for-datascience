@@ -1,9 +1,9 @@
 # 📓 Lesson 2 - Getting up to speed with Data Science
 
 # Table of Contents
-1.1. [What is Data Science?](#11-what-is-data-science)
-1.2. [Toolkits for Data Science](#12-toolkits-for-data-science)
-1.3. [NumPy](#13-numpy)
+1. [What is Data Science?](#11-what-is-data-science)
+2. [Toolkits for Data Science](#12-toolkits-for-data-science)
+3. [NumPy](#13-numpy)
 
 ## 1.1. What is Data Science?
 
