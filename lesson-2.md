@@ -6,7 +6,7 @@
 3. [NumPy](#13-numpy)
 4. [Pandas](#14-pandas)
 
-## 1.1. What is Data Science?
+## 1. What is Data Science?
 
 Data science boils down to the conversion of data to knowledge and insights. At a high-level, the science of data science implies that we're appying the scientific methodology to tackle data problems that essentially starts with the formulation of a working hypothesis or initial assumptions that you have. From there, you can decide which particular data to collect and perform the analysis.
 
@@ -17,7 +17,7 @@ This involves a series of steps and the typical data science process can best be
 - **Model** - Once data has been prepared and curated, the typical next steps would be to take the data and build a machine learning model that can be used to make predictions on new data.
 - **iNterpret** - Probably the most impactful part is the intrepretation of the model where useful knowledge and insights are extracted from models. It should be noted that the most sophisticated machine learning algorithm may not be the best algorithm as they may not afford interpretability whereas simple algorithms such as linear regression or decision tree may provide more interpretability.
 
-## 1.2. Toolkits for Data Science
+## 2. Toolkits for Data Science
 
 Now that we have a fundmanetal knowledge of data science, let's take a look at the tools of the trade.
 
@@ -34,7 +34,7 @@ Python library | Brief description | OSEMN phase
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
 
-## 1.3. NumPy
+## 3. NumPy
 
 NumPy is a Python library that allows you to perform numerical processing. 
 
@@ -45,7 +45,7 @@ Here are some of the following features that NumPy can do:
 - Random number generation
 - etc.
 
-### 1.3.1. Using NumPy
+### 3.1. Using NumPy
 
 Let's start by installing NumPy that can be performed as follows:
 
@@ -83,11 +83,11 @@ In essence, a vector is an array of scalar, a matrix is an array of vectors and 
 
 
 
-## 1.4. Pandas
+## 4. Pandas
 
 Pandas is a Python library that allows the loading, processing and wrangling of data.
 
-### 1.4.1. Using Pandas
+### 4.1. Using Pandas
 
 Let's start by installing Pandas that can be performed as follows:
 
