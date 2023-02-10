@@ -74,3 +74,22 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
 </p>
 
 In essence, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
+
+
+
+## 1.4. Pandas
+
+Pandas is a Python library that allows the loading, processing and wrangling of data.
+
+### 1.4.1. Using Pandas
+
+Let's start by installing Pandas that can be performed as follows:
+
+```
+pip install pandas
+```
+
+To start using Pandas, we can import Pandas as follows:
+```Python
+import pandas as pd
+```
