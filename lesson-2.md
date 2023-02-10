@@ -61,7 +61,7 @@ x1 = np.array(0)
 x2 = np.array([0, 1, 2])
 
 # Create a matrix (2D Tensor)
-x3 = np.array([0, 1, 2], [3, 4, 5])
+x3 = np.array([0, 1, 2], [3, 4, 5], [6, 7, 8])
 
 # Create a 3D Tensor
 x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
