@@ -1,5 +1,8 @@
 # 📓 Lesson 2 - Getting up to speed with Data Science
 
+# Table of Contents
+[1.1. What is Data Science?](#11-what-is-data-science)
+
 ## 1.1. What is Data Science?
 
 Data science boils down to the conversion of data to knowledge and insights. At a high-level, the science of data science implies that we're appying the scientific methodology to tackle data problems that essentially starts with the formulation of a working hypothesis or initial assumptions that you have. From there, you can decide which particular data to collect and perform the analysis.
