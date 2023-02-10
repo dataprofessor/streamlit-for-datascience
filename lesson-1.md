@@ -1,10 +1,17 @@
 # 📓 Lesson 1 - Getting up to speed with Streamlit
 
-## 1.1. What is Streamlit?
+## Table of Contents
+1. [What is Streamlit?](#1-what-is-streamlit)
+2. [Prerequisites](#2-prerequisites)
+3. [Installing Streamlit](#3-installing-streamlit)
+4. [Setting up your Streamlit workspace](#4-setting-up-your-streamlit-workspace)
+5. [Creating your first Streamlit app](#5-creating-your-first-streamlit-app)
+
+## 1. What is Streamlit?
 
 Streamlit is a Python library you can use to build interactive data-driven web apps.
 
-## 1.2. Prerequisite
+## 2. Prerequisites
 
 Here's what you need to use Streamlit:
 - Have basic Python knowledge.
@@ -12,7 +19,7 @@ Here's what you need to use Streamlit:
 - Build and grow the Streamlit app line by line instead of starting with a predefined layout (it takes only a few lines of code).
 If you can do all this, congratulations! You're ready to plunge into the world of Streamlit.
 
-## 1.3. Installing Streamlit
+## 3. Installing Streamlit
 
 If you already have an existing Python coding environment, Streamlit can be installed using `pip` as shown below:
 
@@ -20,7 +27,7 @@ If you already have an existing Python coding environment, Streamlit can be inst
 pip install streamlit
 ```
 
-## 1.4. Setting up your Streamlit workspace
+## 4. Setting up your Streamlit workspace
 
 It is typically good practice to house the Streamlit app in their own dedicated conda environment. This way the library dependencies don’t get entangled with other Python libraries used by other apps.
 
@@ -89,7 +96,7 @@ The functionality of this EDA app leverages the capabilities of pandas-profiling
 
 Congratulations! You now know how to clone a Streamlit app from a GitHub repo, setup a dedicated conda environment, and successfully launch the app!
 
-## 1.5. Creating your first Streamlit app
+## 5. Creating your first Streamlit app
 
 Before we get into the nuts and bolts of the Streamlit library, let's take a hands-on approach for learning how to use Streamlit. Particularly, creating a simple **Hello world app** would probably be an expected rite of passage to learning Streamlit!
 
