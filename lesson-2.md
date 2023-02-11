@@ -47,7 +47,7 @@ These toolkits provide ready-to-use functions that can be readily harnessed to r
 
 In addition to the above mentioned toolkits, let's take a look at the hardware that these toolkits would run on.
 
-Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop or a desktop with any operating system whether it is Windows, Mac OSX or Linux.
+Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop, desktop or a computer on the cloud running on a Windows, Mac OSX or Linux operating system.
 
 On top of these hardware, just make sure to have a working [Python](https://www.python.org/) environment and we're good to go.
 
