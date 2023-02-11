@@ -114,4 +114,12 @@ In the above example, we are reading from a local file. However, if the CSV file
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
 ```
 
+To display the CSV data, this is as simple as calling the `df` variable:
+
+```Python
+df
+```
+
+which should yield the following:
+
 
