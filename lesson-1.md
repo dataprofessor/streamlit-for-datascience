@@ -9,7 +9,13 @@
 
 ## 1. What is Streamlit?
 
-Streamlit is a Python library you can use to build interactive data-driven web apps.
+Streamlit is a Python library that you can use to build interactive data-driven web apps.
+
+A typical workflow for the creation and deployment of Streamlit app is summarized below:
+
+<p align="center">
+   <img src="./img/lesson-1-streamlit-workflow.png" width="75%">
+</p>
 
 ## 2. Prerequisites
 
