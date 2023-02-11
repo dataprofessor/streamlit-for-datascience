@@ -128,5 +128,5 @@ df
 which should yield the following:
 
 <p align="center">
-  <img src="./img/lesson-2-pandas-df-output.png" width="60%">
+  <img src="./img/lesson-2-pandas-df-output.png" width="70%">
 </p>
