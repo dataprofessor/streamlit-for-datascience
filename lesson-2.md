@@ -3,8 +3,9 @@
 ## Table of Contents
 1. [What is Data Science?](#1-what-is-data-science)
 2. [Toolkits for Data Science](#2-toolkits-for-data-science)
-3. [NumPy](#3-numpy)
-4. [Pandas](#4-pandas)
+3. [Hardware for Data Science](#3-hardware-for-data-science)
+4. [NumPy](#3-numpy)
+5. [Pandas](#4-pandas)
 
 ## 1. What is Data Science?
 
@@ -34,12 +35,16 @@ Python library | Brief description | OSEMN phase
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
 
-## Hardware for Data Science
+## 3. Hardware for Data Science
 
 In addition to the above mentioned toolkits, let's take a look at the hardware that these toolkits would run on.
 
+Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop or a desktop with any operating system whether it is Windows, Mac OSX or Linux.
 
-## 3. NumPy
+On top of these hardware, just make sure to have a working [Python](https://www.python.org/) environment and we're good to go.
+
+
+## 4. NumPy
 
 NumPy is a Python library that allows you to perform numerical processing. 
 
@@ -50,7 +55,7 @@ Here are some of the following features that NumPy can do:
 - Random number generation
 - etc.
 
-### 3.1. Installing NumPy
+### 4.1. Installing NumPy
 
 Let's start by installing NumPy that can be performed as follows:
 
@@ -58,7 +63,7 @@ Let's start by installing NumPy that can be performed as follows:
 pip install numpy
 ```
 
-### 3.2. Using NumPy
+### 4.2. Using NumPy
 
 To start using Numpy, we can import NumPy as follows:
 ```Python
@@ -86,15 +91,15 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
   <img src="./img/lesson-2-numpy-tensor-illustration.png" width="50%">
 </p>
 
-In essence, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
+As summarized above, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
 
+Now that we have taken a quick glance at NumPy, let's proceed to seeing how we can handle data.
 
-
-## 4. Pandas
+## 5. Pandas
 
 Pandas is a Python library that allows the loading, processing and wrangling of data.
 
-### 4.1. Installing Pandas
+### 5.1. Installing Pandas
 
 Let's start by installing Pandas that can be performed as follows:
 
@@ -102,7 +107,7 @@ Let's start by installing Pandas that can be performed as follows:
 pip install pandas
 ```
 
-### 4.2. Using Pandas
+### 5.2. Using Pandas
 
 To start using Pandas, we can import Pandas as follows:
 ```Python
