@@ -1,7 +1,7 @@
 # Streamlit for Data Science
 
 <p align="center">
-  <img src="./img/logo.png" width="50%">
+  <img src="./img/logo.png" width="55%">
 </p>
 
 ## About
