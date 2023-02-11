@@ -19,7 +19,7 @@ This involves a series of steps and the typical data science process can best be
 
 ## 2. Toolkits for Data Science
 
-Now that we have a fundmanetal knowledge of data science, let's take a look at the tools of the trade.
+Now that we have a fundamental knowledge of data science, let's take a look at the tools of the trade.
 
 Common toolkits that are helpful for any data science projects includes the following:
 Python library | Brief description | OSEMN phase
@@ -33,6 +33,11 @@ Python library | Brief description | OSEMN phase
 `Scikit-learn` | Machine learning | Model / iNterpret
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
+
+## Hardware for Data Science
+
+In addition to the above mentioned toolkits, let's take a look at the hardware that these toolkits would run on.
+
 
 ## 3. NumPy
 
