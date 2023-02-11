@@ -99,3 +99,19 @@ To start using Pandas, we can import Pandas as follows:
 ```Python
 import pandas as pd
 ```
+
+### 4.2. Read CSV data
+
+Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
+
+```Python
+df = pd.read_csv('data.csv')
+```
+
+In the above example, we are reading from a local file. However, if the CSV file is located on the cloud, it could also be read in a similar fashion. So instead of the file name, you can paste in the URL of the CSV file:
+
+```Python
+df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
+```
+
+
