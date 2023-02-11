@@ -20,10 +20,12 @@ This involves a series of steps and the typical data science process can best be
 
 Taking a step back for a high-level overview of a typical data project gives us the following summary:
 
+<spacer type="vertical" height=200>
 <p align="center">
   <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
 </p>
-
+</spacer>
+  
 ## 2. Toolkits for Data Science
 
 Now that we have a fundamental knowledge of data science, let's take a look at the tools of the trade.
