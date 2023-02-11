@@ -50,13 +50,15 @@ Here are some of the following features that NumPy can do:
 - Random number generation
 - etc.
 
-### 3.1. Using NumPy
+### 3.1. Installing NumPy
 
 Let's start by installing NumPy that can be performed as follows:
 
 ```
 pip install numpy
 ```
+
+### 3.2. Using NumPy
 
 To start using Numpy, we can import NumPy as follows:
 ```Python
@@ -92,7 +94,7 @@ In essence, a vector is an array of scalar, a matrix is an array of vectors and 
 
 Pandas is a Python library that allows the loading, processing and wrangling of data.
 
-### 4.1. Using Pandas
+### 4.1. Installing Pandas
 
 Let's start by installing Pandas that can be performed as follows:
 
@@ -100,12 +102,12 @@ Let's start by installing Pandas that can be performed as follows:
 pip install pandas
 ```
 
+### 4.2. Using Pandas
+
 To start using Pandas, we can import Pandas as follows:
 ```Python
 import pandas as pd
 ```
-
-### 4.2. Read CSV data
 
 Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
 
