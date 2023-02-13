@@ -99,11 +99,11 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
 
 As summarized above, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
 
-Now that we have taken a quick glance at NumPy, let's proceed to seeing how we can handle data.
+Now that we have taken a quick glance at NumPy, let's proceed to seeing how we can handle and process data.
 
 ## 5. Pandas
 
-Pandas is a Python library that allows the loading, processing and wrangling of data.
+Pandas is a Python library that allows the loading, processing and wrangling of data. With Pandas you can gain access to data from a multitude of input sources such as CSV, TSV, Excel, SQL databases, JSON, etc. Afterwards, data can be exported out in the aforementioned formats as well.
 
 ### 5.1. Installing Pandas
 
@@ -138,8 +138,10 @@ To display the CSV data, this is as simple as calling the `df` variable:
 df
 ```
 
-which should yield the following:
+which should yield the following DataFrame:
 
 <p align="center">
   <img src="./img/lesson-2-pandas-df-output.png" width="60%">
 </p>
+
+The DataFrame could be thought of as having an $m×n$ matrix with $m$ rows and $n$ columns.
