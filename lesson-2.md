@@ -144,4 +144,4 @@ which should yield the following DataFrame:
   <img src="./img/lesson-2-pandas-df-output.png" width="60%">
 </p>
 
-The DataFrame could be thought of as having an $m×n$ matrix with $m$ rows and $n$ columns.
+The DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
