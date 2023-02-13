@@ -1,8 +1,8 @@
-# 📓 Lesson 4 - Getting up to speed with Data Science
+# 📓 Lesson 4 - Pandas
 
 Pandas is a Python library that allows the loading, processing and wrangling of data. With Pandas you can gain access to data from a multitude of input sources such as CSV, TSV, Excel, SQL databases, JSON, etc. Afterwards, data can be exported out in the aforementioned formats as well.
 
-### 1. Installing Pandas
+## 1. Installing Pandas
 
 Let's start by installing Pandas that can be performed as follows:
 
@@ -10,7 +10,7 @@ Let's start by installing Pandas that can be performed as follows:
 pip install pandas
 ```
 
-## 2. Importing the library**
+## 2. Using Pandas
 
 To start using Pandas, we can import Pandas as follows:
 ```Python
