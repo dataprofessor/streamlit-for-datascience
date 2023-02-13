@@ -151,6 +151,6 @@ To select specific columns such as the *MolWt* column, we can run the following:
 df['MolLogP']
 ```
 <p align="center">
-  <img src="./img/lesson-2-pandas-select-columns" width="40%">
+  <img src="./img/lesson-2-pandas-select-columns.png" width="40%">
 </p>
 
