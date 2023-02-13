@@ -150,6 +150,7 @@ which should yield the following DataFrame:
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
 
 **Selecting a single column**
+
 To select specific columns (such as the *MolWt* column) we can run the following:
 ```Python
 df['MolLogP']
@@ -160,6 +161,7 @@ which produces the following Series output:
 </p>
 
 **Selecting multiple columns**
+
 To select multiple columns (such as *MolWt* and *MolWt*) we can run the following:
 ```Python
 df[['MolLogP','MolWt']]
