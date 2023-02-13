@@ -145,3 +145,8 @@ which should yield the following DataFrame:
 </p>
 
 The DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
+
+To select specific columns such as the *MolWt* column, we can run the following:
+```Python
+df['MolLogP']
+```
