@@ -115,11 +115,14 @@ pip install pandas
 
 ### 5.2. Using Pandas
 
+**Importing the library**
+
 To start using Pandas, we can import Pandas as follows:
 ```Python
 import pandas as pd
 ```
 
+**Read CSV data**
 Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
 
 ```Python
@@ -144,14 +147,24 @@ which should yield the following DataFrame:
   <img src="./img/lesson-2-pandas-df-output.png" width="60%">
 </p>
 
-The DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
+As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
 
-To select specific columns such as the *MolWt* column, we can run the following:
+**Selecting a single column**
+To select specific columns (such as the *MolWt* column) we can run the following:
 ```Python
 df['MolLogP']
 ```
-which produces the following output:
+which produces the following Series output:
 <p align="left">
   <img src="./img/lesson-2-pandas-select-columns.png" width="45%">
 </p>
 
+**Selecting multiple columns**
+To select multiple columns (such as *MolWt* and *MolWt*) we can run the following:
+```Python
+df[['MolLogP','MolWt']]
+```
+which produces the following DataFrame output:
+<p align="left">
+  <img src="./img/lesson-3-pandas-select-multiple-columns.png" width="45%">
+</p>
