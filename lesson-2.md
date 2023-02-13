@@ -2,8 +2,8 @@
 
 ## Table of Contents
 1. [What is Data Science?](#1-what-is-data-science)
-2. [Toolkits for Data Science](#2-toolkits-for-data-science)
-3. [Hardware for Data Science](#3-hardware-for-data-science)
+2. [Hardware for Data Science](#2-hardware-for-data-science)
+3. [Toolkits for Data Science](#3-toolkits-for-data-science)
 4. [NumPy](#3-numpy)
 5. [Pandas](#4-pandas)
 
@@ -26,9 +26,16 @@ Taking a step back for a high-level overview of a typical data project gives us 
   </p>
 <br>
   
-## 2. Toolkits for Data Science
+## 2. Hardware for Data Science
 
-Now that we have a fundamental knowledge of data science, let's take a look at the tools of the trade.
+Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop, desktop or a computer hosted on the cloud. Such computers could run on a variety of operating systems including Windows, Mac OSX or Linux.
+
+On top of these hardware, just make sure to have a working [Python](https://www.python.org/) environment and we're good to go.
+
+
+## 3. Toolkits for Data Science
+
+Now that we have a fundamental knowledge of data science and the hardware, let's take a look at the tools of the trade.
 
 Common toolkits that are helpful for any data science projects includes the following:
 Python library | Brief description | OSEMN phase
@@ -42,15 +49,6 @@ Python library | Brief description | OSEMN phase
 `Scikit-learn` | Machine learning | Model / iNterpret
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
-
-## 3. Hardware for Data Science
-
-In addition to the above mentioned toolkits, let's take a look at the hardware that these toolkits would run on.
-
-Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop, desktop or a computer on the cloud running on a Windows, Mac OSX or Linux operating system.
-
-On top of these hardware, just make sure to have a working [Python](https://www.python.org/) environment and we're good to go.
-
 
 ## 4. NumPy
 
