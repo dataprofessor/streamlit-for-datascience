@@ -123,6 +123,7 @@ import pandas as pd
 ```
 
 **Read CSV data**
+
 Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
 
 ```Python
