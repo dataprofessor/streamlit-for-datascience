@@ -140,7 +140,7 @@ df
 
 which should yield the following DataFrame:
 
-<p align="center">
+<p align="left">
   <img src="./img/lesson-2-pandas-df-output.png" width="60%">
 </p>
 
@@ -151,7 +151,7 @@ To select specific columns such as the *MolWt* column, we can run the following:
 df['MolLogP']
 ```
 which produces the following output:
-<p align="center">
+<p align="left">
   <img src="./img/lesson-2-pandas-select-columns.png" width="45%">
 </p>
 
