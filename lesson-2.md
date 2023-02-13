@@ -166,6 +166,6 @@ df[['MolLogP','MolWt']]
 ```
 which produces the following DataFrame output:
 <p align="left">
-  <img src="./img/lesson-2-pandas-select-multiple-columns.png" width="25%">
+  <img src="./img/lesson-2-pandas-select-multiple-columns.png" width="22%">
 </p>
 
