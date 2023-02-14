@@ -2,7 +2,7 @@
 
 Pandas is a Python library that allows the loading, processing and wrangling of data. With Pandas you can gain access to data from a multitude of input sources such as CSV, TSV, Excel, SQL databases, JSON, etc. Afterwards, data can be exported out in the aforementioned formats as well.
 
-## 1. Installing Pandas
+## Installing Pandas
 
 Let's start by installing Pandas that can be performed as follows:
 
@@ -10,14 +10,14 @@ Let's start by installing Pandas that can be performed as follows:
 pip install pandas
 ```
 
-## 1. Using Pandas
+## Using Pandas
 
 To start using Pandas, we can import Pandas as follows:
 ```Python
 import pandas as pd
 ```
 
-## 3. Read CSV data
+## Read CSV data
 
 Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
 
@@ -45,7 +45,7 @@ which should yield the following DataFrame:
 
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
 
-## 4. Selecting a single column
+## Selecting a single column
 
 To select specific columns (such as the *MolWt* column) we can run the following:
 ```Python
@@ -56,7 +56,7 @@ which produces the following Series output:
   <img src="./img/lesson-4-pandas-select-columns.png" width="45%">
 </p>
 
-## 5. Selecting multiple columns
+## Selecting multiple columns
 
 To select multiple columns (such as *MolWt* and *MolWt*) we can run the following:
 ```Python
