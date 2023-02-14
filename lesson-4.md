@@ -10,7 +10,7 @@ Let's start by installing Pandas that can be performed as follows:
 pip install pandas
 ```
 
-## 2. Using Pandas
+## 1. Using Pandas
 
 To start using Pandas, we can import Pandas as follows:
 ```Python
