@@ -182,3 +182,4 @@ which produces the following DataFrame output:
 <p align="left">
   <img src="./img/lesson-4-pandas-select-multiple-columns.png" width="21%">
 </p>
+
