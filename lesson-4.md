@@ -94,10 +94,12 @@ s2
 ```Python
 # Creating a DataFrame from a NumPy array
 n2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-# Creaing columns name
-#df2 = pd.DataFrame(n2, columns=['A', 'B', 'C'])
-#df2
-# Creaing columns and rows name
+
+# Creating columns name
+df2 = pd.DataFrame(n2, columns=['A', 'B', 'C'])
+df2
+
+# Creating columns and rows name
 df3 = pd.DataFrame(n2, columns=['A', 'B', 'C'], index=['R1', 'R2', 'R3'])
 df3
 ```
