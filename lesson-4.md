@@ -1,4 +1,4 @@
-# 📓 Lesson 4 - Pandas
+# 📓 Lesson 4 - Data wrangling with Pandas
 
 Pandas is a Python library that allows the loading, processing and wrangling of data. With Pandas you can gain access to data from a multitude of input sources such as CSV, TSV, Excel, SQL databases, JSON, etc. Afterwards, data can be exported out in the aforementioned formats as well.
 
