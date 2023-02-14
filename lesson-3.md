@@ -1,4 +1,4 @@
-# 📓 Lesson 3 - NumPy
+# 📓 Lesson 3 - Numerical processing with NumPy
 
 NumPy is a Python library that allows you to perform numerical processing. 
 
