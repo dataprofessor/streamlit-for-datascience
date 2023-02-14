@@ -20,7 +20,7 @@ import pandas as pd
 ## Pandas Data Structure
 
 Pandas allow us to work with tabular datasets. Let us take a look at the basic data structures of Pandas that consists of 3 types as follows (i.e. the first two are the data structures while the latter serves as a point of reference):
-<img src="./img/lesson-4-pandas-data-structure.png" alt="Pandas Data Structures" width="450" align="right"/>
+<img src="./img/lesson-4-pandas-data-structure.png" alt="Pandas Data Structures" width="500" align="right"/>
 1. Series
 2. DataFrame
 3. Index
