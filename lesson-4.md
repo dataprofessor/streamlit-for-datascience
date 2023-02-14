@@ -41,6 +41,96 @@ A ***Pandas DataFrame*** is a two-dimensional array. At a high-level, a DataFram
 
 The ***index*** in Pandas is an inherent property of Series and DataFrame objects that serves as a point of reference as to which rows and/or columns to perform operations on (i.e. for a DataFrame) or the specific element in a Series to perform operations on. By default, Pandas automatically assigns index numbers starting from 0 to denote the row numbers or column numbers (i.e. if none are explicitly defined).
 
+## Creation of Pandas Objects
+
+Let's create some Pandas Series and Pandas DataFrame.
+
+### Pandas Series
+
+By default, there are no Series name. In the *Index* section below we will be adding the Series name.
+
+```Python
+pd.Series([1,2,3,4,5])
+```
+
+```Python
+pd.Series([1,2,3,4,5,3.5])
+```
+
+```Python
+pd.Series([1,2,3,4,5,'a'])
+```
+
+```Python
+pd.Series(['apple','papayas','bananas','orange'])
+```
+
+### Pandas DataFrame
+
+By default, we can see that the *Index* values are integers. In the *Index* section we will be adding a label instead.
+
+```Python
+# Creating a DataFrame from a NumPy array
+n1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+df1 = pd.DataFrame(n1)
+df1
+```
+
+### Pandas Index
+
+Let's add some meaningful labels to the columns.
+
+**Pandas Series**
+
+```Python
+# Creating a Series from a list
+l2 = [1,2,3,4,5]
+s2 = pd.Series(l2, name='A')
+s2
+```
+
+**Pandas DataFrame**
+
+```Python
+# Creating a DataFrame from a NumPy array
+n2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+# Creaing columns name
+#df2 = pd.DataFrame(n2, columns=['A', 'B', 'C'])
+#df2
+# Creaing columns and rows name
+df3 = pd.DataFrame(n2, columns=['A', 'B', 'C'], index=['R1', 'R2', 'R3'])
+df3
+```
+
+```Python
+# Therefore to have a index with new names we will create a new DataFrame
+df4 = df3.copy()
+df4.index = ['John', 'Mary', 'Somchai']
+df4
+```
+
+```Python
+# Creating a DataFrame from a dictionary
+d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+df1 = pd.DataFrame(d)
+df1
+```
+
+```Python
+# Creating a DataFrame from a dictionary (with Index)
+d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+df1 = pd.DataFrame(d, index=['John','Somchai','Sally'])
+df1
+```
+
+```Python
+# Creating a DataFrame from a dictionary (with Index)
+d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+df1.index = ['John','Somchai','Sally']
+df1
+```
+
+
 
 
 ## Read CSV data
