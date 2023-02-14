@@ -10,8 +10,8 @@
 ## Table of contents
 - [**Lesson 1** - Getting up to speed with Streamlit](./lesson-1.md)
 - [**Lesson 2** - Getting up to speed with Data Science](./lesson-2.md)
-- [**Lesson 3** - NumPy](./lesson-3.md)
-- [**Lesson 4** - Pandas](./lesson-4.md)
+- [**Lesson 3** - Numerical processing with NumPy](./lesson-3.md)
+- [**Lesson 4** - Data wrangling with Pandas](./lesson-4.md)
 
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
