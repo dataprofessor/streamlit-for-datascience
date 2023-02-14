@@ -17,6 +17,32 @@ To start using Pandas, we can import Pandas as follows:
 import pandas as pd
 ```
 
+## Pandas Data Structure
+
+Pandas allow us to work with tabular datasets. Let us take a look at the basic data structures of Pandas that consists of 3 types as follows (i.e. the first two are the data structures while the latter serves as a point of reference):
+<img src="https://miro.medium.com/max/1400/1*KOBhtOeFntu6CyJUsCdN0g.jpeg" alt="Pandas Data Structures" width="400" align="right"/>
+1. Series
+2. DataFrame
+3. Index
+
+In a nutshell, you will see that a ***Pandas DataFrame*** and ***Pandas Series*** are labeled data (i.e. it has row names and column names). 
+
+You’ll also see that a ***Pandas DataFrame*** is a collection of Pandas Series (i.e. the individual columns and rows).
+
+### Pandas Series
+
+A ***Pandas Series*** is a one-dimensional array that is very much similar to the NumPy array but with the ability to be labeled (i.e. the axis label or also called the index). A Series can hold an integer, float, string, python object, etc. At a high-level, a Series can be thought of as a column in Microsoft Excel.
+
+### Pandas DataFrame
+
+A ***Pandas DataFrame*** is a two-dimensional array. At a high-level, a DataFrame can be thought of as the spreadsheet in Microsoft Excel (i.e. a M × N matrix where M denotes the rows and N the columns).
+
+### Pandas Index
+
+The ***index*** in Pandas is an inherent property of Series and DataFrame objects that serves as a point of reference as to which rows and/or columns to perform operations on (i.e. for a DataFrame) or the specific element in a Series to perform operations on. By default, Pandas automatically assigns index numbers starting from 0 to denote the row numbers or column numbers (i.e. if none are explicitly defined).
+
+
+
 ## Read CSV data
 
 Let's consider a simple use case of Pandas that I use quite often, which is to read in a CSV data:
