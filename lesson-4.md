@@ -194,7 +194,7 @@ df
 which should yield the following DataFrame:
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-df-output.png" height="400">
+  <img src="./img/lesson-4-pandas-df-output.png" height="420">
 </p>
 
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
@@ -207,7 +207,7 @@ df['MolLogP']
 ```
 which produces the following Series output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-columns.png" height="400">
+  <img src="./img/lesson-4-pandas-select-columns.png" height="350">
 </p>
 
 ## Selecting multiple columns
