@@ -89,7 +89,7 @@ df1
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" width="12%">
+  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" height="140">
 </p>
 
 ### Pandas Index
@@ -117,7 +117,7 @@ df2
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-names.png" width="10.5%">
+  <img src="./img/lesson-4-pandas-index-column-names.png" height="140">
 </p>
 
 
@@ -128,7 +128,7 @@ df3
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-row-names.png" width="11%">
+  <img src="./img/lesson-4-pandas-index-column-row-names.png" height="140">
 </p>
 
 ```Python
@@ -139,7 +139,7 @@ df4
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-rename.png" width="14%">
+  <img src="./img/lesson-4-pandas-index-rename.png" height="140">
 </p>
 
 ```Python
@@ -150,7 +150,7 @@ df5
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-from-dict.png" height="150">
+  <img src="./img/lesson-4-pandas-dataframe-from-dict.png" height="140">
 </p>
 
 ```Python
