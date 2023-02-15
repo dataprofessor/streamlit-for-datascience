@@ -51,23 +51,35 @@ Let's create some Pandas Series and Pandas DataFrame.
 
 ### Pandas Series
 
-By default, there are no Series name. In the *Index* section below we will be adding the Series name.
+A Pandas Series can be created using the `pd.Series()` command with a Python list as input arguments.
+
+Consider the following elements inside the Python list:
+
+A list of integers
 
 ```Python
 pd.Series([1,2,3,4,5])
 ```
 
+A list of integers and floats.
+
 ```Python
 pd.Series([1,2,3,4,5,3.5])
 ```
+
+A list of integers and a string.
 
 ```Python
 pd.Series([1,2,3,4,5,'a'])
 ```
 
+A list of strings.
+
 ```Python
 pd.Series(['apple','papayas','bananas','orange'])
 ```
+
+As we can see above, by default, there are no Series name (*i.e.* column and row names as in a DataFrame). In the *Index* section below we will be adding the Series name.
 
 ### Pandas DataFrame
 
