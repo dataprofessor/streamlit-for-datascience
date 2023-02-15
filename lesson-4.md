@@ -235,6 +235,9 @@ This produces a tuple telling us the number of rows and columns are presented in
 
 We can quickly obtain information (*e.g.* dtype, columns, non-null values and memory usage) about a DataFrame by using the `info` method.
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-df-output.png" height="300">
+</p>
 
 
 ## Selection of columns
