@@ -212,9 +212,9 @@ As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ ro
 
 ### Data dimension
 
-To figure out how many rows and columns your data has you can use the `shape` command, which is appended as a suffix to a Pandas object.
+To figure out how many rows and columns your data has you can use the `shape` method, which is appended as a suffix to a Pandas object.
 
-For example, to apply the `shape` command to the DataFrame object that is stored in the `df` variable we would run `df.shape`. 
+For example, to apply the `shape` method on the DataFrame object that is stored in the `df` variable we would run `df.shape`. 
 
 Firstly, we'll read in data from a CSV file as mentioned above.
 
@@ -228,7 +228,12 @@ df.shape
 ```
 
 This produces a tuple telling us the number of rows and columns are presented in the DataFrame:
+
 (1144, 5)
+
+### Summary information of a DataFrame
+
+We can quickly obtain information (*e.g.* dtype, columns, non-null values and memory usage) about a DataFrame by using the `info` method.
 
 
 
