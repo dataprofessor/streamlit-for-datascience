@@ -150,7 +150,7 @@ df5
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-from-dict.png" width="14%">
+  <img src="./img/lesson-4-pandas-dataframe-from-dict.png" height="150">
 </p>
 
 ```Python
