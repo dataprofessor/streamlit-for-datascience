@@ -207,7 +207,7 @@ df['MolLogP']
 ```
 which produces the following Series output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-columns.png" height="280">
+  <img src="./img/lesson-4-pandas-select-columns.png" height="220">
 </p>
 
 ## Selecting multiple columns
@@ -218,6 +218,6 @@ df[['MolLogP','MolWt']]
 ```
 which produces the following DataFrame output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-multiple-columns.png" width="21%">
+  <img src="./img/lesson-4-pandas-select-multiple-columns.png" height="420">
 </p>
 
