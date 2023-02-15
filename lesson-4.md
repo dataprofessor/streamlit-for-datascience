@@ -55,27 +55,23 @@ A Pandas Series can be created using the `pd.Series()` command with a Python lis
 
 Consider the following elements inside the Python list:
 
-A list of integers
-
 ```Python
+# A list of integers
 pd.Series([1,2,3,4,5])
 ```
 
-A list of integers and floats.
-
 ```Python
+# A list of integers and floats
 pd.Series([1,2,3,4,5,3.5])
 ```
 
-A list of integers and a string.
-
 ```Python
+# A list of integers and a string
 pd.Series([1,2,3,4,5,'a'])
 ```
 
-A list of strings.
-
 ```Python
+# A list of strings
 pd.Series(['apple','papayas','bananas','orange'])
 ```
 
@@ -91,6 +87,10 @@ n1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 df1 = pd.DataFrame(n1)
 df1
 ```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-df-output.png" width="238">
+</p>
 
 ### Pandas Index
 
