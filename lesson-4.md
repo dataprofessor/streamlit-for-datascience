@@ -222,9 +222,12 @@ Firstly, we'll read in data from a CSV file as mentioned above.
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
 ```
 
+Secondly, we determine the dimension of the data:
 ```Python
 df.shape
 ```
+
+This produces a tuple telling us the number of rows and columns are presented in the DataFrame:
 (1144, 5)
 
 
