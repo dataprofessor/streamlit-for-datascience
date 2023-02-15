@@ -160,6 +160,10 @@ df6 = pd.DataFrame(d, index=['John','Somchai','Sally'])
 df6
 ```
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-dataframe-from-dict-with-index.png" height="140">
+</p>
+
 ```Python
 # Creating a DataFrame from a dictionary (with Index)
 d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
