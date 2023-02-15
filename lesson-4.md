@@ -252,7 +252,7 @@ df.head()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-head-5.png" height="210">
+  <img src="./img/lesson-4-pandas-head-5.png" height="205">
 </p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
@@ -276,7 +276,7 @@ df.tail()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-tail-5.png" height="210">
+  <img src="./img/lesson-4-pandas-tail-5.png" height="205">
 </p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
