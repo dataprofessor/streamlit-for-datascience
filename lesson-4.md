@@ -117,7 +117,7 @@ df2
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-names.png" width="12%">
+  <img src="./img/lesson-4-pandas-index-column-names.png" width="11%">
 </p>
 
 
@@ -128,7 +128,7 @@ df3
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-row-names.png" width="13%">
+  <img src="./img/lesson-4-pandas-index-column-row-names.png" width="11%">
 </p>
 
 ```Python
