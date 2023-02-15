@@ -117,7 +117,7 @@ df2
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-names.png" width="10%">
+  <img src="./img/lesson-4-pandas-index-column-names.png" width="11%">
 </p>
 
 
@@ -145,22 +145,23 @@ df4
 ```Python
 # Creating a DataFrame from a dictionary
 d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
-df1 = pd.DataFrame(d)
-df1
+df5 = pd.DataFrame(d)
+df5
 ```
 
 ```Python
 # Creating a DataFrame from a dictionary (with Index)
 d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
-df1 = pd.DataFrame(d, index=['John','Somchai','Sally'])
-df1
+df6 = pd.DataFrame(d, index=['John','Somchai','Sally'])
+df6
 ```
 
 ```Python
 # Creating a DataFrame from a dictionary (with Index)
 d = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
-df1.index = ['John','Somchai','Sally']
-df1
+df7 = pd.DataFrame(d)
+df7.index = ['John','Somchai','Sally']
+df7
 ```
 
 
