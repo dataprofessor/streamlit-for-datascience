@@ -172,6 +172,9 @@ df7.index = ['John','Somchai','Sally']
 df7
 ```
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-dataframe-from-dict-add-index.png" height="140">
+</p>
 
 
 
