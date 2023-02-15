@@ -89,7 +89,7 @@ df1
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" width="13%">
+  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" width="12%">
 </p>
 
 ### Pandas Index
@@ -114,11 +114,22 @@ n2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 # Creating columns name
 df2 = pd.DataFrame(n2, columns=['A', 'B', 'C'])
 df2
+```
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-index-column-names.png" width="12%">
+</p>
+
+
+```Python
 # Creating columns and rows name
 df3 = pd.DataFrame(n2, columns=['A', 'B', 'C'], index=['R1', 'R2', 'R3'])
 df3
 ```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-index-column-row-names.png" width="13%">
+</p>
 
 ```Python
 # Therefore to have a index with new names we will create a new DataFrame
