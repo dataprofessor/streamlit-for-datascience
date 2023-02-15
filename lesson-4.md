@@ -117,7 +117,7 @@ df2
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-names.png" width="11%">
+  <img src="./img/lesson-4-pandas-index-column-names.png" width="10%">
 </p>
 
 
