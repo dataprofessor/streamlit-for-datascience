@@ -89,7 +89,7 @@ df1
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" height="145">
+  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" height="150">
 </p>
 
 ### Pandas Index
