@@ -122,7 +122,7 @@ df2
 
 
 ```Python
-# Creating columns and rows name
+# Creating a DataFrame with column and row names
 df3 = pd.DataFrame(n2, columns=['A', 'B', 'C'], index=['R1', 'R2', 'R3'])
 df3
 ```
