@@ -207,7 +207,7 @@ df['MolLogP']
 ```
 which produces the following Series output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-columns.png" height="350">
+  <img src="./img/lesson-4-pandas-select-columns.png" height="300">
 </p>
 
 ## Selecting multiple columns
