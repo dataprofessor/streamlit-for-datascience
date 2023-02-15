@@ -252,7 +252,7 @@ df.head()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-head-5.png" height="300">
+  <img src="./img/lesson-4-pandas-head-5.png" height="250">
 </p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
@@ -261,6 +261,9 @@ You can also explicitly specify a number inside to tell it to show exactly N num
 df.head(3)
 ```
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-head-3.png" height="200">
+</p>
 
 **tail()**
 
@@ -272,11 +275,19 @@ By default, 5 rows will be shown.
 df.tail()
 ```
 
+<p align="left">
+  <img src="./img/lesson-4-pandas-tail-5.png" height="250">
+</p>
+
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
 
 ```Python
 df.tail(3)
 ```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-tail-3.png" height="200">
+</p>
 
 
 ## Selection of columns
