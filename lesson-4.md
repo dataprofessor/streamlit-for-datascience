@@ -45,7 +45,7 @@ A ***Pandas DataFrame*** is a two-dimensional array. At a high-level, a DataFram
 
 The ***index*** in Pandas is an inherent property of Series and DataFrame objects that serves as a point of reference as to which rows and/or columns to perform operations on (i.e. for a DataFrame) or the specific element in a Series to perform operations on. By default, Pandas automatically assigns index numbers starting from 0 to denote the row numbers or column numbers (i.e. if none are explicitly defined).
 
-## Creation of Pandas Objects
+## Creation of Pandas Series and DataFrame
 
 Let's create some Pandas Series and Pandas DataFrame.
 
