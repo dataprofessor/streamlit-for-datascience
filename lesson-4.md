@@ -139,7 +139,7 @@ df4
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-rename.png" width="13%">
+  <img src="./img/lesson-4-pandas-index-rename.png" width="14%">
 </p>
 
 ```Python
