@@ -21,7 +21,7 @@ To start using Pandas, we can import Pandas as follows:
 import pandas as pd
 ```
 
-## Pandas Data Structure
+## Pandas data structure
 
 Pandas allow us to work with tabular datasets. Let us take a look at the basic data structures of Pandas that consists of 3 types as follows (i.e. the first two are the data structures while the latter serves as a point of reference):
 <img src="./img/lesson-4-pandas-data-structure.png" alt="Pandas Data Structures" width="500" align="right"/>
@@ -208,8 +208,30 @@ As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ ro
 
 > 💡 **Note:** Reading in Excel file works in the same way and instead of `pd.read_csv` we'll use the `pd.read_excel` command.
 
+## Getting to know the data
 
-## Selecting a single column
+### Data dimension
+
+To figure out how many rows and columns your data has you can use the `shape` command, which is appended as a suffix to a Pandas object.
+
+For example, to apply the `shape` command to the DataFrame object that is stored in the `df` variable we would run `df.shape`. 
+
+Firstly, we'll read in data from a CSV file as mentioned above.
+
+```Python
+df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
+```
+
+```Python
+df.shape
+```
+(1144, 5)
+
+
+
+## Selection of columns
+
+### Selecting a single column
 
 To select specific columns (such as the *MolWt* column) we can run the following:
 ```Python
@@ -220,7 +242,7 @@ which produces the following Series output:
   <img src="./img/lesson-4-pandas-select-columns.png" height="250">
 </p>
 
-## Selecting multiple columns
+### Selecting multiple columns
 
 To select multiple columns (such as *MolWt* and *MolWt*) we can run the following:
 ```Python
