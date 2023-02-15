@@ -239,17 +239,21 @@ We can quickly obtain information (*e.g.* dtype, columns, non-null values and me
   <img src="./img/lesson-4-pandas-dataframe-info.png" height="220">
 </p>
 
-### Exploring the first and last few rows
+### Exploring the DataFrame
 
 **head()**
 
-`head()` - Explore the first few rows. 
+As the name implies, `head()` allows the display of the first few rows. 
 
 By default, 5 rows will be shown:
 
 ```Python
 df.head()
 ```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-head-5.png" height="300">
+</p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
 
@@ -260,7 +264,7 @@ df.head(3)
 
 **tail()**
 
-`tail()` - Explore the last few rows. 
+As the name implies, `tail()` allows the display of the last few rows. 
 
 By default, 5 rows will be shown.
 
