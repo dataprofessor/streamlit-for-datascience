@@ -206,6 +206,9 @@ which should yield the following DataFrame:
 
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
 
+> 💡 **Note:** 
+> Reading in Excel file works in the same way and instead of `pd.read_csv` we'll use the `pd.read_excel` command.
+
 ## Selecting a single column
 
 To select specific columns (such as the *MolWt* column) we can run the following:
