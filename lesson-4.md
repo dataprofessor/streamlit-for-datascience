@@ -132,11 +132,15 @@ df3
 </p>
 
 ```Python
-# Therefore to have a index with new names we will create a new DataFrame
+# Row names (i.e. the index) in a DataFrame can be renamed by altering the .index
 df4 = df3.copy()
 df4.index = ['John', 'Mary', 'Somchai']
 df4
 ```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-index-rename.png" width="12%">
+</p>
 
 ```Python
 # Creating a DataFrame from a dictionary
