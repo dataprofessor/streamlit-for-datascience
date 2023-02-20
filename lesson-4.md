@@ -198,7 +198,7 @@ To display the CSV data, this is as simple as calling the `df` variable:
 df
 ```
 
-which should yield the following DataFrame:
+which yields the following DataFrame:
 
 <p align="left">
   <img src="./img/lesson-4-pandas-df-output.png" height="420">
