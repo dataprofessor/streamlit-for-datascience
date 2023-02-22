@@ -235,11 +235,22 @@ This produces a tuple telling us the number of rows and columns are presented in
 
 We can quickly obtain information (*e.g.* dtype, columns, non-null values and memory usage) about a DataFrame by using the `info` method.
 
+```Python
+df.info()
+```
+
 <p align="left">
   <img src="./img/lesson-4-pandas-dataframe-info.png" height="220">
 </p>
 
 ### Exploring the DataFrame
+
+`head()` - Explore the first few rows.
+
+`tail()` - Explore the last few rows.
+
+You can also explicitly specify a number inside to tell it to show exactly ***N*** number of rows.
+
 
 **head()**
 
