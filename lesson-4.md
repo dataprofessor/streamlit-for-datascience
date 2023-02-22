@@ -423,3 +423,23 @@ df[(df.MolLogP < 2) & (df.logS > -1)]
 </p>
 
 Thus, we can see that the filtered DataFrame had row names of 7, 19, 26, 29, etc. Make note that rows 0-6, 8-18, 20-25, 27-28 were removed as a result of meeting the filter criteria.
+
+### Index for Selection
+
+#### loc method
+
+Is a method for selecting columns and filtering rows by **label** (i.e. row index and column names).
+
+```Python
+# Selects the first row and all columns (explicit)
+df.loc[0, :]
+```
+
+```Python
+# Selects the first row and all columns (implicit)
+df.loc[0]
+```
+
+
+
+
