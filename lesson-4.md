@@ -409,3 +409,17 @@ df.columns
 ```
 Index(['MolLogP', 'MolWt', 'NumRotatableBonds', 'AromaticProportion', 'logS'], dtype='object')
 ```
+
+### Index for Identification
+
+In our data filtering example shown above and also displayed below, it can be noticed that the row number is retained when rows were removed as a result of the filtering.
+
+```Python
+df[(df.MolLogP < 2) & (df.logS > -1)]
+```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-filter-2-criteria.png" height="420">
+</p>
+
+Thus, we can see that the filtered DataFrame had row names of 7, 19, 26, 29, etc. Make note that rows 0-6, 8-18, 20-25, 27-28 were removed as a result of meeting the filter criteria.
