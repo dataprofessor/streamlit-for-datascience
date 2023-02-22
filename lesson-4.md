@@ -360,7 +360,7 @@ As a result, this led to a subset of the data with 479 rows from the total of 11
 
 ### Filtering by applying multiple criteria
 
-Instead of filtering the data according to a single criteria as shown above, we can specify multiple criteria as shown below:
+Instead of filtering the data according to a single criteria as shown above, we can specify multiple criteria as shown below where we display data where *MolLogP* is less than 2 AND *logS* is greater than -1:
 
 ```Python
 df[(df.MolLogP < 2) & (df.logS > -1)]
