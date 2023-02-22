@@ -379,3 +379,33 @@ df[(df.MolLogP < 2) | (df.logS > -1)]
 <p align="left">
   <img src="./img/lesson-4-pandas-filter-2-criteria-OR.png" height="420">
 </p>
+
+## Pandas Index
+
+The Pandas Index essentially serves 3 roles:
+1. Identification
+2. Selection
+3. Alignment
+
+### Both rows and columns have Index
+
+You can think of the Pandas Index as sort of like the address that you can use in identifying the specific rows or columns.
+
+> 💡 **Note:** It should be noted that the index is not considered to be a part of the DataFrame's dimensions.
+
+
+Let's apply the `index` method to the DataFrame to display the row names.
+```Python
+df.index
+```
+```
+RangeIndex(start=0, stop=1144, step=1)
+```
+
+Let's apply the `columns` method to the DataFrame to display the column name.
+```Python
+df.columns
+```
+```
+Index(['MolLogP', 'MolWt', 'NumRotatableBonds', 'AromaticProportion', 'logS'], dtype='object')
+```
