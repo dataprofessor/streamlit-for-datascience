@@ -428,18 +428,29 @@ Thus, we can see that the filtered DataFrame had row names of 7, 19, 26, 29, etc
 
 #### loc method
 
-Is a method for selecting columns and filtering rows by **label** (i.e. row index and column names).
+**loc** is a method for selecting columns and filtering rows by **label** (i.e. row index and column names).
+
+The following 2 approaches will give rise to the same output.
 
 ```Python
-# Selects the first row and all columns (explicit)
+# 1. Selects the first row and all columns (explicit)
 df.loc[0, :]
 ```
 
 ```Python
-# Selects the first row and all columns (implicit)
+# 2. Selects the first row and all columns (implicit)
 df.loc[0]
 ```
 
+The display out for the 2 above mentioned commands is shown below:
+```
+MolLogP                 2.5954
+MolWt                 167.8500
+NumRotatableBonds       0.0000
+AromaticProportion      0.0000
+logS                   -2.1800
+Name: 0, dtype: float64
+```
 
 
 
