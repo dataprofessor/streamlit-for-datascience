@@ -480,3 +480,49 @@ df.loc[0, 'MolLogP']
 ```
 2.5954000000000006
 ```
+
+### Index for Alignment
+
+We know that Pandas Index serves as a unique identifier. As a result, it keeps track of the individual rows or columns when we perform operations on them.
+
+Let's say that we have created a Pandas Series that has row names of `0, 1, 1143`:
+```Python
+s1 = pd.Series([1,5,10], index=[0, 1, 1143], name = 'A')
+s1
+```
+
+In our forthcoming example, we're going to use the MolLogP column from the DataFrame:
+```Python
+df.MolLogP
+```
+
+If we were to perform an operation between the above Pandas Series and a column from our DataFrame mentioned above, like so:
+```Python
+df.MolLogP * s1
+```
+
+This will lead to the following output:
+```
+0        2.5954
+1       11.8825
+2           NaN
+3           NaN
+4           NaN
+         ...   
+1139        NaN
+1140        NaN
+1141        NaN
+1142        NaN
+1143    20.2164
+Length: 1144, dtype: float64
+```
+
+Here, we can notice that the display output shows the multiplication operation as performed on rows 0, 1 and 1143, which corresponds to the same row names specified by the Pandas Series `s1`. 
+
+Particularly, the value `2.59540` from row 0 of the `df.MolLogP` column was multiplied by the value of `1` from row 0 of the `s1` Series. This multiplication led to a value of `2.5954`.
+
+Next, we have the value `2.37650` from row 1 of the `df.MolLogP` column was multiplied by the value of `5` from row 1 of the `s1` Series. This multiplication led to a value of `11.8825`.
+
+Finally, we have the value `2.02164` from row 1143 of the `df.MolLogP` column was multiplied by the value of `10` from row 1143 of the `s1` Series. This multiplication led to a value of `20.2164`.
+
+We can also notice that all other rows that were not mentioned in the row names of the `s1` Series were also not involved in the multiplication operation and thus displayed values of `NaN`.
