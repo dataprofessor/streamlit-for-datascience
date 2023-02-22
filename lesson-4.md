@@ -325,7 +325,7 @@ df.loc[:, 'MolLogP']
 ```
 
 ```Python
-# 4. Selecting the 'MolLogP' column (iloc method)
+# Note that MolLogP is located at the first column and thus the index of 0
 df.iloc[:, 0]
 ```
 
