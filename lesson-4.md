@@ -343,7 +343,10 @@ which produces the following DataFrame output:
 
 ## Filtering data
 
-Let's say that we would like to filter the data according to certain criteria such as displaying the same data set where the MolLogP is less than 2:
+Data filtering can be performed by specifying a single or more criteria.
+
+### Filtering by a single threshold value
+Let's say that we would like to filter the data according to certain threshold value such as displaying the same data set where the MolLogP is less than 2:
 
 ```Python
 df[df.MolLogP < 2]
@@ -355,3 +358,14 @@ df[df.MolLogP < 2]
 
 As a result, this led to a subset of the data with 479 rows from the total of 1144 rows.
 
+### Filtering by applying multiple criteria
+
+Instead of filtering the data according to a single criteria as shown above, we can specify multiple criteria as shown below:
+
+```Python
+df[(df.MolLogP < 2) & (df.logS > -1)]
+```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-filter-2-criteria.png" height="420">
+</p>
