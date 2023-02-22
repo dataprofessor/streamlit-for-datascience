@@ -341,3 +341,15 @@ which produces the following DataFrame output:
   <img src="./img/lesson-4-pandas-select-multiple-columns.png" height="420">
 </p>
 
+## Filtering data
+
+Let's say that we would like to filter the data according to certain criteria such as displaying the same data set where the MolLogP is less than 2:
+
+```Python
+df[df.MolLogP < 2]
+```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-filter-MolLogP.png" height="420">
+</p>
+
