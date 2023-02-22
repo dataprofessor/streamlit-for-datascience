@@ -314,6 +314,22 @@ which produces the following Series output:
   <img src="./img/lesson-4-pandas-select-columns.png" height="250">
 </p>
 
+In addition to the above method, one can use any of the 3 approaches:
+
+```Python
+df.MolLogP
+```
+
+```Python
+df.loc[:, 'MolLogP']
+```
+
+```Python
+# 4. Selecting the 'MolLogP' column (iloc method)
+df.iloc[:, 0]
+```
+
+
 ### Selecting multiple columns
 
 To select multiple columns (such as *MolWt* and *MolWt*) we can run the following:
