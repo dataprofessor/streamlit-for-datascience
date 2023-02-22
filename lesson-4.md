@@ -442,7 +442,7 @@ df.loc[0, :]
 df.loc[0]
 ```
 
-The display out for the 2 above mentioned commands is shown below:
+The display output for the 2 above mentioned commands is shown below:
 ```
 MolLogP                 2.5954
 MolWt                 167.8500
