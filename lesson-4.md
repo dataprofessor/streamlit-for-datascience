@@ -353,3 +353,5 @@ df[df.MolLogP < 2]
   <img src="./img/lesson-4-pandas-filter-MolLogP.png" height="420">
 </p>
 
+As a result, this led to a subset of the data with 479 rows from the total of 1144 rows.
+
