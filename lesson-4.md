@@ -490,11 +490,33 @@ Let's say that we have created a Pandas Series that has row names of `0, 1, 1143
 s1 = pd.Series([1,5,10], index=[0, 1, 1143], name = 'A')
 s1
 ```
+```
+0        1
+1        5
+1143    10
+Name: A, dtype: int64
+```
+
 
 In our forthcoming example, we're going to use the MolLogP column from the DataFrame:
 ```Python
 df.MolLogP
 ```
+```
+0       2.59540
+1       2.37650
+2       2.59380
+3       2.02890
+4       2.91890
+         ...   
+1139    1.98820
+1140    3.42130
+1141    3.60960
+1142    2.56214
+1143    2.02164
+Name: MolLogP, Length: 1144, dtype: float64
+```
+
 
 If we were to perform an operation between the above Pandas Series and a column from our DataFrame mentioned above, like so:
 ```Python
