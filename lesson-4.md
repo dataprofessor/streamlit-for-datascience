@@ -452,5 +452,31 @@ logS                   -2.1800
 Name: 0, dtype: float64
 ```
 
+Let's now select all rows and a specific column (*MolLogP*):
+```Python
+# Selects all rows and the MolLogP column
+df.loc[:, 'MolLogP']
+```
+```
+0       2.59540
+1       2.37650
+2       2.59380
+3       2.02890
+4       2.91890
+         ...   
+1139    1.98820
+1140    3.42130
+1141    3.60960
+1142    2.56214
+1143    2.02164
+Name: MolLogP, Length: 1144, dtype: float64
+```
 
-
+Let's now try to select the first row and the *MolLogP* column:
+```Python
+# Select the first row and the MolLogP column
+df.loc[0, 'MolLogP']
+```
+```
+2.5954000000000006
+```
