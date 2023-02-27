@@ -668,7 +668,9 @@ Here, comes the fun part, let's display the DataFrame again but this time only r
 ```Python
 df[df.isnull().any(axis = 1)]
 ```
-
+<p align="left">
+  <img src="./img/lesson-4-pandas-missing-data-any.png" height="420">
+</p>
 
 
 
