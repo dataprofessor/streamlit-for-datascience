@@ -598,3 +598,10 @@ Next, we have the value `2.37650` from row 1 of the `df.MolLogP` column was mult
 Finally, we have the value `2.02164` from row 1143 of the `df.MolLogP` column was multiplied by the value of `10` from row 1143 of the `s1` Series. This multiplication led to a value of `20.2164`.
 
 We can also notice that all other rows that were not mentioned in the row names of the `s1` Series were also not involved in the multiplication operation and thus displayed values of `NaN`.
+
+## Handling Missing Data
+
+Let's now consider how to handle missing data and in order to do that, sometimes it is also helpful to consider the non-missing data.
+1. `isnull` is a function for detecting missing values
+2. `notnull` is a function for detecting non-missing values
+
