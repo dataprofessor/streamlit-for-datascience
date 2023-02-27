@@ -696,7 +696,9 @@ df.dropna()
   <img src="./img/lesson-4-pandas-missing-data-dropna.png" height="420">
 </p>
 
-It is worth to mention that the above did not save the new DataFrame to the existing DataFrame. Thus, we can add the argument `inplace=True` in order to save the new DataFrame with no missing data to the existing `df` DataFrame.
+We can see from the above that 6 rows with missing data have been removed from the DataFrame thereby reducing the number of rows from 1144 to 1138.
+
+> 💡 **Note:** It is worth to mention that the above did not save the new DataFrame to the existing DataFrame. Thus, we can add the argument `inplace=True` in order to save the new DataFrame with no missing data to the existing `df` DataFrame.
 
 ```Python
 df.dropna(inplace=True)
