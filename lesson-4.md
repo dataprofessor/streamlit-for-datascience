@@ -639,6 +639,7 @@ Here, we can see that our dataset contains no missing data. So let's artificiall
 df.iloc[0, 0] = pd.NA
 df.iloc[12, 0] = pd.NA
 df.iloc[8, 1] = pd.NA
+df.iloc[12, 1] = pd.NA
 df.iloc[57, 2] = pd.NA
 df.iloc[31, 3] = pd.NA
 df.iloc[101, 4] = pd.NA
@@ -653,7 +654,7 @@ df.isnull().sum()
 ```
 ```
 MolLogP               2
-MolWt                 1
+MolWt                 2
 NumRotatableBonds     1
 AromaticProportion    1
 logS                  1
@@ -661,4 +662,16 @@ dtype: int64
 ```
 
 > 💡 **Note:** In addition to `isnull()` you can also use `isna()`, which should give the same outcome.
+
+Here, comes the fun part, let's display the DataFrame again but this time only rows with at least one missing value is shown:
+
+```Python
+df[df.isnull().any(axis = 1)]
+```
+
+
+
+
+
+
 
