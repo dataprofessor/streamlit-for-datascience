@@ -614,6 +614,9 @@ Particularly, the `isnull()` method appended after `df` would allow us to displa
 ```Python
 df.isnull()
 ```
+<p align="left">
+  <img src="./img/lesson-4-pandas-missing-data-isnull.png" height="420">
+</p>
 
 
 Instead of showing a DataFrame of `True`/`False` values, let's display a summarized version where the sum of missing values is displayed for each column.
