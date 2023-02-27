@@ -729,6 +729,32 @@ df.fillna(df.median())
 
 ## Summary statistics
 
+### Descriptive Statistics
+
+### Value counts
 
 
+
+## Transpose data
+
+
+
+## Simple aggregates
+
+
+
+## Aggregate By
+
+
+## Group By
+
+
+## Sort values
+
+
+
+## Plots in Pandas
+
+
+## Write out data
 
