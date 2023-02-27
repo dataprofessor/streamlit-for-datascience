@@ -709,8 +709,10 @@ df.dropna(inplace=True)
 
 In handling missing data, you can decide to either drop the missing data or fill in missing data with replacement values.
 
-```Python
+Let's replace missing values with the column's mean:
 
+```Python
+df.fillna(df.mean())
 ```
 
 ## 
