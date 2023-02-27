@@ -714,15 +714,20 @@ Let's replace missing values with the column's mean:
 ```Python
 df.fillna(df.mean())
 ```
+<p align="left">
+  <img src="./img/lesson-4-pandas-replace-data-mean.png" height="420">
+</p>
 
 Or instead the column's median:
 
 ```Python
-df.fillna(df.mean())
+df.fillna(df.median())
 ```
+<p align="left">
+  <img src="./img/lesson-4-pandas-replace-data-median.png" height="420">
+</p>
 
-
-## 
+## Summary statistics
 
 
 
