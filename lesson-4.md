@@ -715,6 +715,13 @@ Let's replace missing values with the column's mean:
 df.fillna(df.mean())
 ```
 
+Or instead the column's median:
+
+```Python
+df.fillna(df.mean())
+```
+
+
 ## 
 
 
