@@ -428,7 +428,7 @@ Thus, we can see that the filtered DataFrame had row names of 7, 19, 26, 29, etc
 
 #### loc method
 
-**loc** is a method for selecting columns and filtering rows by **label** (i.e. row index and column names).
+Firstly, **loc** is a method for selecting columns and filtering rows by **label** (i.e. row index and column names).
 
 The following 2 approaches will give rise to the same output.
 
@@ -480,6 +480,56 @@ df.loc[0, 'MolLogP']
 ```
 2.5954000000000006
 ```
+
+#### iloc method
+
+Secondly, **iloc** is a method for filtering rows and selecting columns based on the *position integers*.
+
+Let's consider three examples.
+
+In this first example, we're going to select and display data from the first row and all columns:
+```Python
+# Selects the first row and all columns
+df.iloc[0, :]
+```
+```
+MolLogP                 2.5954
+MolWt                 167.8500
+NumRotatableBonds       0.0000
+AromaticProportion      0.0000
+logS                   -2.1800
+Name: 0, dtype: float64
+```
+
+In this second example, we're going to display only a single value from the first row and first column: 
+```Python
+# Selects the first row and the first column
+df.iloc[0, 0]
+```
+```
+2.5954000000000006
+```
+
+In this third example, we're going to display data from the first columns (and all rows):
+```Python
+# Selects all rows and the first column
+df.iloc[:, 0]
+```
+```
+0       2.59540
+1       2.37650
+2       2.59380
+3       2.02890
+4       2.91890
+         ...   
+1139    1.98820
+1140    3.42130
+1141    3.60960
+1142    2.56214
+1143    2.02164
+Name: MolLogP, Length: 1144, dtype: float64
+```
+
 
 ### Index for Alignment
 
