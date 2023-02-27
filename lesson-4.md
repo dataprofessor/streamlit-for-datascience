@@ -672,7 +672,46 @@ df[df.isnull().any(axis = 1)]
   <img src="./img/lesson-4-pandas-missing-data-any.png" height="225">
 </p>
 
+### Detect non-missing data
 
+This is the opposite to the previous function where we are checking for non-missing data.
+
+```Python
+df.notnull()
+```
+
+
+
+### Drop missing data
+
+In handling missing data, you can decide to either drop the missing data or fill in missing data with replacement values.
+
+Let's drop rows that have at least 1 missing value:
+
+```Python
+df.dropna()
+```
+
+<p align="left">
+  <img src="./img/lesson-4-pandas-missing-data-dropna.png" height="420">
+</p>
+
+It is worth to mention that the above did not save the new DataFrame to the existing DataFrame. Thus, we can add the argument `inplace=True` in order to save the new DataFrame with no missing data to the existing `df` DataFrame.
+
+```Python
+df.dropna(inplace=True)
+```
+
+
+### Replace missing data
+
+In handling missing data, you can decide to either drop the missing data or fill in missing data with replacement values.
+
+```Python
+
+```
+
+## 
 
 
 
