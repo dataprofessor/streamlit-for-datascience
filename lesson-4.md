@@ -632,3 +632,33 @@ AromaticProportion    0
 logS                  0
 dtype: int64
 ```
+
+Here, we can see that our dataset contains no missing data. So let's artificially add missing data so that we can proceed further with the tutorial. To do this, we're going to assign missing data by using `pd.NA` to specific cells of the DataFrame.
+
+```Python
+df.iloc[0, 0] = pd.NA
+df.iloc[12, 0] = pd.NA
+df.iloc[8, 1] = pd.NA
+df.iloc[57, 2] = pd.NA
+df.iloc[31, 3] = pd.NA
+df.iloc[101, 4] = pd.NA
+```
+
+We can see that we have added missing data to arbitrary cells of the DataFrame.
+
+Let's proceed to detect missing data in the DataFrame:
+
+```Python
+df.isnull().sum()
+```
+```
+MolLogP               2
+MolWt                 1
+NumRotatableBonds     1
+AromaticProportion    1
+logS                  1
+dtype: int64
+```
+
+> 💡 **Note:** In addition to `isnull()` you can also use `isna()`, which should give the same outcome.
+
