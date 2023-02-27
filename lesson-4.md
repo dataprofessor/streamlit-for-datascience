@@ -605,3 +605,27 @@ Let's now consider how to handle missing data and in order to do that, sometimes
 1. `isnull` is a function for detecting missing values
 2. `notnull` is a function for detecting non-missing values
 
+### Detect missing data
+
+Perhaps the first thing that we want to do is to determine whether the data being analyzed contains any missing data or not.
+
+Particularly, the `isnull()` method appended after `df` would allow us to display a DataFrame showing whether each cell value is null (if it has missing data it will display a value of `False`) or not
+
+```Python
+df.isnull()
+```
+
+
+Instead of showing a DataFrame of `True`/`False` values, let's display a summarized version where the sum of missing values is displayed for each column.
+
+```Python
+df.isnull().sum()
+```
+```
+MolLogP               0
+MolWt                 0
+NumRotatableBonds     0
+AromaticProportion    0
+logS                  0
+dtype: int64
+```
