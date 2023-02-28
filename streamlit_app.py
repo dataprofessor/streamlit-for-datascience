@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from PIL import Image
 import glob
 import os
@@ -33,6 +34,6 @@ for i in lesson_list:
         #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
-            st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
-            st.write(os.listdir(os.getcwd()))
+            #st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
             #st.markdown(os.path.join(os.getcwd(), 'img/logo.png'))
+            components.html(f.read())
