@@ -15,5 +15,5 @@ Thus, we're going to perform preliminary statistical analysis and generate simpl
 The `describe()` function allows you to quickly compute descriptive statistics.
 
 <p align="left">
-  <img src="./img/lesson-5-pandas-describe.png" height="420">
+  <img src="./img/lesson-5-pandas-describe.png" height="300">
 </p>
