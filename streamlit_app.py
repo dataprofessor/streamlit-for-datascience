@@ -38,6 +38,6 @@ for i in lesson_list:
 
             
 
-img_url = 'https://raw.githubusercontent.com/dataprofessor/streamlit-for-datascience/master/img/lesson-2-data-science-life-cycle.png?token=GHSAT0AAAAAAB64ZU57RECHN24WZG47SZPQY76GAJQ'
+img_url = 'https://raw.githubusercontent.com/dataprofessor/30days/master/content/images/2C9104F7-CF84-4DAF-9004-52BB4644CF28.png'
 img_html = f'<img src={img_url}>'
 st.markdown(img_url, unsafe_allow_html=True)
