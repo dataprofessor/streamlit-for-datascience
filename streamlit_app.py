@@ -26,7 +26,7 @@ selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", o
 #####
 
 # Display content
-url_prefix = 'https://github.com/dataprofessor/streamlit-for-datascience/blob/master'
+url_prefix = os.getcwd()
     
 for i in lesson_list:
     if selected_day == i:
