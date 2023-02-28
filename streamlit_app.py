@@ -37,8 +37,9 @@ for i in lesson_list:
             #st.markdown(os.path.join(os.getcwd(), 'img/logo.png'))
 
 st.markdown('''
-<br>
-  <p align="center">
-    <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
-  </p>
-<br>''', unsafe_allow_html=True)
+    <br>
+      <p align="center">
+        <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
+      </p>
+    <br>
+''', unsafe_allow_html=True)
