@@ -20,11 +20,12 @@ The `describe()` function allows you to quickly compute descriptive statistics.
 
 ### Value Counts
 
-To examine the distribution of values for any given column we can use the `value_counts()` function.
+To examine the distribution of values for categorical values from any given column, we can use the `value_counts()` function.
 
 ```Python
 df.NumRotatableBonds.value_counts()
 ```
+which yields the following output:
 ```
 0.0     362
 1.0     239
@@ -47,3 +48,7 @@ df.NumRotatableBonds.value_counts()
 11.0      1
 Name: NumRotatableBonds, dtype: int64
 ```
+
+### Transpose
+
+To transpose a DataFrame we can use the `dataframe.T` function. A DataFrame is transposed when the rows and columns become inverted meaning that what was once the column will now become the rows and vice versa.
