@@ -43,6 +43,6 @@ img_html = '''<br>
       </p>
     <br>'''
 
-st.markdown(img_html, unsafe_allow_html=True)
+st.markdown(img_html.replace('<img src="', 'st.image("').replace(' ', ', ').replace('>', ')'), unsafe_allow_html=True)
 
 st.image('./img/lesson-2-data-science-life-cycle.png')
