@@ -58,4 +58,4 @@ img_html = '''<br>
 #st.image('./img/lesson-2-data-science-life-cycle.png')
 
 img_url = './img/lesson-2-data-science-life-cycle.png'
-st.write( Image.open(io.BytesIO(image_url)) )
+st.markdown( Image.open(io.BytesIO(image_url)), unsafe_allow_html=True )
