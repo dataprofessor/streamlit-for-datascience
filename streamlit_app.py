@@ -36,11 +36,12 @@ for i in lesson_list:
             #st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
             #st.markdown(os.path.join(os.getcwd(), 'img/logo.png'))
 
-st.markdown('''
-    <br>
+            
+img_html = '''<br>
       <p align="center">
         <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
       </p>
-    <br>
-''', unsafe_allow_html=True)
+    <br>'''
+
+st.markdown(img_html, unsafe_allow_html=True)
 
