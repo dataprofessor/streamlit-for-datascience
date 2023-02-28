@@ -30,4 +30,4 @@ for i in lesson_list:
         #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
-            st.markdown(f.read())
+            st.markdown(f.read(), unsafe_allow_html=True)
