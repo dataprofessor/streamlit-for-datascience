@@ -25,7 +25,3 @@ selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", o
 
 st.write(md_files)
 st.write(lesson_list)
-st.write(query_params)
-
-
-st.write(query_params["lesson"][0])
