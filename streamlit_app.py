@@ -5,15 +5,15 @@ import glob
 def update_params():
     st.experimental_set_query_params(challenge=st.session_state.day)
 
-md_files = sorted([int(x.strip('lesson').strip('.md')) for x in glob.glob1('content',"*.md") ])
+md_files = sorted([int(x.strip('lesson-').strip('.md')) for x in glob.glob1('content',"*.md") ])
 
 # Logo and Navigation
 col1, col2, col3 = st.columns((1,4,1))
 with col2:
     st.image(Image.open('./img/logo.png'))
-st.title('Data Science')
 
-#days_list = [f'Day {x}' for x in md_files]
+
+lesson_list = [f'Lesson {x}' for x in md_files]
 
 query_params = st.experimental_get_query_params()
 
@@ -24,3 +24,4 @@ query_params = st.experimental_get_query_params()
 
 
 st.write(md_files)
+st.write(lesson_list
