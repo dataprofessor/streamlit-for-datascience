@@ -52,11 +52,11 @@ for i in lesson_list:
             #st.markdown(os.path.join(os.getcwd(), 'img/logo.png'))
 
             
-img_html = '''<br>
-      <p align="center">
-        <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
-      </p>
-    <br>'''
+#img_html = '''<br>
+#      <p align="center">
+#        <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
+#      </p>
+#    <br>'''
 
 #st.markdown(img_html, unsafe_allow_html=True)
 
@@ -65,7 +65,7 @@ img_html = '''<br>
 img_url = './img/lesson-2-data-science-life-cycle.png'
 img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
 
-st.write( img_html.split(' ') )
+st.write( img_html.replace('<img src=', '').replace(' width="', ' ').replace('">', '').split(' ') )
 
 #def img_display(input):
 #    input.replace('<img src=', '').
