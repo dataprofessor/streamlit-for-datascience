@@ -45,4 +45,4 @@ img_html = '''<br>
 
 st.markdown(img_html, unsafe_allow_html=True)
 
-st.image('img/lesson-2-data-science-life-cycle.png')
+st.image('./img/lesson-2-data-science-life-cycle.png')
