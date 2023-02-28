@@ -24,7 +24,7 @@ import pandas as pd
 ## Pandas data structure
 
 Pandas allow us to work with tabular datasets. Let us take a look at the basic data structures of Pandas that consists of 3 types as follows (i.e. the first two are the data structures while the latter serves as a point of reference):
-<img src="./img/lesson-4-pandas-data-structure.png" alt="Pandas Data Structures" width="500" align="right"/>
+<img src="../img/lesson-4-pandas-data-structure.png" alt="Pandas Data Structures" width="500" align="right"/>
 1. Series
 2. DataFrame
 3. Index
@@ -89,7 +89,7 @@ df1
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-numpy-array.png" height="150">
+  <img src="../img/lesson-4-pandas-dataframe-numpy-array.png" height="150">
 </p>
 
 ### Pandas Index
@@ -117,7 +117,7 @@ df2
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-names.png" height="140">
+  <img src="../img/lesson-4-pandas-index-column-names.png" height="140">
 </p>
 
 
@@ -128,7 +128,7 @@ df3
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-column-row-names.png" height="140">
+  <img src="../img/lesson-4-pandas-index-column-row-names.png" height="140">
 </p>
 
 ```Python
@@ -139,7 +139,7 @@ df4
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-index-rename.png" height="140">
+  <img src="../img/lesson-4-pandas-index-rename.png" height="140">
 </p>
 
 ```Python
@@ -150,7 +150,7 @@ df5
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-from-dict.png" height="140">
+  <img src="../img/lesson-4-pandas-dataframe-from-dict.png" height="140">
 </p>
 
 ```Python
@@ -161,7 +161,7 @@ df6
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-from-dict-with-index.png" height="140">
+  <img src="../img/lesson-4-pandas-dataframe-from-dict-with-index.png" height="140">
 </p>
 
 ```Python
@@ -173,7 +173,7 @@ df7
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-from-dict-add-index.png" height="140">
+  <img src="../img/lesson-4-pandas-dataframe-from-dict-add-index.png" height="140">
 </p>
 
 
@@ -201,7 +201,7 @@ df
 which yields the following DataFrame:
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-df-output.png" height="420">
+  <img src="../img/lesson-4-pandas-df-output.png" height="420">
 </p>
 
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
@@ -240,7 +240,7 @@ df.info()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-dataframe-info.png" height="220">
+  <img src="../img/lesson-4-pandas-dataframe-info.png" height="220">
 </p>
 
 ### Exploring the DataFrame
@@ -263,7 +263,7 @@ df.head()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-head-5.png" height="205">
+  <img src="../img/lesson-4-pandas-head-5.png" height="205">
 </p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
@@ -273,7 +273,7 @@ df.head(3)
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-head-3.png" height="140">
+  <img src="../img/lesson-4-pandas-head-3.png" height="140">
 </p>
 
 **tail()**
@@ -287,7 +287,7 @@ df.tail()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-tail-5.png" height="205">
+  <img src="../img/lesson-4-pandas-tail-5.png" height="205">
 </p>
 
 You can also explicitly specify a number inside to tell it to show exactly N number of rows.
@@ -297,7 +297,7 @@ df.tail(3)
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-tail-3.png" height="140">
+  <img src="../img/lesson-4-pandas-tail-3.png" height="140">
 </p>
 
 
@@ -311,7 +311,7 @@ df['MolLogP']
 ```
 which produces the following Series output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-columns.png" height="250">
+  <img src="../img/lesson-4-pandas-select-columns.png" height="250">
 </p>
 
 In addition to the above method, one can use any of the 3 approaches:
@@ -338,7 +338,7 @@ df[['MolLogP','MolWt']]
 ```
 which produces the following DataFrame output:
 <p align="left">
-  <img src="./img/lesson-4-pandas-select-multiple-columns.png" height="420">
+  <img src="../img/lesson-4-pandas-select-multiple-columns.png" height="420">
 </p>
 
 ## Filtering data
@@ -353,7 +353,7 @@ df[df.MolLogP < 2]
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-filter-MolLogP.png" height="420">
+  <img src="../img/lesson-4-pandas-filter-MolLogP.png" height="420">
 </p>
 
 As a result, this led to a subset of the data with 479 rows from the total of 1144 rows.
@@ -367,7 +367,7 @@ df[(df.MolLogP < 2) & (df.logS > -1)]
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-filter-2-criteria.png" height="420">
+  <img src="../img/lesson-4-pandas-filter-2-criteria.png" height="420">
 </p>
 
 Let's modify the above filter by displaying data where *MolLogP* is less than 2 **OR** *logS* is greater than -1:
@@ -377,7 +377,7 @@ df[(df.MolLogP < 2) | (df.logS > -1)]
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-filter-2-criteria-OR.png" height="420">
+  <img src="../img/lesson-4-pandas-filter-2-criteria-OR.png" height="420">
 </p>
 
 ## Pandas Index
@@ -419,7 +419,7 @@ df[(df.MolLogP < 2) & (df.logS > -1)]
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-filter-2-criteria.png" height="420">
+  <img src="../img/lesson-4-pandas-filter-2-criteria.png" height="420">
 </p>
 
 Thus, we can see that the filtered DataFrame had row names of 7, 19, 26, 29, etc. Make note that rows 0-6, 8-18, 20-25, 27-28 were removed as a result of meeting the filter criteria.
@@ -615,7 +615,7 @@ Particularly, the `isnull()` method appended after `df` would allow us to displa
 df.isnull()
 ```
 <p align="left">
-  <img src="./img/lesson-4-pandas-missing-data-isnull.png" height="420">
+  <img src="../img/lesson-4-pandas-missing-data-isnull.png" height="420">
 </p>
 
 
@@ -669,7 +669,7 @@ Here, comes the fun part, let's display the DataFrame again but this time only r
 df[df.isnull().any(axis = 1)]
 ```
 <p align="left">
-  <img src="./img/lesson-4-pandas-missing-data-any.png" height="225">
+  <img src="../img/lesson-4-pandas-missing-data-any.png" height="225">
 </p>
 
 ### Detect non-missing data
@@ -693,7 +693,7 @@ df.dropna()
 ```
 
 <p align="left">
-  <img src="./img/lesson-4-pandas-missing-data-dropna.png" height="420">
+  <img src="../img/lesson-4-pandas-missing-data-dropna.png" height="420">
 </p>
 
 We can see from the above that 6 rows with missing data have been removed from the DataFrame thereby reducing the number of rows from 1144 to 1138.
@@ -715,7 +715,7 @@ Let's replace missing values with the column's mean:
 df.fillna(df.mean())
 ```
 <p align="left">
-  <img src="./img/lesson-4-pandas-replace-data-mean.png" height="420">
+  <img src="../img/lesson-4-pandas-replace-data-mean.png" height="420">
 </p>
 
 Or instead the column's median:
@@ -724,7 +724,7 @@ Or instead the column's median:
 df.fillna(df.median())
 ```
 <p align="left">
-  <img src="./img/lesson-4-pandas-replace-data-median.png" height="420">
+  <img src="../img/lesson-4-pandas-replace-data-median.png" height="420">
 </p>
 
 ## Summary statistics
