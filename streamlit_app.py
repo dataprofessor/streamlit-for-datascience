@@ -47,9 +47,9 @@ for i in lesson_list:
     if selected_day == i:
         #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
-        #with open(f'content/{j}.md', 'r') as f:
-            #st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
-            #st.markdown(os.path.join(os.getcwd(), 'img/logo.png'))
+        with open(f'content/{j}.md', 'r') as f:
+            st.markdown(f.read(), unsafe_allow_html=True)
+
 
             
 #img_html = '''<br>
