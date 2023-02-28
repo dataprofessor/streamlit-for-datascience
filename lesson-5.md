@@ -12,4 +12,8 @@ Thus, we're going to perform preliminary statistical analysis and generate simpl
 
 ### Descriptive Statistics
 
-`describe()` function allows you to quickly compute descriptive statistics.
+The `describe()` function allows you to quickly compute descriptive statistics.
+
+<p align="left">
+  <img src="./img/lesson-5-pandas-describe.png" height="420">
+</p>
