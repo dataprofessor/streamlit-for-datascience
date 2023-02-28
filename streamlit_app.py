@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import glob
 import os
+import io
 import base64
 
 def update_params():
@@ -56,4 +57,5 @@ img_html = '''<br>
 
 #st.image('./img/lesson-2-data-science-life-cycle.png')
 
-image_formatter('./img/lesson-2-data-science-life-cycle.png')
+img_url = './img/lesson-2-data-science-life-cycle.png'
+st.write( Image.open(io.BytesIO(image_url)) )
