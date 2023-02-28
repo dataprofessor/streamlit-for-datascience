@@ -22,7 +22,7 @@ Taking a step back for a high-level overview of a typical data project gives us 
 
 <br>
   <p align="center">
-    <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
+    <img src="../img/lesson-2-data-science-life-cycle.png" width="60%">
   </p>
 <br>
   
