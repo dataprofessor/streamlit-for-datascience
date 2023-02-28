@@ -13,7 +13,7 @@ with col2:
     st.image(Image.open('./img/logo.png'))
 
 
-lesson_list = [f'Lesson {x}' for x in md_files]
+lesson_list = [x for x in md_files]
 
 query_params = st.experimental_get_query_params()
 
