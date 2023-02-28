@@ -24,4 +24,5 @@ query_params = st.experimental_get_query_params()
 
 
 st.write(md_files)
-st.write(lesson_list
+st.write(lesson_list)
+st.write(query_params)
