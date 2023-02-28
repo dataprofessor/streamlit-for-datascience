@@ -41,5 +41,4 @@ st.markdown('''
   <p align="center">
     <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
   </p>
-<br>
-''', unsafe_allow_html=True)
+<br>''', unsafe_allow_html=True)
