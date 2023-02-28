@@ -17,7 +17,7 @@ lesson_list = [f'Lesson {x}' for x in md_files]
 
 query_params = st.experimental_get_query_params()
 
-if query_params and query_params["lesson"][0] in lesson_list.strip('Lesson '):
+if query_params and query_params["lesson"][0] in lesson_list.replace('Lesson ', ''):
     st.session_state.lesson = query_params["lesson"][0]
 
 selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", on_change=update_params)
