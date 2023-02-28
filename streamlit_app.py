@@ -22,6 +22,13 @@ if query_params and query_params["course"][0] in lesson_list:
 
 selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", on_change=update_params)
 
+#####
 
-st.write(md_files)
-st.write(lesson_list)
+# Display content
+for i in lesson_list:
+    if selected_day == i:
+        st.markdown(f'# 🗓️ {i}')
+        
+        #j = i.replace(' ', '')
+        #with open(f'content/{j}.md', 'r') as f:
+        #    st.markdown(f.read())
