@@ -2,8 +2,20 @@ import streamlit as st
 from PIL import Image
 import glob
 import os
-import io
-import base64
+from pathlib import Path
+from utilities import load_bootstrap
+
+load_bootstrap()
+
+def img_to_bytes(img_path):
+    img_bytes = Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
+def img_to_html(img_path):
+    img_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
+      img_to_bytes(img_path)
+    )
+    return img_html
 
 def update_params():
     st.experimental_set_query_params(course=st.session_state.lesson)
@@ -58,8 +70,5 @@ img_html = '''<br>
 #st.image('./img/lesson-2-data-science-life-cycle.png')
 
 img_url = './img/lesson-2-data-science-life-cycle.png'
-img_open = '''
-with open(image, "rb") as f:
-    image_data = f.read()
-'''
-st.markdown( Image.open(io.BytesIO(img_open)), unsafe_allow_html=True )
+
+st.markdown(img_to_html(img_url, unsafe_allow_html=True)
