@@ -52,25 +52,6 @@ for i in lesson_list:
 
 
             
-#img_html = '''<br>
-#      <p align="center">
-#        <img src="./img/lesson-2-data-science-life-cycle.png" width="60%">
-#      </p>
-#    <br>'''
 
-#st.markdown(img_html, unsafe_allow_html=True)
-
-#st.image('./img/lesson-2-data-science-life-cycle.png')
-
-img_url = './img/lesson-2-data-science-life-cycle.png'
-img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">ABC<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
-
-#st.write( img_html.replace('<img src="', '').replace('" width="', ' ').replace('">', '').split(' ') )
-
-def img_display(input):
-    return input.replace('<img src="', '').replace('" width="', ' ').replace('">', '').split(' ')
-st.write(img_display(img_html))
-
-st.markdown(img_to_html(img_url), unsafe_allow_html=True)
-
-st.markdown(img_to_html(  img_display(img_html)  ), unsafe_allow_html=True)
+img_url = 'https://raw.githubusercontent.com/dataprofessor/streamlit-for-datascience/master/img/lesson-2-data-science-life-cycle.png?token=GHSAT0AAAAAAB64ZU57RECHN24WZG47SZPQY76GAJQ'
+st.markdown(img_url, unsafe_allow_html=True)
