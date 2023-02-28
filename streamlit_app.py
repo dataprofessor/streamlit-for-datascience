@@ -63,7 +63,7 @@ for i in lesson_list:
 #st.image('./img/lesson-2-data-science-life-cycle.png')
 
 img_url = './img/lesson-2-data-science-life-cycle.png'
-img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
+img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">ABC<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
 
 #st.write( img_html.replace('<img src="', '').replace('" width="', ' ').replace('">', '').split(' ') )
 
