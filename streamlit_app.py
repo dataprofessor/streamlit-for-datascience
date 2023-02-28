@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import glob
 import os
+import base64
 
 def update_params():
     st.experimental_set_query_params(course=st.session_state.lesson)
@@ -24,6 +25,14 @@ if query_params and query_params["course"][0] in lesson_list:
 selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", on_change=update_params)
 
 #####
+def image_to_base64(img_path: str) -> str:
+    img = get_thumbnail(img_path)
+    with BytesIO() as buffer:
+        img.save(buffer, 'png') # or 'jpeg'
+        return base64.b64encode(buffer.getvalue()).decode()
+
+def image_formatter(img_path: str) -> str:
+    return f'<img src="data:image/png;base64,{image_to_base64(img_path)}">'
 
 # Display content
 url_prefix = os.getcwd()
@@ -43,6 +52,8 @@ img_html = '''<br>
       </p>
     <br>'''
 
-st.markdown(img_html.replace('<img src="', 'st.image("').replace(' ', ', ').replace('>', ')'), unsafe_allow_html=True)
+#st.markdown(img_html, unsafe_allow_html=True)
 
-st.image('./img/lesson-2-data-science-life-cycle.png')
+#st.image('./img/lesson-2-data-science-life-cycle.png')
+
+image_formatter('./img/lesson-2-data-science-life-cycle.png')
