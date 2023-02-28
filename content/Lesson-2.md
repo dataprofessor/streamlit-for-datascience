@@ -145,7 +145,7 @@ df
 which should yield the following DataFrame:
 
 <p align="left">
-  <img src="./img/lesson-2-pandas-df-output.png" width="60%">
+  <img src="../img/lesson-2-pandas-df-output.png" width="60%">
 </p>
 
 As we can see, the DataFrame could be thought of as an $m×n$ matrix with $m$ rows and $n$ columns.
@@ -158,7 +158,7 @@ df['MolLogP']
 ```
 which produces the following Series output:
 <p align="left">
-  <img src="./img/lesson-2-pandas-select-columns.png" width="45%">
+  <img src="../img/lesson-2-pandas-select-columns.png" width="45%">
 </p>
 
 **Selecting multiple columns**
@@ -169,6 +169,6 @@ df[['MolLogP','MolWt']]
 ```
 which produces the following DataFrame output:
 <p align="left">
-  <img src="./img/lesson-2-pandas-select-multiple-columns.png" width="22%">
+  <img src="../img/lesson-2-pandas-select-multiple-columns.png" width="22%">
 </p>
 
