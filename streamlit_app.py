@@ -25,9 +25,11 @@ selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", o
 #####
 
 # Display content
+url_prefix = 'https://github.com/dataprofessor/streamlit-for-datascience/blob/master'
+    
 for i in lesson_list:
     if selected_day == i:
         #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
-            st.markdown(f.read().replace('<img src="../img', '<img src="img'), unsafe_allow_html=True)
+            st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
