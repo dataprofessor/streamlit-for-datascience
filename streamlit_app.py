@@ -65,7 +65,7 @@ for i in lesson_list:
 img_url = './img/lesson-2-data-science-life-cycle.png'
 img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
 
-st.write( img_html.replace('<img src=', '').replace(' width="', ' ').replace('">', '').split(' ') )
+st.write( img_html.replace('<img src="', '').replace('" width="', ' ').replace('">', '').split(' ') )
 
 #def img_display(input):
 #    input.replace('<img src=', '').
