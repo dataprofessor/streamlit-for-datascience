@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import glob
 import os
+import base64
 from pathlib import Path
 from utilities import load_bootstrap
 
