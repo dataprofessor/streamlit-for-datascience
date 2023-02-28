@@ -94,7 +94,7 @@ x4 = np.array([[[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8]],
 ```
 
 <p align="center">
-  <img src="./img/lesson-2-numpy-tensor-illustration.png" width="50%">
+  <img src="../img/lesson-2-numpy-tensor-illustration.png" width="50%">
 </p>
 
 As summarized above, a vector is an array of scalar, a matrix is an array of vectors and the 3D tensor is an array of matrix.
