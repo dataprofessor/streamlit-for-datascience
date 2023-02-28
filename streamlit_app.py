@@ -58,4 +58,8 @@ img_html = '''<br>
 #st.image('./img/lesson-2-data-science-life-cycle.png')
 
 img_url = './img/lesson-2-data-science-life-cycle.png'
-st.markdown( Image.open(io.BytesIO(img_url)), unsafe_allow_html=True )
+img_open = '''
+with open(image, "rb") as f:
+    image_data = f.read()
+'''
+st.markdown( Image.open(io.BytesIO(img_open)), unsafe_allow_html=True )
