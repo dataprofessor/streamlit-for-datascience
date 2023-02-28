@@ -65,6 +65,11 @@ img_html = '''<br>
 img_url = './img/lesson-2-data-science-life-cycle.png'
 img_html = '<img src="./img/lesson-2-data-science-life-cycle.png" width="60%">'
 
+st.write( img_html.split(' ') )
+
+#def img_display(input):
+#    input.replace('<img src=', '').
+
 st.markdown(img_to_html(img_url), unsafe_allow_html=True)
 
-st.markdown(img_to_html(  img_html.replace('<img src=', '').replace(' ', ', ').replace('>', '')  ), unsafe_allow_html=True)
+st.markdown(img_to_html(  img_display(img_html)  ), unsafe_allow_html=True)
