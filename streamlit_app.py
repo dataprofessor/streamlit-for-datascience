@@ -34,4 +34,4 @@ for i in lesson_list:
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
             st.markdown(f.read().replace('<img src="../img', f'<img src="{url_prefix}/img'), unsafe_allow_html=True)
-            st.write(os.getcwd())
+            st.write(os.listdir(os.getcwd()))
