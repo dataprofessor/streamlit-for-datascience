@@ -27,7 +27,7 @@ selected_day = st.selectbox('Select a Lesson 👇', lesson_list, key="lesson", o
 # Display content
 for i in lesson_list:
     if selected_day == i:
-        st.markdown(f'# 🗓️ {i}')
+        #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
             st.markdown(f.read())
