@@ -3,7 +3,7 @@ from PIL import Image
 import glob
 
 def update_params():
-    st.experimental_set_query_params(challenge=st.session_state.day)
+    st.experimental_set_query_params(lesson=st.session_state.lesson)
 
 md_files = sorted([int(x.strip('lesson-').strip('.md')) for x in glob.glob1('content',"*.md") ])
 
