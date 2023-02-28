@@ -63,4 +63,4 @@ img_html = '''<br>
 
 img_url = './img/lesson-2-data-science-life-cycle.png'
 
-st.markdown(img_to_html(img_url, unsafe_allow_html=True)
+st.markdown(img_to_html(img_url), unsafe_allow_html=True)
