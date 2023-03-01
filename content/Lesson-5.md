@@ -129,5 +129,5 @@ df.aggregate(['max','min', 'mean'])
 ```
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-multiple-aggregate.png" height="140">
+  <img src="../img/lesson-5-pandas-multiple-aggregate.png" height="145">
 </p>
