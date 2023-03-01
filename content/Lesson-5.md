@@ -89,7 +89,7 @@ Examples of aggregates and their corresponding methods in parenthesis.
 
 Let's start by computing a single type of aggregate, that is either each of the count, minimum, maximum, mean, etc., one at a time. 
 
-#### Mean
+#### All columns in a DataFrame
 
 In practice, if you would like to determine the mean for all columns in a DataFrame, you can apply the `mean()` method on the `df` DataFrame:
 ```Python
@@ -104,6 +104,8 @@ AromaticProportion      0.364932
 logS                   -3.057997
 dtype: float64
 ```
+
+#### Single columns in a DataFrame
 
 To compute the mean for a single column, one can start by selecting the column as in `df.MolLogP` followed by applying `mean()` on the selected column.
 
