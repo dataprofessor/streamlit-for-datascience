@@ -105,7 +105,7 @@ logS                   -3.057997
 dtype: float64
 ```
 
-#### Single columns in a DataFrame
+#### Single column in a DataFrame
 
 To compute the mean for a single column, one can start by selecting the column as in `df.MolLogP` followed by applying `mean()` on the selected column.
 
