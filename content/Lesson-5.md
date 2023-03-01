@@ -139,7 +139,7 @@ Different aggregations per column.
 df.agg({'MolLogP' : ['min', 'mean', 'max'], 'logS' : ['median', 'max']})
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-multiple-aggregate-different-agg-per-column.png" height="145">
+  <img src="../img/lesson-5-pandas-multiple-aggregate-different-agg-per-column.png" height="165">
 </p>
 
 Aggregate different measures over the columns and rename the index of the resulting DataFrame.
