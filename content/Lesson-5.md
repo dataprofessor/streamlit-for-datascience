@@ -59,6 +59,7 @@ df
 ```
 <p align="left">
   <img src="../img/lesson-5-pandas-transpose-df.png" height="420">
+  
 </p>
 
 To transpose, we'll simply add `T` as a suffix to `df`:
@@ -70,4 +71,36 @@ df.T
 </p>
 
 Here, we can see that the 1144 rows and 5 columns of the first DataFrame became 5 rows and 1144 columns in the second DataFrame.
+
+## Aggregates
+
+Aggregates is a way of summarizing a collection of values into a single value. 
+
+Examples of aggregates:
+- Count, 
+- Minimum, 
+- Maximum
+- Mean
+- Standard deviation
+
+### Single aggregate
+
+In practice, if you would like to determine the mean for all columns in a DataFrame, you can apply the `mean()` method on the `df` DataFrame:
+```Python
+df.mean()
+```
+This generates the corresponding mean values for all columns:
+```
+MolLogP                 2.449133
+MolWt                 204.631675
+NumRotatableBonds       2.173951
+AromaticProportion      0.364932
+logS                   -3.057997
+dtype: float64
+```
+
+
+
+### Multiple aggregate
+
 
