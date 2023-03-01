@@ -76,15 +76,14 @@ Here, we can see that the 1144 rows and 5 columns of the first DataFrame became 
 
 Aggregates is a way of summarizing a collection of values into a single value. 
 
-Examples of aggregates:
-- Count
-- Minimum
-- Maximum
-- Mean
-- Median
-- Mode
-- Sum
-- Standard deviation
+Examples of aggregates and their corresponding methods in parenthesis.
+- Count (`count()`)
+- Minimum (`min()`)
+- Maximum (`max()`)
+- Mean (`mean()`)
+- Median (`median()`)
+- Sum (`sum()`)
+- Standard deviation (`std()`)
 
 ### Single aggregate
 
