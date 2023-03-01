@@ -124,10 +124,27 @@ In the above section, we can also retrieve a single aggregate measure at a time,
 
 The `aggregate()` or its alias `agg()` methods can be used to retrieve multiple aggregate measures at the same time.
 
+Aggregate these functions over the rows.
+
 ```Python
 df.aggregate(['max','min', 'mean'])
 ```
-
 <p align="left">
   <img src="../img/lesson-5-pandas-multiple-aggregate.png" height="145">
 </p>
+
+Different aggregations per column.
+
+```Python
+df.agg({'MolLogP' : ['min', 'mean', 'max'], 'logS' : ['median', 'max']})
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-multiple-aggregate-different-agg-per-column.png" height="145">
+</p>
+
+Aggregate different measures over the columns and rename the index of the resulting DataFrame.
+
+```Python
+df.agg(Max=('MolLogP', 'max'), Min=('MolWt', 'min'), Mean_value=('logS', 'mean'))
+```
+
