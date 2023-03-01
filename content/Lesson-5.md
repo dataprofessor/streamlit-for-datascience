@@ -52,3 +52,21 @@ Name: NumRotatableBonds, dtype: int64
 ### Transpose
 
 To transpose a DataFrame we can use the `dataframe.T` function. A DataFrame is transposed when the rows and columns become inverted meaning that what was once the column will now become the rows and vice versa.
+
+```Python
+df
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-transpose-df.png" height="420">
+</p>
+
+
+```Python
+df.T
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-transpose-dfT.png" height="250">
+</p>
+
+
+
