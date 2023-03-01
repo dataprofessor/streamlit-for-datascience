@@ -59,7 +59,6 @@ df
 ```
 <p align="left">
   <img src="../img/lesson-5-pandas-transpose-df.png" height="420">
-  
 </p>
 
 To transpose, we'll simply add `T` as a suffix to `df`:
@@ -121,4 +120,14 @@ This produces the mean value for the column of interest:
 
 ### Multiple aggregate
 
+In the above section, we can also retrieve a single aggregate measure at a time, for example, we can obtain the mean value if we apply the `mean()` method or the sum value if we apply the `sum()` method.
 
+The `aggregate()` or its alias `agg()` methods can be used to retrieve multiple aggregate measures at the same time.
+
+```Python
+df.aggregate(['max','min', 'mean'])
+```
+
+<p align="left">
+  <img src="../img/lesson-5-pandas-multiple-aggregate.png" height="220">
+</p>
