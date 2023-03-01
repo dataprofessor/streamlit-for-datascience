@@ -65,7 +65,7 @@ df
 df.T
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-transpose-dfT.png" height="250">
+  <img src="../img/lesson-5-pandas-transpose-dfT.png" height="220">
 </p>
 
 
