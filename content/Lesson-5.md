@@ -77,13 +77,20 @@ Here, we can see that the 1144 rows and 5 columns of the first DataFrame became 
 Aggregates is a way of summarizing a collection of values into a single value. 
 
 Examples of aggregates:
-- Count, 
-- Minimum, 
+- Count
+- Minimum
 - Maximum
 - Mean
+- Median
+- Mode
+- Sum
 - Standard deviation
 
 ### Single aggregate
+
+Let's start by computing a single type of aggregate, that is either each of the count, minimum, maximum, mean, etc., one at a time. 
+
+#### Mean
 
 In practice, if you would like to determine the mean for all columns in a DataFrame, you can apply the `mean()` method on the `df` DataFrame:
 ```Python
@@ -99,7 +106,15 @@ logS                   -3.057997
 dtype: float64
 ```
 
+To compute the mean for a single column, one can start by selecting the column as in `df.MolLogP` followed by applying `mean()` on the selected column.
 
+```Python
+df.MolLogP.mean()
+```
+This produces the mean value for the column of interest:
+```
+2.4491331818181825
+```
 
 ### Multiple aggregate
 
