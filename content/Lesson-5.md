@@ -186,3 +186,6 @@ df
   <img src="../img/lesson-5-pandas-label-data-subset.png" height="420">
 </p>
 
+### Applying the groupby function
+
+
