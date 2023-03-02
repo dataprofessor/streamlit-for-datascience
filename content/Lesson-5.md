@@ -148,6 +148,6 @@ Aggregate different measures over the columns and rename the index of the result
 df.agg(Max=('MolLogP', 'max'), Min=('MolWt', 'min'), Mean_value=('logS', 'mean'))
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-multiple-aggregate-over-columns.png" height="140">
+  <img src="../img/lesson-5-pandas-multiple-aggregate-over-columns.png" height="135">
 </p>
 
