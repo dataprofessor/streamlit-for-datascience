@@ -8,6 +8,23 @@ In the previous lesson, we've explored how Pandas can be used to perform data wr
 
 Thus, we're going to perform preliminary statistical analysis and generate simple visualizations of the data purely in Pandas without the need to use any external libraries.
 
+## Loading the data
+
+We're going to use the same dataset used in Lesson 4 which is the Delaney solubility data.
+
+Let's start by loading the CSV data and assigning it to the `df` variable:
+```Python
+df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
+df
+```
+
+which yields the following DataFrame:
+
+<p align="left">
+  <img src="../img/lesson-4-pandas-df-output.png" height="420">
+</p>
+
+
 ## Summary Statistics
 
 ### Descriptive Statistics
