@@ -151,3 +151,9 @@ df.agg(Max=('MolLogP', 'max'), Min=('MolWt', 'min'), Mean_value=('logS', 'mean')
   <img src="../img/lesson-5-pandas-multiple-aggregate-over-columns.png" height="130">
 </p>
 
+## Group By
+
+The Group By function is essentially performing the following steps: **split-apply-combine**. For this, we can make use of the `groupby()` method on the Pandas DataFrame.
+
+
+
