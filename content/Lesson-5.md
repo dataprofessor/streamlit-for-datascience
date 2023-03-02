@@ -172,5 +172,17 @@ df.agg(Max=('MolLogP', 'max'), Min=('MolWt', 'min'), Mean_value=('logS', 'mean')
 
 The Group By function is essentially performing the following steps: **split-apply-combine**. For this, we can make use of the `groupby()` method on the Pandas DataFrame.
 
+### Preparing the data
 
+Before we can proceed to using the Group By function, let's first prepare our data to have categorical labels.
+
+Particularly, we're going to create subset our dataset by labeling rows having `MolWt < 300` as `small` while those having `MolWt >= 300` as `large`. Such new labels will be assigned to a new column called `MolWt_class`.
+
+```Python
+df['MolWt_class'] = pd.Series(['small' if x < 300 else 'large' for x in df['MolWt']])
+df
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-label-data-subset.png" height="420">
+</p>
 
