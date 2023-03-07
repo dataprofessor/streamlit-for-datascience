@@ -12,7 +12,7 @@
 - [**Lesson 2** - Getting up to speed with Data Science](./content/lesson-2.md)
 - [**Lesson 3** - Numerical processing with NumPy](./content/lesson-3.md)
 - [**Lesson 4** - Data wrangling with Pandas](./content/lesson-4.md)
-- [**Lesson 5** - 📓 Lesson 5 - Exploratory Data Analysis with Pandas](./content/lesson-5.md)
+- [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/lesson-5.md)
 - 
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
