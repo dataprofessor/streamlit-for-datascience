@@ -191,13 +191,13 @@ df
 Now that we have prepared our data to have categorical labels for the `MolWt` column, let's apply the groupby function on this column followed by chaining subsequent methods such as `describe()`, `mean()`, `agg()`, etc.
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-groupby-describe.png" height="220">
+  <img src="../img/lesson-5-pandas-groupby-describe.png" height="200">
 </p>
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-groupby-mean.png" height="220">
+  <img src="../img/lesson-5-pandas-groupby-mean.png" height="160">
 </p>
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-groupby-agg.png" height="220">
+  <img src="../img/lesson-5-pandas-groupby-agg.png" height="180">
 </p>
