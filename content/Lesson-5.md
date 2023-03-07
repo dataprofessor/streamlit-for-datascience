@@ -215,3 +215,12 @@ df.groupby('MolWt_class').agg(['mean', 'min', 'max'])
 <p align="left">
   <img src="../img/lesson-5-pandas-groupby-agg.png" height="170">
 </p>
+
+> 💡 **Note:** The same principle also applies to the remaining aggregate measures such as:
+> - Count (`count()`)
+> - Minimum (`min()`)
+> - Maximum (`max()`)
+> - Mean (`mean()`)
+> - Median (`median()`)
+> - Sum (`sum()`)
+> - Standard deviation (`std()`)
