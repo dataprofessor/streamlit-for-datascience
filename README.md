@@ -13,7 +13,7 @@
 - [**Lesson 3** - Numerical processing with NumPy](./content/Lesson-3.md)
 - [**Lesson 4** - Data wrangling with Pandas](./content/Lesson-4.md)
 - [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/Lesson-5.md)
-- 
+
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet) - All Streamlit commands on one-page.
