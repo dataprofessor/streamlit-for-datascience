@@ -224,3 +224,11 @@ df.groupby('MolWt_class').agg(['mean', 'min', 'max'])
 > - Median (`median()`)
 > - Sum (`sum()`)
 > - Standard deviation (`std()`)
+
+## Sort values
+
+
+
+
+
+
