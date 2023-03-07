@@ -188,4 +188,4 @@ df
 
 ### Applying the groupby function
 
-
+Now that we have prepared our data to have categorical labels for the `MolWt` column, let's apply the groupby function on this column followed by chaining subsequent methods such as `describe()`, `mean()`, `agg()`, etc.
