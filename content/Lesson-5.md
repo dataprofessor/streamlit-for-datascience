@@ -188,16 +188,30 @@ df
 
 ### Applying the groupby function
 
-Now that we have prepared our data to have categorical labels for the `MolWt` column, let's apply the groupby function on this column followed by chaining subsequent methods such as `describe()`, `mean()`, `agg()`, etc.
+Now that we have prepared our data to have categorical labels for the `MolWt` column, let's apply the `groupby` function on this column followed by chaining subsequent methods such as `describe()`, `mean()`, `agg()`, etc.
 
+Firstly, we group the data by the `MolWt` column followed by applying the `describe()` method. What we get is the descriptive statistics for the 2 underlying classes of the `MolWt` column namely `large` and `small`.
+```Python
+df.groupby('MolWt_class').describe()
+```
 <p align="left">
   <img src="../img/lesson-5-pandas-groupby-describe.png" height="200">
 </p>
 
+
+Secondly, we group the data by the `MolWt` column followed by applying the `mean()` method. What we get is the mean value for the 2 underlying classes of the `MolWt` column namely `large` and `small`.
+```Python
+df.groupby('MolWt_class').mean()
+```
 <p align="left">
   <img src="../img/lesson-5-pandas-groupby-mean.png" height="145">
 </p>
 
+
+Thirdly, we group the data by the `MolWt` column followed by applying the `agg()` method along with a list of 3 aggregate measures. What we get is the 3 aggregate measures for the 2 underlying classes of the `MolWt` column namely `large` and `small`.
+```Python
+df.groupby('MolWt_class').agg(['mean', 'min', 'max'])
+```
 <p align="left">
   <img src="../img/lesson-5-pandas-groupby-agg.png" height="170">
 </p>
