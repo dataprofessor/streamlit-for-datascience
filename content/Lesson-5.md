@@ -195,9 +195,9 @@ Now that we have prepared our data to have categorical labels for the `MolWt` co
 </p>
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-groupby-mean.png" height="160">
+  <img src="../img/lesson-5-pandas-groupby-mean.png" height="150">
 </p>
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-groupby-agg.png" height="180">
+  <img src="../img/lesson-5-pandas-groupby-agg.png" height="170">
 </p>
