@@ -603,6 +603,26 @@ We can also notice that all other rows that were not mentioned in the row names 
 
 ### Renaming the Index
 
+Let's say that we would like to rename the index values but before doing so, we're going to display the original DataFrame:
+```Python
+df
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-renaming-index-original.png" height="420">
+</p>
+Notice that the index value starts from 0 and ends at 1143.
+
+
+We're going to use the `arange()` method from NumPy to generate a list of values starting from 1 and running up to but not including 1145 (where values proceeds in increment of 1).
+```Python
+df.index = np.arange(1,1145,1)
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-renaming-index-renamed.png" height="420">
+</p>
+Notice that the index value now starts from 1 and ends at 1144.
+
+
 
 
 ## Handling Missing Data
