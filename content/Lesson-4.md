@@ -481,6 +481,8 @@ df.loc[0, 'MolLogP']
 2.5954000000000006
 ```
 
+
+
 #### iloc method
 
 Secondly, **iloc** is a method for filtering rows and selecting columns based on the *position integers*.
@@ -598,6 +600,10 @@ Next, we have the value `2.37650` from row 1 of the `df.MolLogP` column was mult
 Finally, we have the value `2.02164` from row 1143 of the `df.MolLogP` column was multiplied by the value of `10` from row 1143 of the `s1` Series. This multiplication led to a value of `20.2164`.
 
 We can also notice that all other rows that were not mentioned in the row names of the `s1` Series were also not involved in the multiplication operation and thus displayed values of `NaN`.
+
+### Renaming the Index
+
+
 
 ## Handling Missing Data
 
@@ -727,34 +733,4 @@ df.fillna(df.median())
   <img src="../img/lesson-4-pandas-replace-data-median.png" height="420">
 </p>
 
-## Summary statistics
-
-### Descriptive Statistics
-
-### Value counts
-
-
-
-## Transpose data
-
-
-
-## Simple aggregates
-
-
-
-## Aggregate By
-
-
-## Group By
-
-
-## Sort values
-
-
-
-## Plots in Pandas
-
-
-## Write out data
 
