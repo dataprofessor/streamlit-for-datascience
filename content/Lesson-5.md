@@ -240,26 +240,48 @@ df.sort_values(by=['MolLogP'])
 ```
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-sort_values-single-column-basic.png" height="420">
+  <img src="../img/lesson-5-pandas-sort_values-single-column-ascending-true.png" height="420">
 </p>
 Notice how values in the `MolLogP` column now starts from a negative value and ascends (increase) as we scroll down the column. Speaking of ascending values, by default the `ascend` input parameter of the `sort_values()` method defaults to `True` meaning that it will sort values by ascending order like what we had just described.
+
 
 Try explicitly defining `ascending=True` and you'll see that it returns the exact same output as shown above as `ascending` implicitly defaults to True.
 ```Python
 df.sort_values(by=['MolLogP'], ascending=True)
 ```
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-single-column-ascending-true.png" height="420">
+</p>
+
 
 Let's now try sorting the column again using `ascending=False`:
 ```Python
 df.sort_values(by=['MolLogP'], ascending=False)
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-sort_values-single-column-basic-ascending-false.png" height="420">
+  <img src="../img/lesson-5-pandas-sort_values-single-column-ascending-false.png" height="420">
 </p>
 
 
 ### Sorting multiple columns
 
+It may also be helpful to explicitly define the input arguments so as to prevent confusion on whether the columns were sorted in ascending or descending order.
+
 ```Python
-df.sort_values(by=['MolLogP', 'MolWt'])
+df.sort_values(by=['MolLogP', 'MolWt'], ascending=True)
 ```
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-true.png" height="420">
+</p>
+
+
+```Python
+df.sort_values(by=['MolLogP', 'MolWt'], ascending=False)
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-true.png" height="420">
+</p>
+
+
+
+
