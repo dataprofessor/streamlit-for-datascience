@@ -241,8 +241,9 @@ df.sort_values(by=['MolLogP'])
 </p>
 Notice how values in the `MolLogP` column now starts from a negative value and ascends (increase) as we scroll down the column. Speaking of ascending values, by default the `ascend` input parameter of the `sort_values()` method defaults to `True` meaning that it will sort values by ascending order like what we had just described.
 
+Try explicitly defining `ascending=True` and you'll see that it returns the exact same output as shown above as `ascending` implicitly defaults to True.
 
-Try defining explicitly `ascending=True` and you'll see that it returns the exact same output as shown above as `ascending` implicitly defaults to True.
+
 ```Python
 df.sort_values(by=['MolLogP'], ascending=True)
 ```
