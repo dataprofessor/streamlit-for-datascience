@@ -288,7 +288,7 @@ df.sort_values(by=['MolLogP', 'MolWt'], ascending=True)
 df.sort_values(by=['MolLogP', 'MolWt'], ascending=False)
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-true.png" height="420">
+  <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-false.png" height="420">
 </p>
 
 
