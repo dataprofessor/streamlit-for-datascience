@@ -231,7 +231,7 @@ Often times it may be extremely helpful to perform simple tasks like sorting col
 
 Sorting columns in a spreadsheet software like Excel, Sheets or Numbers may be a trivial task of simpling clicking on the column name but for Pandas that may not be the case. Particularly, one can sort values in a Pandas DataFrame by using the `sort_values()` method while specifying which columns as input arguments.
 
-As an example, let's try sorting the DataFrame by a specific column (e.g. `MolLogP`):
+As an example, let's try sorting the DataFrame by a specific column (e.g. `MolLogP`).
 ```Python
 df.sort_values(by=['MolLogP'])
 ```
@@ -239,5 +239,9 @@ df.sort_values(by=['MolLogP'])
 <p align="left">
   <img src="../img/lesson-5-pandas-sort_values-single-column-basic.png" height="420">
 </p>
+Notice how values in the `MolLogP` column now starts from a negative value and ascends (increase) as we scroll down the column. Speaking of ascending values, by default the `ascend` input parameter of the `sort_values()` method defaults to `True` meaning that it will sort values by ascending order like what we had just described.
 
-
+Try defining explicitly `ascending=True` and you'll see that it returns the exact same output as shown above as `ascending` implicitly defaults to True.
+```Python
+df.sort_values(by=['MolLogP'], ascending=True)
+```
