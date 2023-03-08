@@ -227,8 +227,17 @@ df.groupby('MolWt_class').agg(['mean', 'min', 'max'])
 
 ## Sort values
 
+Often times it may be extremely helpful to perform simple tasks like sorting columns while exploring the data. Such task would help in figuring out which rows afforded high or low values (or any obvious trends that can be readily detected visually) for columns of interests. 
 
+Sorting columns in a spreadsheet software like Excel, Sheets or Numbers may be a trivial task of simpling clicking on the column name but for Pandas that may not be the case. Particularly, one can sort values in a Pandas DataFrame by using the `sort_values()` method while specifying which columns as input arguments.
 
+As an example, let's try sorting the DataFrame by a specific column (e.g. `MolLogP`):
+```Python
+df.sort_values(by=['MolLogP'])
+```
 
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-single-column-basic.png" height="420">
+</p>
 
 
