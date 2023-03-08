@@ -24,16 +24,38 @@ which yields the following DataFrame:
   <img src="../img/lesson-4-pandas-df-output.png" height="420">
 </p>
 
-## Basic information
+
+## Data dimension
 
 To look at the dimensionality of the DataFrame, we can use the `shape` method:
 ```Python
 df.shape
 ```
+This outputs the number of rows and columns as a tuple. 
 ```
 (1144, 5)
 ```
 
+## Basic information about the DataFrame
+
+```Python
+df.info()
+```
+This outputs the following information about the DataFrame namely the column name, non-null count and the data type:
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1144 entries, 0 to 1143
+Data columns (total 5 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   MolLogP             1144 non-null   float64
+ 1   MolWt               1144 non-null   float64
+ 2   NumRotatableBonds   1144 non-null   float64
+ 3   AromaticProportion  1144 non-null   float64
+ 4   logS                1144 non-null   float64
+dtypes: float64(5)
+memory usage: 44.8 KB
+```
 
 
 ## Descriptive Statistics
