@@ -229,6 +229,9 @@ df.groupby('MolWt_class').agg(['mean', 'min', 'max'])
 
 Often times it may be extremely helpful to perform simple tasks like sorting columns while exploring the data. Such task would help in figuring out which rows afforded high or low values (or any obvious trends that can be readily detected visually) for columns of interests. 
 
+
+### Sorting a single column
+
 Sorting columns in a spreadsheet software like Excel, Sheets or Numbers may be a trivial task of simpling clicking on the column name but for Pandas that may not be the case. Particularly, one can sort values in a Pandas DataFrame by using the `sort_values()` method while specifying which columns as input arguments.
 
 As an example, let's try sorting the DataFrame by a specific column (e.g. `MolLogP`).
@@ -242,8 +245,21 @@ df.sort_values(by=['MolLogP'])
 Notice how values in the `MolLogP` column now starts from a negative value and ascends (increase) as we scroll down the column. Speaking of ascending values, by default the `ascend` input parameter of the `sort_values()` method defaults to `True` meaning that it will sort values by ascending order like what we had just described.
 
 Try explicitly defining `ascending=True` and you'll see that it returns the exact same output as shown above as `ascending` implicitly defaults to True.
-
-
 ```Python
 df.sort_values(by=['MolLogP'], ascending=True)
+```
+
+Let's now try sorting the column again using `ascending=False`:
+```Python
+df.sort_values(by=['MolLogP'], ascending=False)
+```
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-single-column-basic-ascending-false.png" height="420">
+</p>
+
+
+### Sorting multiple columns
+
+```Python
+df.sort_values(by=['MolLogP', 'MolWt'])
 ```
