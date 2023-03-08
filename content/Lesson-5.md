@@ -24,10 +24,19 @@ which yields the following DataFrame:
   <img src="../img/lesson-4-pandas-df-output.png" height="420">
 </p>
 
+## Basic information
 
-## Summary Statistics
+To look at the dimensionality of the DataFrame, we can use the `shape` method:
+```Python
+df.shape
+```
+```
+(1144, 5)
+```
 
-### Descriptive Statistics
+
+
+## Descriptive Statistics
 
 The `describe()` function allows you to quickly compute descriptive statistics.
 
@@ -35,7 +44,7 @@ The `describe()` function allows you to quickly compute descriptive statistics.
   <img src="../img/lesson-5-pandas-describe.png" height="310">
 </p>
 
-### Value Counts
+## Value Counts
 
 To examine the distribution of values for categorical values from any given column, we can use the `value_counts()` function.
 
@@ -66,7 +75,7 @@ which yields the following output:
 Name: NumRotatableBonds, dtype: int64
 ```
 
-### Transpose
+## Transpose
 
 To transpose a DataFrame we can use the `dataframe.T` function. A DataFrame is transposed when the rows and columns become inverted meaning that what was once the column will now become the rows and vice versa.
 
