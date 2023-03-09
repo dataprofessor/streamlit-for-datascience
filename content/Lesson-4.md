@@ -665,6 +665,7 @@ df
 </p>
 
 
+
 ## Handling Missing Data
 
 Let's now consider how to handle missing data and in order to do that, sometimes it is also helpful to consider the non-missing data.
