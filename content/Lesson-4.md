@@ -603,6 +603,7 @@ We can also notice that all other rows that were not mentioned in the row names 
 
 ### Renaming the Index
 
+#### Renumbering the index
 Let's say that we would like to rename the index values but before doing so, we're going to display the original DataFrame:
 ```Python
 df
@@ -622,6 +623,9 @@ df.index = np.arange(1,1145,1)
 </p>
 Notice that the index value now starts from 1 and ends at 1144.
 
+#### 
+
+What if we would like to use strings as part of the index name, we certainly can.
 
 
 
