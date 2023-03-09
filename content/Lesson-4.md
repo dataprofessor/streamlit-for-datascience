@@ -623,10 +623,27 @@ df.index = np.arange(1,1145,1)
 </p>
 Notice that the index value now starts from 1 and ends at 1144.
 
-#### 
+#### Renaming the index with strings
 
-What if we would like to use strings as part of the index name, we certainly can.
+What if we would like to use strings as part of the index name, such as `mol99`, we certainly can.
 
+Let's start by creating a list of such strings.
+
+```Python
+id_list = []
+for i in np.arange(1,1145,1):
+  a = 'mol'+str(i)
+  id_list.append(a)
+```
+```
+['mol1',
+ 'mol2',
+ 'mol3',
+...
+ 'mol1142',
+ 'mol1143',
+ 'mol1144']
+```
 
 
 ## Handling Missing Data
