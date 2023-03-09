@@ -609,7 +609,7 @@ Let's say that we would like to rename the index values but before doing so, we'
 df
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-renaming-index-original.png" height="420">
+  <img src="../img/lesson-4-pandas-renaming-index-original.png" height="420">
 </p>
 Notice that the index value starts from 0 and ends at 1143.
 
@@ -619,7 +619,7 @@ We're going to use the `arange()` method from NumPy to generate a list of values
 df.index = np.arange(1,1145,1)
 ```
 <p align="left">
-  <img src="../img/lesson-5-pandas-renaming-index-renamed.png" height="420">
+  <img src="../img/lesson-4-pandas-renaming-index-renamed.png" height="420">
 </p>
 Notice that the index value now starts from 1 and ends at 1144.
 
@@ -644,6 +644,25 @@ for i in np.arange(1,1145,1):
  'mol1143',
  'mol1144']
 ```
+
+A one-liner version can also be used:
+```Python
+id_list = ['mol'+str(i) for i in np.arange(1,1145,1)]
+```
+
+Finally, we'll replace the index values with the newly generated ones:
+```Python
+df.index = id_list
+```
+
+The DataFrame should now show the new index values:
+```Python
+df
+```
+
+<p align="left">
+  <img src="../img/lesson-4-pandas-renaming-index-renamed-strings.png" height="420">
+</p>
 
 
 ## Handling Missing Data
