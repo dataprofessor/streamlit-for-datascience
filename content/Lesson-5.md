@@ -280,6 +280,32 @@ df.sort_values(by=['MolLogP', 'MolWt'], ascending=False)
   <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-false.png" height="420">
 </p>
 
+### Saving the sorted values to the DataFrame
 
+It is important to note that the sorted values in the examples above is not yet saved to the DataFrame as the above code simply "shows" the sorted values. To save the sorted values to the DataFrame, one needs to specify the input argument of `inplace=True`.
+
+Let's sort the DataFrame without the `inplace` specified to `True`:
+
+```Python
+df.sort_values(by=['MolLogP', 'MolWt'], ascending=False)
+```
+
+Next, let's return the output from the `df` DataFrame:
+
+<p align="left">
+  <img src="../img/lesson-4-pandas-df-output.png.png" height="420">
+</p>
+
+We can see from the above that sorted values is not yet saved to the DataFrame.
+
+So to save the following sorted DataFrame, we would use the following code:
+
+```Python
+df.sort_values(by=['MolLogP', 'MolWt'], ascending=False, inplace=True)
+```
+
+<p align="left">
+  <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-false.png" height="420">
+</p>
 
 
