@@ -26,7 +26,14 @@ import numpy as np
 
 ## 3. Data structures in NumPy
 
-Let's consider a simple use case of NumPy for creating various data structures particularly tensors. Particularly, we'll use the `np.array()` method to create scalar, vector, matrix and a 3D tensor:
+Let's consider a simple use case of NumPy for creating data structure known as tensors. 
+
+Before proceeding further, let's consider the following characteristics of tensors:
+- It can be thought of as a container of data that can be numerical or character. 
+- It can be used to represent high-dimensional data and complex relationships between variables.
+- It can be of various dimensionality (e.g. 0D, 1D, 2D and 3D).
+
+Particularly, we'll use the `np.array()` method to create scalar, vector, matrix and a 3D tensor:
 ```Python
 # Create a scalar (0D Tensor)
 x1 = np.array(0)
