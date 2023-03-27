@@ -96,6 +96,35 @@ array([[0, 1, 2],
        [6, 7, 8]])
 ```
 
+Finally, we can assign the returned output of the data matrix mentioned above to a variable called `x3_matrix` as follows:
+
+```Python
+x3_matrix = x3.reshape((3, 3))
+```
+
 ## Stacking arrays
 
-Another operation that we can do is array stacking. Particularly, we can stack multiple arrays into a single array. You can stack arrays horizontally (i.e. along their columns) or vertically (i.e. along their rows) using the `hstack()` and vstack()` methods, respectively.
+Another operation that we can do is array stacking. Particularly, we can stack multiple arrays into a single array. You can stack arrays horizontally (i.e. along their columns) or vertically (i.e. along their rows) using the `hstack()` and `vstack()` methods, respectively.
+
+### Creating multiple arrays
+
+Let's start by creating two 1D arrays containing 3 elements each. 
+```Python
+import numpy as np
+
+array1 = np.array([1, 2, 3])
+array2 = np.array([4, 5, 6])
+```
+
+### Stack the arrays vertically
+
+Here, we'll vertically stack the 2 arrays as follows:
+```Python
+np.vstack((array1, array2))
+```
+
+Finally, we can assign this to a variable called `2d_stack`:
+```Python
+2d_stack = np.vstack((array1, array2))
+```
+
