@@ -95,3 +95,7 @@ array([[0, 1, 2],
        [3, 4, 5],
        [6, 7, 8]])
 ```
+
+## Stacking arrays
+
+Another operation that we can do is array stacking. Particularly, we can stack multiple arrays into a single array. You can stack arrays horizontally (i.e. along their columns) or vertically (i.e. along their rows) using the `hstack()` and vstack()` methods, respectively.
