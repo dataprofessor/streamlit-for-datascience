@@ -104,7 +104,7 @@ x3_matrix = x3.reshape((3, 3))
 
 ## Stacking arrays
 
-Another operation that we can do is array stacking. Particularly, we can stack multiple arrays into a single array. You can stack arrays horizontally (i.e. along their columns) or vertically (i.e. along their rows) using the `hstack()` and `vstack()` methods, respectively.
+Another operation that we can do is array stacking. Particularly, we can stack multiple arrays into a single array. You can stack arrays horizontally (i.e. along their columns) or vertically (i.e. along their rows) using NumPy's `hstack()` and `vstack()` methods, respectively.
 
 ### Creating multiple arrays
 
@@ -128,3 +128,24 @@ Finally, we can assign this to a variable called `2d_stack`:
 2d_stack = np.vstack((array1, array2))
 ```
 
+## Unstack arrays
+
+In the previous section, we've stacked arrays and in this section we're going to see how we can unstack them.
+
+### Creating the stacked arrays for this example
+
+Before we can show how to unstack a stacked array, we're first going to create one first.
+
+```Python
+import numpy as np
+
+stacked = np.array([[1, 2, 3],[4, 5, 6]])
+```
+
+### Unstacking the stacked array
+
+To unstack the stacked array, we're going to use NumPy's `split()` method:
+
+```Python
+np.split(stacked, 2)
+```
