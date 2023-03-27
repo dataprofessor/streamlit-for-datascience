@@ -9,7 +9,7 @@ Here are some of the following features that NumPy can do:
 - Random number generation
 - etc.
 
-## 1. Installing NumPy
+## Installing NumPy
 
 Let's start by installing NumPy that can be performed as follows:
 
@@ -17,14 +17,14 @@ Let's start by installing NumPy that can be performed as follows:
 pip install numpy
 ```
 
-## 2. Using NumPy
+## Using NumPy
 
 To start using Numpy, we can import NumPy as follows:
 ```Python
 import numpy as np
 ```
 
-## 3. Data structures in NumPy
+## Data structures in NumPy
 
 Let's consider a simple use case of NumPy for creating data structure known as tensors. 
 
@@ -58,3 +58,40 @@ As summarized above, a vector is an array of scalar, a matrix is an array of vec
 
 Now that we have taken a quick glance at NumPy, let's proceed to seeing how we can handle and process data.
 
+## Array manipulation
+
+Previously, we've created a 1-dimensional array (vector) and often times we may need to manipulate arrays to different form in order to suit different data science tasks.
+
+Reshaping arrays will allow us to make changes to the dimensions or data structure of arrays. Particularly, let's say that if we would like to reshape a 1D array into a 2D array, we can use the `reshape()` method that takes a tuple of the new dimension as an input argument.
+
+### Creating a 1D array
+
+```Python
+import numpy as np
+x3 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])
+```
+
+### Determining the data type
+
+To determine the data type of the `x3` variable that we've just created we can use the `type()` function.
+```Python
+type(x3)
+```
+This returns the following:
+```
+numpy.ndarray
+```
+which indicates the NumPy array data type.
+
+### Reshaping 1D to 2D array
+
+We're now going to reshape the 1D array to a 2D array using the `reshape()` method as follows:
+```Python
+x3.reshape((3, 3))
+```
+This will display the 3 by 3 data matrix (2D array) as follows:
+```
+array([[0, 1, 2],
+       [3, 4, 5],
+       [6, 7, 8]])
+```
