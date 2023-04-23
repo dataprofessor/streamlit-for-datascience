@@ -81,7 +81,7 @@ plt.ylabel('Population (millions)')
 plt.show()
 ```
 <details>
-  <summary><i>See code explanation</i></summary>
+<summary><i>See code explanation</i></summary>
 
 Here's a line-by-line breakdown of the code:
   1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
@@ -101,7 +101,43 @@ This gives us the following revised plot (with labels):
 
 Let's perform customization to the plot. To customize the line style and color in our plot, we can pass in additional arguments to the plot function (i.e. `plt.plot()`). 
 
-For example, we can change the line color from the default blue line to a red line. Additionally, the line style can be adjusted to a dashed line by modifying our plot function as follows:
+For example, we can change the line color from the default blue line to a red line by adding `r` as a third argument to the `plt.plot()` function. Additionally, the line style can be adjusted to a dashed line by adding `--` as a third argument. Taken together, we can add `r--` as the third argument as follows:
+```python
+plt.plot(years, population, 'r--')
+```
+
+Adding this to the full code gives us:
+```python
+import matplotlib.pyplot as plt
+
+# Data
+years = [1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+population = [2.5, 3.0, 3.7, 4.5, 5.3, 6.1, 6.9, 7.7]
+
+# Create plot
+plt.plot(years, population, 'r--')
+
+# Add labels
+plt.title('Population Growth')
+plt.xlabel('Year')
+plt.ylabel('Population (millions)')
+
+# Show plot
+plt.show()
+```
+<details>
+<summary><i>See code explanation</i></summary>
+
+Here's a line-by-line breakdown of the code:
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
+  2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
+  3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.  
+  4. **New line of code:** The line is changed to red dashed line via the third argument `r--`.
+  5. Add labels to the plot as well as the X and Y axes.
+  6. Finally, we're going to display the plot via `plt.show()`.
+</details>
+
+And the revised plot (with red dashed line):
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot--red-dashed-line.png" height="320">
 </p>
