@@ -15,10 +15,11 @@ Firstly, open up a terminal window and install Matplotlib via pip as follows:
 pip install matplotlib
 ```
 
-## Creating a basic plot
+## Creating a basic plot using Matplotlib
 
 Let's start by creating a simple plot using Matplotlib. 
 
+## Line graph
 Here, we're going to plot a simple line graph that shows the population growth of a hypothetical city over time using the following code:
 
 ```python
@@ -34,9 +35,23 @@ plt.plot(years, population)
 # Show plot
 plt.show()
 ```
+<details>
+<summary>See code explanation</summary>
+
+Here's a line-by-line breakdown of the code:
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
+  2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
+  3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.
+  4. Finally, we're going to display the plot via `plt.show()`.
+</details>
 
 This gives us the following plot:
 
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot.png" height="300">
 </p>
+
+
+## Adding labels
+
+
