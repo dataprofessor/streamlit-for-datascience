@@ -88,6 +88,6 @@ Here's a line-by-line breakdown of the code:
   1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
   2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
   3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.
-  4. `New line of code` Add labels to the plot as well as the X and Y axes.
+  4. **New line of code:** Add labels to the plot as well as the X and Y axes.
   5. Finally, we're going to display the plot via `plt.show()`.
 </details>
