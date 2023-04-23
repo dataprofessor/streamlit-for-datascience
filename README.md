@@ -14,7 +14,6 @@
 - [**Lesson 4** - Data wrangling with Pandas](./content/Lesson-4.md)
 - [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/Lesson-5.md)
 - [**Lesson 6** - Data Visualization with Matplotlib](./content/Lesson-6.md)
-
 - **Project 1** - Building an Exploratory Data Analysis app
 - **Project 2** - Building a Machine Learning app
 - **Project 3** - Building a Dashboard
