@@ -308,4 +308,7 @@ df.sort_values(by=['MolLogP', 'MolWt'], ascending=False, inplace=True)
   <img src="../img/lesson-5-pandas-sort_values-multiple-column-ascending-false.png" height="420">
 </p>
 
+## Summary
+
+In this lesson, you've learned how to use Pandas for exploring data by performing descriptive statistics, which essentially allows us to summarize the data. Some of the topics that we had covered included descriptive statistics, transpose, aggregates, group by and sorting values. We're going to take a look at using data visualization to explore data in a subsequent lesson.
 
