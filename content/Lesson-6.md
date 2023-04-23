@@ -141,3 +141,33 @@ And the revised plot gives us the red dashed line:
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot--red-dashed-line.png" height="320">
 </p>
+
+## Adding data points
+
+We can also add data points to the plot by using the `plt.scatter()` function and while we're at it, let's also color the data points black (`c='k'`) and translucent (`alpha=0.6`):
+```python
+plt.scatter(years, population, c='k', alpha=0.6)
+```
+
+Adding this to the full code gives us the revised code:
+```python
+import matplotlib.pyplot as plt
+
+# Data
+years = [1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+population = [2.5, 3.0, 3.7, 4.5, 5.3, 6.1, 6.9, 7.7]
+
+# Create plot
+plt.plot(years, population, 'r--')
+plt.scatter(years, population, c='k', alpha=0.6)
+
+# Add labels
+plt.title('Population Growth')
+plt.xlabel('Year')
+plt.ylabel('Population (millions)')
+
+# Show plot
+plt.show()
+```
+
+And the revised plot gives us additional translucent, black data points:
