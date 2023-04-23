@@ -2,14 +2,15 @@
 
 ## Table of Contents
 1. [What is Data Science?](#1-what-is-data-science)
-2. [Hardware for Data Science](#2-hardware-for-data-science)
-3. [Toolkits for Data Science](#3-toolkits-for-data-science)
-4. [NumPy](#3-numpy)
-5. [Pandas](#4-pandas)
+2. [Process of data science](#2-process-of-data-science)
+3. [Hardware for Data Science](#3-hardware-for-data-science)
+4. [Toolkits for Data Science](#4-toolkits-for-data-science)
 
 ## 1. What is Data Science?
 
 Data science boils down to the conversion of data to knowledge and insights. At a high-level, the science of data science implies that we're appying the scientific methodology to tackle data problems that essentially starts with the formulation of a working hypothesis or initial assumptions that you have. From there, you can decide which particular data to collect and perform the analysis.
+
+## 2. Process of data science
 
 This involves a series of steps and the typical data science process can best be summarized by data frameworks such as [OSEMN](https://web.archive.org/web/20211219192027/http://www.dataists.com/2010/09/a-taxonomy-of-data-science/) that encompasses the following steps involving data:
 - **Obtain** - Any data projects essentially starts with access to data and one can do this by compiling a dataset based on objectives of projects.
@@ -26,14 +27,14 @@ Taking a step back for a high-level overview of a typical data project can be su
   </p>
 <br>
   
-## 2. Hardware for Data Science
+## 3. Hardware for Data Science
 
 Fundamentally, any hardware that you have access to will be sufficient for the purpose of writing code, perform analysis and testing the creation of Streamlit apps. This can be a laptop, desktop or a computer hosted on the cloud. Such computers could run on a variety of operating systems including Windows, Mac OSX or Linux.
 
 On top of these hardware, just make sure to have a working [Python](https://www.python.org/) environment and we're good to go.
 
 
-## 3. Toolkits for Data Science
+## 4. Toolkits for Data Science
 
 Now that we have a fundamental knowledge of data science and the hardware, let's take a look at the tools of the trade.
 
