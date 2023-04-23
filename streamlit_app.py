@@ -38,7 +38,7 @@ for i in lesson_list:
         with open(f'content/{j}.md', 'r') as f:
             page_content = f.read().replace('../img', 'app/img')
             html_content = markdown.markdown(page_content)
-            components.html(html_content)
+            components.html(html_content, width=500, height=500)
             #st.markdown(page_content, unsafe_allow_html=True)
             
 
