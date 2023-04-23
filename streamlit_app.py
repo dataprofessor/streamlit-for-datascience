@@ -1,8 +1,9 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from PIL import Image
 import glob
 import os
-import base64
+
 
 def update_params():
     st.experimental_set_query_params(course=st.session_state.lesson)
@@ -35,7 +36,8 @@ for i in lesson_list:
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
             page_content = f.read().replace('../img', 'app/img')
-            st.markdown(page_content, unsafe_allow_html=True)
+            components.html(page_content)
+            #st.markdown(page_content, unsafe_allow_html=True)
             
 
 
