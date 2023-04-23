@@ -17,6 +17,8 @@ A typical workflow for the creation and deployment of Streamlit app is summarize
    <img src="../img/lesson-1-streamlit-workflow.png" width="65%">
 </p>
 
+![]("../img/lesson-1-streamlit-workflow.png")
+
 ## 2. Prerequisites
 
 Here's what you need to use Streamlit:
