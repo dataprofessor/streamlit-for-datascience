@@ -39,7 +39,7 @@ for i in lesson_list:
             
 
 
-           
+#st.markdown("![](lesson-1-streamlit-workflow.png)", unsafe_allow_html=True)
 
 #img_url = 'https://raw.githubusercontent.com/dataprofessor/30days/master/content/images/2C9104F7-CF84-4DAF-9004-52BB4644CF28.png'
 #img_html = f'<img src={img_url} width="500">'
