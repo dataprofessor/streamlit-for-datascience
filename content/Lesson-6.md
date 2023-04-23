@@ -19,7 +19,7 @@ pip install matplotlib
 
 Let's start by creating a simple plot using Matplotlib. 
 
-Here, we're going to plot a simple line graph that shows the population growth of a hypothetical city over time.
+Here, we're going to plot a simple line graph that shows the population growth of a hypothetical city over time using the following code:
 
 ```python
 import matplotlib.pyplot as plt
@@ -34,6 +34,8 @@ plt.plot(years, population)
 # Show plot
 plt.show()
 ```
+
+This gives us the following plot:
 
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot.png" height="300">
