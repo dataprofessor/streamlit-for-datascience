@@ -277,16 +277,16 @@ st.pyplot(fig)
 <summary><i>See code explanation</i></summary>
 
 Here's a line-by-line breakdown of the code:
-  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`. **Likewise, we import `streamlit as st`.** 
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`. **New line of code:** Likewise, we import the Streamlit library using `import streamlit as st`. 
   2. Write out the title of the app via `st.title()`.
   3. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
-  4. Define `fig` and `ax` via `fig, ax = plt.subplots()`, which will be used in `ax.plot()` and `ax.scatter` as well as `st.pyplot(fig)`.
+  4. **New line of code:** Define `fig` and `ax` via `fig, ax = plt.subplots()`, which will be used in `ax.plot()` and `ax.scatter` as well as `st.pyplot(fig)`.
   5. Create the plot via `ax.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.  
   6. The line is changed to red dashed line via the third argument `r--`.
   7. Data points are added via the `ax.scatter` function.
   8. A second green line with green translucent data points are also added here.
   9. Add labels to the plot as well as the X and Y axes.
-  10. Finally, we're going to display the plot via `st.pyplot(fig)` (recall the `fig` variable that we defined earlier).
+  10. **New line of code:** Finally, we're going to display the plot via `st.pyplot(fig)` (recall the `fig` variable that we defined earlier).
 </details>
 
 From the above code box, you can notice that we've added only a few lines of additional code in transforming the above code to a web app. Particularly, these additional lines can easily be spotted when they have `st` (alias of `streamlit`).
