@@ -298,4 +298,4 @@ From the above code box, you can notice that we've added only a few lines of add
 
 ## Summary
 
-In this lesson, we've learned how to install Matplotlib, create and customize a basic line plot, and finally displaying the plot in a Streamlit app.
+In this lesson, we've learned how to install Matplotlib, create and customize a basic line plot, and finally displaying the plot in a Streamlit app. All of this will be taught incrementally so that you can evolve your plot from a basic plot to a more refined one.
