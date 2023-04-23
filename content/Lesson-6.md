@@ -236,10 +236,12 @@ And the revised plot gives us a second green line (and while we're at it red dat
 ## Creating the plot in Streamlit
 
 Before we can reproduce the plot in a Streamlit app, we're going to need to make some minor adjustments to the above code as follows:
-- Firstly, we're going to import the Streamlit library via `import streamlit as st`.
-- Secondly, we're adding the app's title via `st.title()`.
-- Thirdly, we're going to define `fig` and `ax` via `fig, ax = plt.subplots()`, then subsequently replacing `plt` by `ax` for the plot creation (*i.e.* replacing `plt.plot()` by `ax.plot()` nad `plt.scatter()` by `ax.scatter`).
-- Finally, to display the plot in a Streamlit app, instead of `plt.show()`, we're replacing that with `st.pyplot(fig)`.
+1. Import the Streamlit library via `import streamlit as st`.
+2. Adding the app's title via `st.title()`.
+3. Define `fig` and `ax` via `fig, ax = plt.subplots()`, then subsequently replacing `plt` by `ax` for the plot creation (*i.e.* replacing `plt.plot()` by `ax.plot()` nad `plt.scatter()` by `ax.scatter`).
+4. Display the plot in a Streamlit app, instead of `plt.show()`, we're replacing that with `st.pyplot(fig)`.
+
+
 This gives us the following revised code: 
 ```python
 import streamlit as st
