@@ -1,7 +1,7 @@
 # 📓 Lesson 7 - Machine Learning with Scikit-learn
 
 <p align="center">
-  <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="300">
 </p>
 
 Machine learning ...
