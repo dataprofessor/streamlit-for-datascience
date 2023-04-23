@@ -118,7 +118,7 @@ st.write('Hello world!')
 Click on the **See code explanation** toggle button to reveal the explanatory text:
 
 <details>
-<summary>See code explanation</summary>
+<summary><i>See code explanation</summary>
 
 Here's a line-by-line breakdown of the code:
   1. Import the `streamlit` library as `st` (so that we can later refer to `streamlit` literally as `st` instead of having to type the full word `streamlit`.
