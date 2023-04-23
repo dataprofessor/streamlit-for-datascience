@@ -51,7 +51,7 @@ Python library | Brief description | OSEMN phase
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
 
 ### NumPy
-
+NumPy is a Python library for numerical computing by allowing one to work with arrays and matrices of numerical data. NumPy is helpful for data science work because it allows for efficient manipulation and computation of large arrays of data.
 
 ### Pandas
 Pandas is a popular Python library for performing data wrangling and analysis in Python. It provides data structures (*e.g.* DataFrame and Series) for storing and querying data. Pandas also provides a wide range of functions for data cleaning, transformation, and analysis, thereby making it a powerful tool for performing exploratory data analysis and visualization.
