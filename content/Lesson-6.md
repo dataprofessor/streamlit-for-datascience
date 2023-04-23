@@ -171,3 +171,6 @@ plt.show()
 ```
 
 And the revised plot gives us additional translucent, black data points:
+<p align="left">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot--black-data-points.png" height="320">
+</p>
