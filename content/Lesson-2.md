@@ -49,3 +49,7 @@ Python library | Brief description | OSEMN phase
 `Scikit-learn` | Machine learning | Model / iNterpret
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
+
+## Summary
+
+In this lesson, we've taken a high-level look at data science as well as the computing hardware and software for doing data science.
