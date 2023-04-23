@@ -7,8 +7,6 @@
 4. [Setting up your Streamlit workspace](#4-setting-up-your-streamlit-workspace)
 5. [Creating your first Streamlit app](#5-creating-your-first-streamlit-app)
 
-![](../img/lesson-1-streamlit-workflow.png)
-
 ## 1. What is Streamlit?
 
 Streamlit is a Python library that you can use to build interactive data-driven web apps.
