@@ -15,6 +15,10 @@
 - [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/Lesson-5.md)
 - [**Lesson 6** - Data Visualization with Matplotlib](./content/Lesson-6.md)
 
+- **Project 1** - Building an Exploratory Data Analysis app
+- **Project 2** - Building a Machine Learning app
+- **Project 3** - Building a Dashboard
+
 ## Resources
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet) - All Streamlit commands on one-page.
