@@ -36,5 +36,5 @@ plt.show()
 ```
 
 <p align="left">
-  <img src="../img/lesson-6-matplotlib-simple-line-plot.png" height="534">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot.png" height="300">
 </p>
