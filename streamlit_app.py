@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import glob
 import os
+import base64
 
 def update_params():
     st.experimental_set_query_params(course=st.session_state.lesson)
@@ -39,6 +40,15 @@ for i in lesson_list:
 
 
             
+file_ = open("app/img/logo.png", "rb")
+contents = file_.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file_.close()
+
+st.markdown(
+    f'<img src="data:image/png;base64,{data_url}" alt="cat gif">',
+    unsafe_allow_html=True,
+)
 
 #img_url = 'https://raw.githubusercontent.com/dataprofessor/30days/master/content/images/2C9104F7-CF84-4DAF-9004-52BB4644CF28.png'
 #img_html = f'<img src={img_url} width="500">'
