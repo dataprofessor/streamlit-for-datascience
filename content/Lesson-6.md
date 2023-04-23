@@ -54,4 +54,40 @@ This gives us the following plot:
 
 ## Adding labels
 
+Now, we're going to add labels to the X and Y axes:
+```python
+# Add labels
+plt.title('Population Growth')
+plt.xlabel('Year')
+plt.ylabel('Population (millions)')
+```
 
+Adding this to the above code snippet in the above line plot gives us:
+```python
+import matplotlib.pyplot as plt
+
+# Data
+years = [1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+population = [2.5, 3.0, 3.7, 4.5, 5.3, 6.1, 6.9, 7.7]
+
+# Create plot
+plt.plot(years, population)
+
+# Add labels
+plt.title('Population Growth')
+plt.xlabel('Year')
+plt.ylabel('Population (millions)')
+
+# Show plot
+plt.show()
+```
+<details>
+  <summary><i>See code explanation</i></summary>
+
+Here's a line-by-line breakdown of the code:
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
+  2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
+  3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.
+  4. `New line of code` Add labels to the plot as well as the X and Y axes.
+  5. Finally, we're going to display the plot via `plt.show()`.
+</details>
