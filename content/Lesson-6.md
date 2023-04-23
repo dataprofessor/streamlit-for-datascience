@@ -46,7 +46,6 @@ Here's a line-by-line breakdown of the code:
 </details>
 
 This gives us the following plot:
-
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot.png" height="300">
 </p>
@@ -91,3 +90,9 @@ Here's a line-by-line breakdown of the code:
   4. **New line of code:** Add labels to the plot as well as the X and Y axes.
   5. Finally, we're going to display the plot via `plt.show()`.
 </details>
+
+This gives us the following plot:
+<p align="left">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot-labels.png" height="320">
+</p>
+
