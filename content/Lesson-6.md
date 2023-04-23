@@ -91,7 +91,7 @@ Here's a line-by-line breakdown of the code:
   5. Finally, we're going to display the plot via `plt.show()`.
 </details>
 
-This gives us the following revised plot (with labels):
+This gives us the following revised plot with labels:
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot-labels.png" height="320">
 </p>
@@ -137,7 +137,7 @@ Here's a line-by-line breakdown of the code:
   6. Finally, we're going to display the plot via `plt.show()`.
 </details>
 
-And the revised plot (with red dashed line):
+And the revised plot gives us the red dashed line:
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot--red-dashed-line.png" height="320">
 </p>
