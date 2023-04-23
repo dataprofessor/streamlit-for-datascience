@@ -18,7 +18,7 @@ This involves a series of steps and the typical data science process can best be
 - **Model** - Once data has been prepared and curated, the typical next steps would be to take the data and build a machine learning model that can be used to make predictions on new data.
 - **iNterpret** - Probably the most impactful part is the intrepretation of the model where useful knowledge and insights are extracted from models. It should be noted that the most sophisticated machine learning algorithm may not be the best algorithm as they may not afford interpretability whereas simple algorithms such as linear regression or decision tree may provide more interpretability.
 
-Taking a step back for a high-level overview of a typical data project gives us the following summary:
+Taking a step back for a high-level overview of a typical data project can be summarized by the following data life cycle:
 
 <br>
   <p align="center">
