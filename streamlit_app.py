@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import markdown as md
+import markdown
 from PIL import Image
 import glob
 import os
@@ -37,7 +37,7 @@ for i in lesson_list:
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
             page_content = f.read().replace('../img', 'app/img')
-            html_content = md.markdown(page_content)
+            html_content = markdown.markdown(page_content)
             components.html(html_content)
             #st.markdown(page_content, unsafe_allow_html=True)
             
