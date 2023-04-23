@@ -17,7 +17,7 @@ Let's start by installing NumPy that can be performed as follows:
 pip install numpy
 ```
 
-## Using NumPy
+## Importing NumPy
 
 To start using Numpy, we can import NumPy as follows:
 ```Python
