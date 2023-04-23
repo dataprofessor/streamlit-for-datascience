@@ -91,7 +91,7 @@ Here's a line-by-line breakdown of the code:
   5. Finally, we're going to display the plot via `plt.show()`.
 </details>
 
-This gives us the following plot:
+This gives us the following revised plot (with labels):
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot-labels.png" height="320">
 </p>
