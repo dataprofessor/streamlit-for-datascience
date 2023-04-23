@@ -36,7 +36,7 @@ plt.plot(years, population)
 plt.show()
 ```
 <details>
-<summary>See code explanation</summary>
+<summary>*See code explanation*</summary>
 
 Here's a line-by-line breakdown of the code:
   1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
