@@ -43,18 +43,23 @@ Python library | Brief description | OSEMN phase
 `NumPy` | Numerical processing | Scrub
 `Pandas` | Data wrangling | Scrub
 `Matplotlib` | Data visualization | Explore
-`Seaborn` | Data visualization | Explore
-`Plotly` | Data visualization | Explore
-`Altair` | Data visualization | Explore
 `Scikit-learn` | Machine learning | Model / iNterpret
 
 These toolkits provide ready-to-use functions that can be readily harnessed to retrieve, prepare, visualize and analyze data. Without such toolkits we would have to implement our own custom functions to do the same tasks.
 
 ### NumPy
-NumPy is a Python library for numerical computing by allowing one to work with arrays and matrices of numerical data. NumPy is helpful for data science work because it allows for efficient manipulation and computation of large arrays of data.
+[NumPy](https://numpy.org/) is a Python library for numerical computing by allowing one to work with arrays and matrices of numerical data. NumPy is helpful for data science work because it allows for efficient manipulation and computation of large arrays of data.
 
 ### Pandas
-Pandas is a popular Python library for performing data wrangling and analysis in Python. It provides data structures (*e.g.* DataFrame and Series) for storing and querying data. Pandas also provides a wide range of functions for data cleaning, transformation, and analysis, thereby making it a powerful tool for performing exploratory data analysis and visualization.
+[Pandas](https://pandas.pydata.org/) is a popular Python library for performing data wrangling and analysis in Python. It provides data structures (*e.g.* DataFrame and Series) for storing and querying data. Pandas also provides a wide range of functions for data cleaning, transformation, and analysis, thereby making it a powerful tool for performing exploratory data analysis and visualization.
+
+### Matplotlib
+
+[Matplotlib](https://matplotlib.org/) is an established plotting library in Python. One can use Matplotlib to create a variety of data visualizations including line plots, scatter plots, histograms, and several others. Matplotlib is helpful for data science work because it allows the creation of high-quality visualizations of data as well as enabling understanding of data patterns and relationships. Additionally, [Seaborn](https://seaborn.pydata.org/), [Plotly](https://plotly.com/) and Altair are other popular plotting libraries that one can also use for data visualization. 
+
+### Scikit-learn
+
+[Scikit-learn](https://scikit-learn.org/) is a machine learning library in Python that provide tools for classification, regression, clustering, dimensionality reduction, model selection as well as preprocessing. Scikit-learn is helpful for data science work because it enables data preprocessing, model building and model analysis where insights can be drawn and predictions can be made.
 
 ## Summary
 
