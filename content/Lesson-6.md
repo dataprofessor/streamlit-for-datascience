@@ -96,3 +96,9 @@ This gives us the following revised plot (with labels):
   <img src="../img/lesson-6-matplotlib-simple-line-plot-labels.png" height="320">
 </p>
 
+
+## Line style and color
+
+Let's perform customization to the plot. To customize the line style and color in our plot, we can pass in additional arguments to the plot function (i.e. `plt.plot()`). 
+
+For example, we can change the line color from the default blue line to a red line. Additionally, the line style can be adjusted to a dashed line by modifying our plot function as follows:
