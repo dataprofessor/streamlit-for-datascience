@@ -294,3 +294,8 @@ From the above code box, you can notice that we've added only a few lines of add
 <p align="left">
   <img src="../img/lesson-6-matplotlib-simple-line-plot--streamlit-app.png" height="450">
 </p>
+
+
+## Summary
+
+In this lesson, we've learned how to install Matplotlib, create and customize a basic line plot, and finally displaying the plot in a Streamlit app.
