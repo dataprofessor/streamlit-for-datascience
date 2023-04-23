@@ -123,3 +123,6 @@ Here's a line-by-line breakdown of the code:
   2. Use `st.write` to write a text output and inside the `st.write` command we use the `'Hello world!'` string as the input argument.
 </details>
 
+## Summary
+
+In this lesson, we're introduced to Streamlit along with how to setup a computing environment as well as creating our first Streamlit app.
