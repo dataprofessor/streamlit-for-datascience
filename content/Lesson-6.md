@@ -189,9 +189,7 @@ And the revised plot gives us additional black (translucent) data points:
 
 ## Adding an additional line plot
 
-
-
-
+Let's say that we want to add a second line (and data points) to the plot, we can by simply using `plt.plot` and `plt.scatter` again on a new set of data (i.e. `population2`).
 
 ```python
 import matplotlib.pyplot as plt
