@@ -33,11 +33,13 @@ for i in lesson_list:
         #st.markdown(f'# 🗓️ {i}')
         j = i.replace(' ', '-')
         with open(f'content/{j}.md', 'r') as f:
-            st.markdown(f.read(), unsafe_allow_html=True)
+            page_content = f.read().replace('../img', 'app/img')
+            st.markdown(page_content, unsafe_allow_html=True)
+            
 
 
             
 
-img_url = 'https://raw.githubusercontent.com/dataprofessor/30days/master/content/images/2C9104F7-CF84-4DAF-9004-52BB4644CF28.png'
-img_html = f'<img src={img_url} width="500">'
-st.markdown(img_html, unsafe_allow_html=True)
+#img_url = 'https://raw.githubusercontent.com/dataprofessor/30days/master/content/images/2C9104F7-CF84-4DAF-9004-52BB4644CF28.png'
+#img_html = f'<img src={img_url} width="500">'
+#st.markdown(img_html, unsafe_allow_html=True)
