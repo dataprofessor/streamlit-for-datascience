@@ -794,4 +794,6 @@ df.fillna(df.median())
   <img src="../img/lesson-4-pandas-replace-data-median.png" height="420">
 </p>
 
+## Summary
 
+In this lesson, we've covered how to install the Pandas library, Pandas data structure, creation of Pandas Series and DataFrame, reading in CSV files, selecting columns and dropping missing data from the DataFrame.
