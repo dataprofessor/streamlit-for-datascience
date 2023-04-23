@@ -7,7 +7,7 @@
 4. [Setting up your Streamlit workspace](#4-setting-up-your-streamlit-workspace)
 5. [Creating your first Streamlit app](#5-creating-your-first-streamlit-app)
 
-![](app/img/lesson-1-streamlit-workflow.png)
+![](../img/lesson-1-streamlit-workflow.png)
 
 
 ## 1. What is Streamlit?
