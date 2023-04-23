@@ -169,6 +169,18 @@ plt.ylabel('Population (millions)')
 # Show plot
 plt.show()
 ```
+<details>
+<summary><i>See code explanation</i></summary>
+
+Here's a line-by-line breakdown of the code:
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
+  2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
+  3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.  
+  4. The line is changed to red dashed line via the third argument `r--`.
+  5. **New line of code:** Data points are added via the `plt.scatter` function.
+  6. Add labels to the plot as well as the X and Y axes.
+  7. Finally, we're going to display the plot via `plt.show()`.
+</details>
 
 And the revised plot gives us additional black (translucent) data points:
 <p align="left">
@@ -204,3 +216,21 @@ plt.ylabel('Population (millions)')
 # Show plot
 plt.show()
 ```
+<details>
+<summary><i>See code explanation</i></summary>
+
+Here's a line-by-line breakdown of the code:
+  1. Import the `matplotlib.pyplot` as `plt` (so that we can later refer to `matplotlib.pyplot` literally as `plt` instead of having to type the full version of `matplotlib.pyplot`.
+  2. Create `years` and `population` variables that will be used for subsequent steps in creating the plot.
+  3. Create the plot via `plt.plot()` and specifying `years` and `population` as input arguments. This will create a line plot.  
+  4. The line is changed to red dashed line via the third argument `r--`.
+  5. Data points are added via the `plt.scatter` function.
+  6. **New line of code:** A second green line with green translucent data points are also added here.
+  7. Add labels to the plot as well as the X and Y axes.
+  8. Finally, we're going to display the plot via `plt.show()`.
+</details>
+
+And the revised plot gives us a second green line (and while we're at it red data points for the first line):
+<p align="left">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot--second-green-line.png" height="320">
+</p>
