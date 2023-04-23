@@ -73,7 +73,7 @@ population = [2.5, 3.0, 3.7, 4.5, 5.3, 6.1, 6.9, 7.7]
 # Create plot
 plt.plot(years, population)
 
-# Add labels
+# Add labels <- (New line of code)
 plt.title('Population Growth')
 plt.xlabel('Year')
 plt.ylabel('Population (millions)')
