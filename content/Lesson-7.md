@@ -128,3 +128,42 @@ rf.fit(X_train, y_train)
 
 In the above code snippet, we're building a random forest model via the `RandomForestRegressor()` function and we've specified that the maximum number of features (*i.e.* the **X** variables) to use is 4 which corresponds to the 4 **X** variables.
 
+## Apply trained model to make predictions
+
+In essence, we're applying the trained `rf` model to make predictions of the `y` values for `X_train` and `X_test`. Predicted values are stored in 2 variables: `y_train_pred` and `y_test_pred`.
+
+```Python
+# Apply trained model to make predictions
+y_train_pred = rf.predict(X_train)
+y_test_pred = rf.predict(X_test)
+```
+
+Let's take a preview of the returned output from `y_train_pred`:
+
+```
+array([-4.46691333e+00, -8.09591000e+00, -4.08295400e+00,  5.71000000e-02,
+       -1.30996667e+00, -1.96770000e+00, -7.56278571e-01, -1.96031667e+00,
+       -3.30567810e+00, -2.12870000e+00, -4.18783333e+00, -8.19162667e+00,
+       -3.70431617e+00, -7.78641667e-01, -1.72077000e+00, -4.63966667e-01,
+       .....
+       -1.34834000e+00, -6.75356917e+00, -5.36715167e+00, -8.04068993e+00,
+       -3.82656667e+00, -1.21819667e+00, -7.25481667e-01, -1.83893000e+00,
+       -1.27629714e+00, -7.06956102e+00, -3.41684400e+00, -1.80697000e+00,
+       -5.54075000e+00, -4.73305000e+00, -6.44516500e+00])
+```
+
+## Evaluate model performance
+
+```Python
+# Evaluate model performance
+from sklearn.metrics import mean_squared_error, r2_score
+
+train_r2 = r2_score(y_train, y_train_pred)
+test_r2 = r2_score(y_test, y_test_pred)
+
+train_mse = mean_squared_error(y_train, y_train_pred)
+test_mse = mean_squared_error(y_test, y_test_pred)
+```
+
+
+
