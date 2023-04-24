@@ -294,7 +294,7 @@ From the above code box, you can notice that we've added only a few lines of add
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-matplotlib-line-plot) | [Demo app](https://dataprofessor-st-matplotlib-line-plot-streamlit-app-2a0abu.streamlit.app/))
 
 <p align="left">
-  <img src="../img/lesson-6-matplotlib-simple-line-plot--streamlit-app.png" height="500">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot--streamlit-app.png" height="550">
 </p>
 
 
