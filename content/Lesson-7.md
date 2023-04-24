@@ -43,6 +43,6 @@ df
 ```
 
 <p align="center">
-  <img src="../img/lesson-7-scikit-learn-load-data.png" width="400">
+  <img src="../img/lesson-7-scikit-learn-load-data.png" width="450">
 </p>
 
