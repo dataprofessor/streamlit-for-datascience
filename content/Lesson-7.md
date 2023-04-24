@@ -194,5 +194,28 @@ gives us the following:
 (0.09102390986320828, 0.49276498022937004)
 ```
 
+## Model interpretation
 
 
+
+## Data visualization of prediction results
+
+```Python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Creating the scatter plot
+plt.figure(figsize=(5,5))
+plt.scatter(x=y_train, y=y_lr_train_pred, c="#7CAE00" ,alpha=0.3)
+
+# Adding the trend line
+z = np.polyfit(y_train, y_lr_train_pred, 1)
+p = np.poly1d(z)
+plt.plot(y_train, p(y_train), '#F8766D')
+
+# Adding the label
+plt.ylabel('Predict LogS')
+plt.xlabel('Experimental LogS')
+     
+plt.show()
+```
