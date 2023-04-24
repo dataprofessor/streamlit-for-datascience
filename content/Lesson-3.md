@@ -171,7 +171,7 @@ st.write(data_matrix)
 
 
 <p align="left">
-  <img src="../img/lesson-3-numpy-minimum-working-example--streamlit-app.png" height="450">
+  <img src="../img/lesson-3-numpy-minimum-working-example--streamlit-app.png" height="500">
 </p>
 
 
