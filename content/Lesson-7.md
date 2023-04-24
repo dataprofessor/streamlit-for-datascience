@@ -33,7 +33,7 @@ To illustrate, if we're constructing a model to predict whether individuals will
 
 A dataset can be stored as a CSV file and read using the Pandas library via the `pd.read_csv()` function. Hence, a Pandas DataFrame is used to represent the loaded data.
 
-In the following example, we're loading in a CSV stored on the cloud in the GitHub repo.
+In the following example, we're loading in a CSV data stored on the cloud particularly in the GitHub repo.
 
 ```Python
 # Load data
@@ -194,28 +194,7 @@ gives us the following:
 (0.09102390986320828, 0.49276498022937004)
 ```
 
-## Model interpretation
+## Summary
 
+In this lesson, we had learned the basics of using Scikit-learn to build machine learning models. Particularly, we started with loading in a CSV data, preprocessed it as data subsets, built a machine learning model that is subsequently used to predict the y values for both the train and test subsets, and finally computing the model performance metrics. 
 
-
-## Data visualization of prediction results
-
-```Python
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Creating the scatter plot
-plt.figure(figsize=(5,5))
-plt.scatter(x=y_train, y=y_lr_train_pred, c="#7CAE00" ,alpha=0.3)
-
-# Adding the trend line
-z = np.polyfit(y_train, y_lr_train_pred, 1)
-p = np.poly1d(z)
-plt.plot(y_train, p(y_train), '#F8766D')
-
-# Adding the label
-plt.ylabel('Predict LogS')
-plt.xlabel('Experimental LogS')
-     
-plt.show()
-```
