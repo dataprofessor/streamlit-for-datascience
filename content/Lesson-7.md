@@ -56,3 +56,7 @@ Next, we'll separate the DataFrame as X and Y variables that will be subsequentl
 X = df.drop('logS', axis=1)
 y = df['logS']
 ```
+
+<p align="left">
+  <img src="../img/lesson-7-scikit-learn-separate-data-X-y.png" width="480">
+</p>
