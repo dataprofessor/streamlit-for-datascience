@@ -176,7 +176,7 @@ train_mse = mean_squared_error(y_train, y_train_pred)
 test_mse = mean_squared_error(y_test, y_test_pred)
 ```
 
-The returned output for $R^2$ by running the following code:
+- The returned output for $R^2$ by running the following code:
 ```Python
 train_r2, test_r2
 ```
@@ -185,8 +185,7 @@ gives us the following:
 (0.9793095988902839, 0.8868388639174744)
 ```
 
-
-The returned output for MSE by running the following code:
+- The returned output for MSE by running the following code:
 ```Python
 train_mse, test_mse
 ```
