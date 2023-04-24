@@ -19,15 +19,15 @@ pip install scikit-learn
 
 We'll start with the basics by examining Scikit-learn's tabular representation of data.
 
-The tabular dataset for a supervised learning problem will contain both **X** and **Y** variables, while the tabular dataset for an unsupervised learning problem will contain only **X** variables.
+The tabular dataset for a supervised learning problem will contain both **X** and **y** variables, while the tabular dataset for an unsupervised learning problem will contain only **X** variables.
 
-As an overview, **X** variables are also known as independent variables, and they can describe samples of interest quantitatively or qualitatively, while **Y** variables are known as dependent variables, and they serve as target or response variables used in predictive models.
+As an overview, **X** variables are also known as independent variables, and they can describe samples of interest quantitatively or qualitatively, while **y** variables are known as dependent variables, and they serve as target or response variables used in predictive models.
 
 <p align="center">
   <img src="../img/lesson-7-scikit-learn-tabular-data.png" width="550">
 </p>
 
-To illustrate, if we're constructing a model to predict whether individuals will have a disease or not, the disease/non-disease status is the y variable and clinical test results are the X variable.
+To illustrate, if we're constructing a model to predict whether individuals will have a disease or not, the disease/non-disease status is the **y** variable and clinical test results are the **X** variable.
 
 ## Loading data from a CSV file
 
@@ -35,7 +35,8 @@ A dataset can be stored as a CSV file and read using the Pandas library via the 
 
 In the following example, we're loading in a CSV stored on the cloud in the GitHub repo.
 
-```python
+```Python
+# Load data
 import pandas as pd
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
@@ -46,3 +47,12 @@ df
   <img src="../img/lesson-7-scikit-learn-load-data.png" width="500">
 </p>
 
+## Separate data to X and y
+
+Next, we'll separate the DataFrame as X and Y variables that will be subsequently used for model building.
+
+```Python
+# Separate data as X and y
+X = df.drop('logS', axis=1)
+y = df['logS']
+```
