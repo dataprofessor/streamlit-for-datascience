@@ -91,9 +91,9 @@ x3.reshape((3, 3))
 ```
 This will display the 3 by 3 data matrix (2D array) as follows:
 ```
-array([[0, 1, 2],
-       [3, 4, 5],
-       [6, 7, 8]])
+np.array([[0, 1, 2],
+          [3, 4, 5],
+          [6, 7, 8]])
 ```
 
 Finally, we can assign the returned output of the data matrix mentioned above to a variable called `x3_matrix` as follows:
@@ -136,7 +136,7 @@ In the previous section, we've stacked arrays and in this section we're going to
 
 Before we can show how to unstack a stacked array, we're first going to create one first.
 
-```python
+```Python
 import numpy as np
 
 stacked = np.array([[1, 2, 3],[4, 5, 6]])
@@ -146,7 +146,7 @@ stacked = np.array([[1, 2, 3],[4, 5, 6]])
 
 To unstack the stacked array, we're going to use NumPy's `split()` method:
 
-```python
+```Python
 np.split(stacked, 2)
 ```
 
@@ -154,6 +154,12 @@ np.split(stacked, 2)
 
 NumPy can easily be used inside a Streamlit app, let's see how through an example app.
 
+```Python
+import streamlit as st
+import numpy as np
+
+
+```
 
 
 ## Summary
