@@ -20,6 +20,7 @@
 - **Project 3** - Building a Dashboard
 
 ## Resources
+- [Streamlit Quests](https://blog.streamlit.io/streamlit-quests-getting-started-with-streamlit/) - Start here to conveniently access all essential resources for learning and using Streamlit.
 - [Streamlit Documentation](https://docs.streamlit.io/) - Your go-to place on using the Streamlit library.
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet) - All Streamlit commands on one-page.
 - [#30DaysOfStreamlit](https://30days.streamlit.app/) - A Streamlit learning challenge.
