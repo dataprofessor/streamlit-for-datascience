@@ -158,8 +158,22 @@ NumPy can easily be used inside a Streamlit app, let's see how through an exampl
 import streamlit as st
 import numpy as np
 
+st.title('🔢 NumPy - A minimum working example')
 
+# Create a 3 by 3 data matrix using NumPy
+data_matrix = np.array([[0, 1, 2],
+                        [3, 4, 5],
+                        [6, 7, 8]])
+
+# Display the contents of the created data matrix variable
+st.write(data_matrix)
 ```
+
+
+<p align="left">
+  <img src="../img/lesson-3-numpy-minimum-working-example--streamlit-app" height="450">
+</p>
+
 
 
 ## Summary
