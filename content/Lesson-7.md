@@ -320,7 +320,7 @@ with col3:
   st.write('Test $R^2$', test_r2)
 ```
 
-The resulting Streamlit app looks like the following:
+The resulting Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-scikit-learn-example) | [Demo app](https://dataprofessor-st-scikit-learn-example-streamlit-app-qgzopo.streamlit.app/)) looks like the following:
 
 <p align="left">
   <img src="../img/lesson-7-scikit-learn-example-streamlit-app.png" height="550">
