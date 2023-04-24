@@ -49,7 +49,7 @@ df
 
 ## Separate data to X and y
 
-Next, we'll separate the DataFrame as X and Y variables that will be subsequently used for model building.
+Next, we'll separate the DataFrame as **X** and **y** variables that will be subsequently used for model building.
 
 ```Python
 # Separate data as X and y
@@ -57,6 +57,24 @@ X = df.drop('logS', axis=1)
 y = df['logS']
 ```
 
+This gives us the following **X** variable:
 <p align="left">
   <img src="../img/lesson-7-scikit-learn-separate-data-X-y.png" width="480">
 </p>
+
+And the following **y** variable:
+
+```
+0      -2.180
+1      -2.000
+2      -1.740
+3      -1.480
+4      -3.040
+        ...  
+1139    1.144
+1140   -4.925
+1141   -3.893
+1142   -3.790
+1143   -2.581
+Name: logS, Length: 1144, dtype: float64
+```
