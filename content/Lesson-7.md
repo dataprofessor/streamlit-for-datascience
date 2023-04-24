@@ -154,7 +154,7 @@ array([-4.46691333e+00, -8.09591000e+00, -4.08295400e+00,  5.71000000e-02,
 
 ## Evaluate model performance
 
-Now that we have predicted y values for both the *train* and *test* subsets, we're going to calculate model performance metrics comprising of R^2 and mean squared error (MSE).
+Now that we have predicted y values for both the *train* and *test* subsets, we're going to calculate model performance metrics comprising of $R^2$ and mean squared error (MSE).
 
 ```Python
 # Evaluate model performance
