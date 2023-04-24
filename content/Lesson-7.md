@@ -24,5 +24,5 @@ The tabular dataset for a supervised learning problem will contain both **X** an
 As an overview, **X** variables are also known as independent variables, and they can describe samples of interest quantitatively or qualitatively, while **Y** variables are known as dependent variables, and they serve as target or response variables used in predictive models.
 
 <p align="center">
-  <img src="../img/lesson-7-scikit-learn-tabular-data.png" width="500">
+  <img src="../img/lesson-7-scikit-learn-tabular-data.png" width="550">
 </p>
