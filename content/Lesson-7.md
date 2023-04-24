@@ -194,6 +194,58 @@ gives us the following:
 (0.09102390986320828, 0.49276498022937004)
 ```
 
+## Model interpretation
+
+Insights can be extracted from the model so as to drive the decision-making process. Here's how we can figure out which features are important and thus contribute to the model's prediction. 
+
+Particularly, we can append `feature_importances_` to the instantiated model:
+```Python
+# Feature importance
+rf.feature_importances_
+```
+This returns the following output:
+```
+array([0.82758671, 0.12854113, 0.02059104, 0.02328112])
+```
+
+Let's now add additional details to the above set of feature importance values, which are the feature names that are associated with the feature importance value.
+```Python
+# Name of features
+X_train.columns
+```
+This returns the following output:
+```
+Index(['MolLogP', 'MolWt', 'NumRotatableBonds', 'AromaticProportion'], dtype='object')
+```
+
+
+## Data visualization of prediction results
+
+Now that we have all of the prediction results in hand, let's now proceed to visualizing them.
+
+Here, we're going to create a scatter plot of the actual versus predicted `logS` value using Matplotlib and NumPy
+
+```Python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Creating the scatter plot
+plt.figure(figsize=(5,5))
+plt.scatter(x=y_train, y=y_train_pred, c="#7CAE00" ,alpha=0.3)
+
+# Adding the trend line
+z = np.polyfit(y_train, y_train_pred, 1)
+p = np.poly1d(z)
+plt.plot(y_train, p(y_train), '#F8766D')
+
+# Adding the label
+plt.ylabel('Predict logS')
+plt.xlabel('Experimental logS')
+     
+plt.show()
+```
+
+
 ## Summary
 
 In this lesson, we had learned the basics of using Scikit-learn to build machine learning models. Particularly, we started with loading in a CSV data, preprocessed it as data subsets, built a machine learning model that is subsequently used to predict the y values for both the train and test subsets, and finally computing the model performance metrics. 
