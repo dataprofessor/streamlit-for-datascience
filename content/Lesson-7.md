@@ -28,3 +28,21 @@ As an overview, **X** variables are also known as independent variables, and the
 </p>
 
 To illustrate, if we're constructing a model to predict whether individuals will have a disease or not, the disease/non-disease status is the y variable and clinical test results are the X variable.
+
+## Loading data from a CSV file
+
+A dataset can be stored as a CSV file and read using the Pandas library via the `pd.read_csv()` function. Hence, a Pandas DataFrame is used to represent the loaded data.
+
+In the following example, we're loading in a CSV stored on the cloud in the GitHub repo.
+
+```python
+import pandas as pd
+
+df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
+df
+```
+
+<p align="center">
+  <img src="../img/lesson-7-scikit-learn-load-data.png" width="400">
+</p>
+
