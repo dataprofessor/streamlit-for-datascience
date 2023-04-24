@@ -26,3 +26,5 @@ As an overview, **X** variables are also known as independent variables, and the
 <p align="center">
   <img src="../img/lesson-7-scikit-learn-tabular-data.png" width="550">
 </p>
+
+To illustrate, if we're constructing a model to predict whether individuals will have a disease or not, the disease/non-disease status is the y variable and clinical test results are the X variable.
