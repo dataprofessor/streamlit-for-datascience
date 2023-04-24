@@ -291,7 +291,7 @@ Here's a line-by-line breakdown of the code:
 
 From the above code box, you can notice that we've added only a few lines of additional code in transforming the above code to a web app. Particularly, these additional lines can easily be spotted when they have `st` (alias of `streamlit`).
 
-The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-matplotlib-line-plot) | [Demo app](https://dataprofessor-st-matplotlib-line-plot-streamlit-app-2a0abu.streamlit.app/))
+The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-matplotlib-example) | [Demo app](https://dataprofessor-st-matplotlib-line-plot-streamlit-app-2a0abu.streamlit.app/))
 
 <p align="left">
   <img src="../img/lesson-6-matplotlib-example-streamlit-app.png" height="550">
