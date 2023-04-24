@@ -42,7 +42,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/de
 df
 ```
 
-<p align="center">
+<p align="left">
   <img src="../img/lesson-7-scikit-learn-load-data.png" width="500">
 </p>
 
