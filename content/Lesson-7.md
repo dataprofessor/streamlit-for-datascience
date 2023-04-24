@@ -156,6 +156,15 @@ array([-4.46691333e+00, -8.09591000e+00, -4.08295400e+00,  5.71000000e-02,
 
 Now that we have predicted y values for both the *train* and *test* subsets, we're going to calculate model performance metrics comprising of $R^2$ and mean squared error (MSE).
 
+Here's how we can calculate the model performance metrics using Scikit-learn:
+
+- $R^2$ can be calculated using the `r2_score()` function.
+- MSE can be calculated using the `mean_squared_error()` function.
+
+For both of these metrics, we're providing 2 input arguments namely the actual value (`y_train` or `y_test`) and the predicted value (`y_train_pred` or `y_test_pred`).
+
+Let's put this in action:
+
 ```Python
 # Evaluate model performance
 from sklearn.metrics import mean_squared_error, r2_score
@@ -165,6 +174,25 @@ test_r2 = r2_score(y_test, y_test_pred)
 
 train_mse = mean_squared_error(y_train, y_train_pred)
 test_mse = mean_squared_error(y_test, y_test_pred)
+```
+
+The returned output for $R^2$ by running the following code:
+```Python
+train_r2, test_r2
+```
+gives us the following:
+```
+(0.9793095988902839, 0.8868388639174744)
+```
+
+
+The returned output for MSE by running the following code:
+```Python
+train_mse, test_mse
+```
+gives us the following:
+```
+(0.09102390986320828, 0.49276498022937004)
 ```
 
 
