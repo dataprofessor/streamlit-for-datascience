@@ -248,5 +248,5 @@ plt.show()
 
 ## Summary
 
-In this lesson, we had learned the basics of using Scikit-learn to build machine learning models. Particularly, we started with loading in a CSV data, preprocessed it as data subsets, built a machine learning model that is subsequently used to predict the y values for both the train and test subsets, and finally computing the model performance metrics. 
+In this lesson, we had learned the basics of using Scikit-learn to build machine learning models. Particularly, we started with loading in a CSV data, preprocessed it as data subsets, built a machine learning model that is subsequently used to predict the y values for both the train and test subsets, computing the model performance metrics, figuring out the feature importance and finally visualizing the prediction results. 
 
