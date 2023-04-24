@@ -136,7 +136,7 @@ In the previous section, we've stacked arrays and in this section we're going to
 
 Before we can show how to unstack a stacked array, we're first going to create one first.
 
-```Python
+```python
 import numpy as np
 
 stacked = np.array([[1, 2, 3],[4, 5, 6]])
@@ -146,9 +146,15 @@ stacked = np.array([[1, 2, 3],[4, 5, 6]])
 
 To unstack the stacked array, we're going to use NumPy's `split()` method:
 
-```Python
+```python
 np.split(stacked, 2)
 ```
+
+## Using NumPy in Streamlit
+
+NumPy can easily be used inside a Streamlit app, let's see how through an example app.
+
+
 
 ## Summary
 
