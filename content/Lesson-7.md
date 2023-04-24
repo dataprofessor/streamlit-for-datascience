@@ -44,7 +44,7 @@ df
 ```
 
 <p align="left">
-  <img src="../img/lesson-7-scikit-learn-load-data.png" width="500">
+  <img src="../img/lesson-7-scikit-learn-load-data.png" width="510">
 </p>
 
 ## Separate data to X and y
