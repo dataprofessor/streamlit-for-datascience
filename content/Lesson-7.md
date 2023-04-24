@@ -130,7 +130,7 @@ In the above code snippet, we're building a random forest model via the `RandomF
 
 ## Apply trained model to make predictions
 
-In essence, we're applying the trained `rf` model to make predictions of the `y` values for `X_train` and `X_test`. Predicted values are stored in 2 variables: `y_train_pred` and `y_test_pred`.
+In essence, we're applying the trained random forest model to make predictions of `y` values for both `X_train` and `X_test`. Correspondingly, predicted values are stored in 2 variables: `y_train_pred` and `y_test_pred`. In other words, the model is taking in X to predict y values.
 
 ```Python
 # Apply trained model to make predictions
@@ -153,6 +153,8 @@ array([-4.46691333e+00, -8.09591000e+00, -4.08295400e+00,  5.71000000e-02,
 ```
 
 ## Evaluate model performance
+
+Now that we have predicted y values for both the *train* and *test* subsets, we're going to calculate model performance metrics comprising of R^2 and mean squared error (MSE).
 
 ```Python
 # Evaluate model performance
