@@ -292,7 +292,7 @@ Here's a line-by-line breakdown of the code:
 From the above code box, you can notice that we've added only a few lines of additional code in transforming the above code to a web app. Particularly, these additional lines can easily be spotted when they have `st` (alias of `streamlit`).
 
 <p align="left">
-  <img src="../img/lesson-6-matplotlib-simple-line-plot--streamlit-app.png" height="450">
+  <img src="../img/lesson-6-matplotlib-simple-line-plot--streamlit-app.png" height="500">
 </p>
 
 
