@@ -78,3 +78,39 @@ And the following **y** variable:
 1143   -2.581
 Name: logS, Length: 1144, dtype: float64
 ```
+
+
+## Data splitting
+
+It is common to use a data splitting function to separate given inputs **X** and **y** variables into training and test sets (`X_train`, `Y_train`, `X_test`, `y_test`).
+
+The code snippet below uses the `train_test_split()` function to split the data. Particularly, the size of the test set is specified to 0.2 (or 20%) and the random seed number set to 42 (so that the code block will produce the same data split if it is run multiple times).
+
+```Python
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+Afterwards, let's take a look at the dimension size of the 4 data subsets using the `shape()` method. 
+
+- Here's the dimension of X:
+
+```Python
+X_train.shape, X_test.shape
+```
+
+```
+((915, 4), (229, 4))
+```
+
+- Here's the dimension of y:
+
+```Python
+y_train.shape, y_test.shape
+```
+
+```
+((915,), (229,))
+```
+
