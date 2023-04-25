@@ -799,3 +799,7 @@ df.fillna(df.median())
 ## Summary
 
 In this lesson, we've covered how to install the Pandas library, Pandas data structure, creation of Pandas Series and DataFrame, reading in CSV files, selecting columns and dropping missing data from the DataFrame. Finally, we've also used Pandas in a Streamlit app.
+
+## Next step
+
+> 🚀 Proceed to [**Project 2**](Project-2.md) to build a Streamlit app that shows the use of Pandas in a Streamlit app.
