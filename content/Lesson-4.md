@@ -819,6 +819,10 @@ else:
 
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-pandas-example-1) | [Demo app](https://dataprofessor-st-pandas-example-1-streamlit-app-ho581p.streamlit.app/))
 
+<p align="left">
+  <img src="../img/lesson-4-pandas-example-streamlit-app.png" height="550">
+</p>
+
 ## Summary
 
 In this lesson, we've covered how to install the Pandas library, Pandas data structure, creation of Pandas Series and DataFrame, reading in CSV files, selecting columns and dropping missing data from the DataFrame.
