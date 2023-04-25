@@ -49,7 +49,7 @@ plt.ylabel('Population (millions)')
 st.pyplot(fig)
 ```
 
-### Demo app
+### Completed app
 
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-matplotlib-example) | [Demo app](https://dataprofessor-st-matplotlib-line-plot-streamlit-app-2a0abu.streamlit.app/))
 
