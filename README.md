@@ -32,7 +32,7 @@
 <table>
   <tr>
     <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="50"></td>
-    <td><img src="https://pandas.pydata.org/static/img/pandas.svg" width="50"></td>
+    <td><img src="https://pandas.pydata.org/static/img/pandas.svg" width="90"></td>
     <td>3</td>
     <td>4</td>
     <td>5</td>
