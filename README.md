@@ -33,7 +33,7 @@
   <tr>
     <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="50"></td>
     <td><img src="https://pandas.pydata.org/static/img/pandas.svg" height="50"></td>
-    <td><img src="https://matplotlib.org/_static/logo_light.svg" height="40"></td>
+    <td><img src="https://matplotlib.org/_static/logo_light.svg" height="37"></td>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="40"></td>
 </tr>
 </table>
