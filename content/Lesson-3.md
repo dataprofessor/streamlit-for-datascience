@@ -1,6 +1,6 @@
 # 📓 Lesson 3 - Numerical processing with NumPy
 
-NumPy is a Python library that allows you to perform numerical processing. 
+[NumPy](https://numpy.org/) is a Python library that allows you to perform numerical processing. 
 
 Here are some of the features that NumPy can do:
 - Supports N-dimensional array and matrix data structures
