@@ -26,7 +26,7 @@ else:
   st.info('👆 Click on the button ')
 ```
 
-### Demo app
+### Completed app
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-pandas-example-2) | [Demo app](https://dataprofessor-st-pandas-example-2-streamlit-app-8ywtu6.streamlit.app))
 
 <p align="left">
