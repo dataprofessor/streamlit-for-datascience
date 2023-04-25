@@ -39,6 +39,7 @@ Please use the following to cite this content:
 
 ## Spread the word
 Like the course? Help us spread the word!
+
 <p>
   <a href ="https://ctt.ac/y035b">
     <img src="img/Twitter social icons - rounded square - blue.png" width="20">
