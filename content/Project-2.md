@@ -30,7 +30,7 @@ The above code gives us the following Streamlit app ([GitHub repo](https://githu
   <img src="../img/lesson-4-pandas-example-streamlit-app.png" height="550">
 </p>
 
-### Bonus steps
+### Homework
 Now that you have this Pandas app completed, can you build upon this Streamlit app by adding input widgets for taking in user provided URL to a CSV file that can be used for displaying the CSV file as a DataFrame.
 
 > 📣 **Learn in Public:** 
