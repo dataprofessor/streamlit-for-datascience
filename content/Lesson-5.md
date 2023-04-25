@@ -312,3 +312,6 @@ df.sort_values(by=['MolLogP', 'MolWt'], ascending=False, inplace=True)
 
 In this lesson, you've learned how to use Pandas for exploring data by performing descriptive statistics, which essentially allows us to summarize the data. Some of the topics that we had covered included descriptive statistics, transpose, aggregates, group by and sorting values. We're going to take a look at using data visualization to explore data in a subsequent lesson.
 
+## Next step
+
+> 🚀 Proceed to [**Project 3**](Project-3.md) to build a Streamlit app that shows the use of Pandas to perform EDA in a Streamlit app.
