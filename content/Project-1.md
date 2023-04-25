@@ -1,8 +1,16 @@
-
 ## Project 1 - Using NumPy in Streamlit
 
-NumPy can easily be used inside a Streamlit app, let's see how through an example app.
+### What are we building?
+NumPy can easily be used inside a Streamlit app, let's see how in this project.
 
+### How the code works?
+Here's an explanation of the code in a step-by-step manner:
+1. Import necessary libraries
+2. Display the title of the app
+3. Create a 3 by 3 data matrix using NumPy's `np.array()` and 3 lists as input argument
+4. Display the contents of the created data matrix variable via `st.write()`
+
+### Code
 Before proceeding to building the app, let's first start with the use of NumPy to create a data matrix. The following is typically how we would carry out this task in a Jupyter notebook.
 ```Python
 # Import necessary library
@@ -36,6 +44,7 @@ data_matrix = np.array([[0, 1, 2],
 st.write(data_matrix)
 ```
 
+### Completed app
 The above code produces the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-numpy-minimum-working-example) | [Demo app](https://dataprofessor-st-numpy-minimum-working-exa-streamlit-app-dskf0i.streamlit.app/)):
 
 <p align="left">
