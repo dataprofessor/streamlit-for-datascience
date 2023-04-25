@@ -237,3 +237,7 @@ And the revised plot gives us a second green line (and while we're at it red dat
 ## Summary
 
 In this lesson, we've learned how to install Matplotlib, create and customize a basic line plot, and finally displaying the plot in a Streamlit app. All of this will be taught incrementally so that you can evolve your plot from a basic plot to a more refined one.
+
+## Next step
+
+> 🚀 Proceed to [**Project 4**](Project-4.md) to build a Streamlit app that shows the use of Matplotlib to create a plot in a Streamlit app.
