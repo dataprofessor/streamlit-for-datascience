@@ -36,4 +36,6 @@ The above code gives us the following Streamlit app ([GitHub repo](https://githu
 ### Bonus steps
 Now that you have this Pandas app completed, can you build upon this Streamlit app by adding input widgets that will allow users to select one of many EDA statistical analysis of their choice. After selection of the analysis option to perform, the app will conditionally display the corresponding output.
 
-Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
+> 📣 **Learn in Public:** 
+> 
+> Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
