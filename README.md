@@ -39,4 +39,4 @@ Please use the following to cite this content:
 
 ## Spread the word
 Like the course? Help us spread the word!
-<img src="img/Twitter social icons - rounded square - blue.png">
+<img src="img/Twitter social icons - rounded square - blue.png" width="20">
