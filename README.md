@@ -32,7 +32,7 @@ Please use the following to cite this content:
 ```
 @misc{st4ds,
     author = {Chanin Nantasenamat},
-    title = {Streamlit for Data Science},
+    title = {Streamlit for Data Science course},
     howpublished = {Streamlit Open Source, Snowflake Inc.},
     url = {\url{https://education.streamlit.app/}},
     year = {2023}
