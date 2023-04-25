@@ -29,7 +29,7 @@
 
 ## Python Data Libraries used in this course
 
-<table>
+<table style="width:100%">
   <tr>
     <td>1</td>
     <td>2</td>
