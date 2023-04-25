@@ -6,7 +6,7 @@
 
 Data visualization is an important topic that allows us to represent complex data in a visually appealing and summarized manner. We often hear that a picture is worth a thousand words and this could be said for visualizations of data.
 
-In this lesson, we're going to create some data visualizations using the `Matplotlib` library.
+In this lesson, we're going to create some data visualizations using the [Matplotlib](https://matplotlib.org/) library.
 
 ## Installing Matplotlib
 
