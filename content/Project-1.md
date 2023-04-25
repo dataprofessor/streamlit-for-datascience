@@ -53,7 +53,7 @@ The above code produces the following Streamlit app ([GitHub repo](https://githu
   <img src="../img/lesson-3-numpy-example-streamlit-app.png" height="550">
 </p>
 
-### Bonus steps
+### Homework
 Now that you have this NumPy app completed, can you build upon this Streamlit app by adding input widgets for taking in user provided values for creating the data matrix.
 
 > 📣 **Learn in Public:** 
