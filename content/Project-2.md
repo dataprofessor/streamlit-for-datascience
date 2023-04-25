@@ -1,4 +1,4 @@
-## Project 2 - Using Pandas in Streamlit
+## 🎨 Project 2 - Using Pandas in Streamlit
 
 ### What are we building?
 Let's now proceed to using Pandas in a Streamlit app. Particularly, we're going to create an app that allows the loading of a CSV data upon clicking on a button.
