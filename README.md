@@ -13,9 +13,11 @@
 - [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/Lesson-5.md)
 - [**Lesson 6** - Data Visualization with Matplotlib](./content/Lesson-6.md)
 - [**Lesson 7** - Machine Learning with Scikit-learn](./content/Lesson-7.md)
-- **Project 1** - Building a Dashboard
-- **Project 2** - Building an Exploratory Data Analysis app
-- **Project 3** - Building a Machine Learning app
+- **Project 1** - Using NumPy in Streamlit
+- **Project 2** - Using Pandas in Streamlit
+- **Project 3** - Using Pandas for EDA in Streamlit
+- **Project 4** - Using Matplotlib to create a plot in Streamlit
+- **Project 5** - Using Scikit-learn to create an ML model in Streamlit
 
 ## Resources
 - [Streamlit Quests](https://blog.streamlit.io/streamlit-quests-getting-started-with-streamlit/) - Start here to conveniently access all essential resources for learning and using Streamlit.
