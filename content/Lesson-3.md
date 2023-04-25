@@ -1,5 +1,9 @@
 # 📓 Lesson 3 - Numerical processing with NumPy
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300">
+</p>
+
 [NumPy](https://numpy.org/) is a Python library that allows you to perform numerical processing. 
 
 Here are some of the features that NumPy can do:
