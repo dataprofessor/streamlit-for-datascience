@@ -75,7 +75,7 @@ with col3:
   st.write('Test $R^2$', test_r2)
 ```
 
-### Demo app
+### Completed app
 
 The resulting Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-scikit-learn-example) | [Demo app](https://dataprofessor-st-scikit-learn-example-streamlit-app-qgzopo.streamlit.app/)) looks like the following:
 
