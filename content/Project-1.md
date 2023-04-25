@@ -56,4 +56,6 @@ The above code produces the following Streamlit app ([GitHub repo](https://githu
 ### Bonus steps
 Now that you have this NumPy app completed, can you build upon this Streamlit app by adding input widgets for taking in user provided values for creating the data matrix.
 
-Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
+> 📣 **Learn in Public:** 
+> 
+> Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
