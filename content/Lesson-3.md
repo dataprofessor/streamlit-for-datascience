@@ -156,4 +156,4 @@ In this lesson, we've covered how to install and import NumPy, creation of NumPy
 
 ## Next step
 
-Proceed to [**Project 1**](Project-1.md) to build a Streamlit app that shows NumPy in action.
+> 🚀 Proceed to [**Project 1**](Project-1.md) to build a Streamlit app that shows NumPy in action.
