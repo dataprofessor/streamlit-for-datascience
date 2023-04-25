@@ -36,3 +36,7 @@ Please use the following to cite this content:
     year = {2023}
 }
 ```
+
+## Spread the word
+Like the course? Help us spread the word!
+<img src="img/Twitter social icons - rounded square - blue.png">
