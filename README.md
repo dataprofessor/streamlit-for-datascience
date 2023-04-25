@@ -2,9 +2,6 @@
   <img src="./img/logo.png" width="65%">
 </p>
 
-# Streamlit for Data Science
-
-
 ## About
 > This *Streamlit for Data Science* course will show you how to use Streamlit to prepare and analyze data as well as embed data visualizations and machine learning models right inside the Streamlit app. The best part of is that you can use various input and output widgets to make the app interactive and data-driven! Finally you can deploy the Streamlit app to the cloud and share with the community.
 
