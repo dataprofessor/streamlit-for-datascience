@@ -31,8 +31,8 @@
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="50"></td>
-    <td>2</td>
+    <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="30"></td>
+    <td><img src="https://pandas.pydata.org/static/img/pandas.svg" width="30"></td>
     <td>3</td>
     <td>4</td>
     <td>5</td>
