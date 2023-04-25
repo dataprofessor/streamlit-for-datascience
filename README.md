@@ -31,7 +31,7 @@
 
 <table style="width:100%">
   <tr>
-    <td>1</td>
+    <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300"></td>
     <td>2</td>
     <td>3</td>
     <td>4</td>
