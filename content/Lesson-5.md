@@ -293,7 +293,7 @@ df.sort_values(by=['MolLogP', 'MolWt'], ascending=False)
 Next, let's return the output from the `df` DataFrame:
 
 <p align="left">
-  <img src="../img/lesson-4-pandas-df-output.png.png" height="420">
+  <img src="../img/lesson-4-pandas-df-output.png" height="420">
 </p>
 
 We can see from the above that sorted values is not yet saved to the DataFrame.
