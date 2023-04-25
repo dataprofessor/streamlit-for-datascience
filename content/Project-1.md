@@ -3,6 +3,8 @@
 ### What are we building?
 NumPy can easily be used inside a Streamlit app, let's see how in this project.
 
+Learn more on how to use NumPy in [Lesson 3](Lesson-3.md).
+
 ### How the code works?
 Here's an explanation of the code in a step-by-step manner:
 1. Import necessary libraries
