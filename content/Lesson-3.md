@@ -150,7 +150,10 @@ To unstack the stacked array, we're going to use NumPy's `split()` method:
 np.split(stacked, 2)
 ```
 
-
 ## Summary
 
 In this lesson, we've covered how to install and import NumPy, creation of NumPy arrays of various dimensions as well as array manipulation (e.g. reshaping, stacking and unstacking arrays).
+
+## Next step
+
+Proceed to [Project 1](Project-1.md) to build a Streamlit app that shows NumPy in action.
