@@ -60,4 +60,6 @@ The above code gives us the following Streamlit app ([GitHub repo](https://githu
 ### Bonus steps
 Now that you have this Matplotlib app completed, can you build upon this Streamlit app by adding input widgets for allowing users to choose a line color or data point color of their choice. After selection, the app will update and generate the corresponding plot with the specified colors.
 
-Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
+> 📣 **Learn in Public:** 
+> 
+> Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
