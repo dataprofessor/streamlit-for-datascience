@@ -8,7 +8,7 @@ Here's an explanation of the code in a step-by-step manner:
 1. Import necessary libraries
 2. Create custom functions for `load_data`, `preprocess_data`, `model_building` and `model_performance`
 3. Use the created functions to carry out the data loading and model building
-4. Write out the actual and predicted y data as well as the model performance metrics using Streamlit's `st.write()` methods.
+4. Write out the actual and predicted y data as well as the model performance metrics using Streamlit's `st.write()` and `st.metric()` methods, respectively
 
 ### Code
 ```Python
@@ -71,8 +71,8 @@ with col2:
 
 with col3:
   st.header('Performance')
-  st.write('Train $R^2$', train_r2)
-  st.write('Test $R^2$', test_r2)
+  st.metric(label="**Train $R^2$**", value=round(train_r2, 3), delta="0")
+  st.metric(label="**Test $R^2$**", value=round(test_r2, 3), delta="0")
 ```
 
 ### Completed app
