@@ -29,9 +29,9 @@
 
 ## Python Data Libraries used in this course
 
-<table style="width:100%">
+<table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300"></td>
+    <td><img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="50"></td>
     <td>2</td>
     <td>3</td>
     <td>4</td>
