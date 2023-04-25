@@ -86,4 +86,4 @@ The resulting Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-s
 ### Bonus steps
 Now that you have this Scikit-learn app completed, can you build upon this Streamlit app by adding input widgets that will allow users to adjust machine learning parameters. After selection, the app will update and generate a new model with corresponding performance metric values.
 
-> Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).
+==Share your solution (the updated Streamlit app) on social media (Twitter and/or LinkedIn) and tag us (`@streamlit`).==
