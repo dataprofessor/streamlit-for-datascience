@@ -1,4 +1,4 @@
-## Project 2 - Using Pandas in Streamlit
+## Project 3 - Using Pandas for EDA in Streamlit
 
 Let's now use Pandas to perform EDA in a Streamlit app. Particularly, we're going to create an app that 
 
