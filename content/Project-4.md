@@ -57,7 +57,7 @@ The above code gives us the following Streamlit app ([GitHub repo](https://githu
   <img src="../img/lesson-6-matplotlib-example-streamlit-app.png" height="550">
 </p>
 
-### Bonus steps
+### Homework
 Now that you have this Matplotlib app completed, can you build upon this Streamlit app by adding input widgets for allowing users to choose a line color or data point color of their choice. After selection, the app will update and generate the corresponding plot with the specified colors.
 
 > 📣 **Learn in Public:** 
