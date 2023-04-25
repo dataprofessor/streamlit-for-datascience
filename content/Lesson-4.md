@@ -825,4 +825,4 @@ The above code gives us the following Streamlit app ([GitHub repo](https://githu
 
 ## Summary
 
-In this lesson, we've covered how to install the Pandas library, Pandas data structure, creation of Pandas Series and DataFrame, reading in CSV files, selecting columns and dropping missing data from the DataFrame.
+In this lesson, we've covered how to install the Pandas library, Pandas data structure, creation of Pandas Series and DataFrame, reading in CSV files, selecting columns and dropping missing data from the DataFrame. Finally, we've also used Pandas in a Streamlit app.
