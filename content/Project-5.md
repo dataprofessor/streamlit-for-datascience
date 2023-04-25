@@ -1,4 +1,4 @@
-## Project 5 - Using Scikit-learn to create an ML model in Streamlit
+## 💻 Project 5 - Using Scikit-learn to create an ML model in Streamlit
 
 ### What are we building?
 Let's now put together all what we have been covering in this lesson to build an ML model in a Streamlit app.
