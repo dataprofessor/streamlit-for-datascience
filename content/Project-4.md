@@ -1,4 +1,4 @@
-## Project 4 - Using Matplotlib to create a plot in Streamlit
+## 🎨 Project 4 - Using Matplotlib to create a plot in Streamlit
 
 ### What are we building?
 
