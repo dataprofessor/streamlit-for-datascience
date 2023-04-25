@@ -1,4 +1,4 @@
-## Project 1 - Using NumPy in Streamlit
+## 🎨 Project 1 - Using NumPy in Streamlit
 
 ### What are we building?
 NumPy can easily be used inside a Streamlit app, let's see how in this project.
