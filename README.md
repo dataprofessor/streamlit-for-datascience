@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/logo.png" width="60%">
+  <img src="./img/streamlit-datascience-course-logo.png" width="60%">
 </p>
 
 ## About
