@@ -1,0 +1,50 @@
+[data-testid="stSidebarNav"] {
+                background-image: url("https://github.com/dataprofessor/st-multipage-with-logo/raw/master/logo.png");
+                background-size: 80%;
+                background-repeat: no-repeat;
+                padding-top: 80px;
+                margin-top: 40px;
+                background-position: center top;
+                /* background-position: 20px 20px; */
+            }
+[data-testid="stSidebarNav"]::before {
+                content: "Generative AI course";
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 25px;
+                position: relative;
+                top: 100px;
+            }
+
+[data-testid="stButton"] {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+li a:hover {
+  background: #F7DC6F;
+}
+
+[id="1-lesson-1"]::after {
+  padding-top:100px;
+}
+
+/* Style the button with the class "css-1x5kdwo" */
+.css-1x5kdwo {
+  /* Add your button styles here */
+  background-color: #FEE7ED; /* Change to your preferred background color */
+  /* color: #FFF;  /* Change to your preferred text color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+
+/* Change background color and text color on hover */
+.css-1x5kdwo:hover {
+  background-color: #F63366; /* Change to your preferred hover background color */
+  color: #FFF; /* Change to your preferred hover text color */
+}
