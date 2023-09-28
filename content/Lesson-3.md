@@ -1,4 +1,4 @@
-# 📓 Lesson 3 - Numerical processing with NumPy
+# 📓 Lesson 2 - Numerical processing with NumPy
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300">
