@@ -1,4 +1,4 @@
-# 📓 Lesson 4 - Data wrangling with Pandas
+# 📓 Lesson 3 - Data wrangling with Pandas
 
 <p align="center">
   <img src="https://pandas.pydata.org/static/img/pandas.svg" width="300">
