@@ -1,4 +1,4 @@
-# 📓 Lesson 6 - Data Visualization with Matplotlib
+# 📓 Lesson 5 - Data Visualization with Matplotlib
 
 <p align="center">
   <img src="https://matplotlib.org/_static/logo_light.svg" width="300">
