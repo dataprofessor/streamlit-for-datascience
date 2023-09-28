@@ -1,4 +1,4 @@
-# 📓 Lesson 1 - Getting up to speed with Streamlit
+# 📓 Lesson 0 - Getting up to speed with Streamlit
 
 ## Table of Contents
 1. [What is Streamlit?](#1-what-is-streamlit)
