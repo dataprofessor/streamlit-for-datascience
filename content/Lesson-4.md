@@ -1,4 +1,4 @@
-# 📓 Lesson 5 - Exploratory Data Analysis with Pandas
+# 📓 Lesson 4 - Exploratory Data Analysis with Pandas
 
 <p align="center">
   <img src="https://pandas.pydata.org/static/img/pandas.svg" width="300">
