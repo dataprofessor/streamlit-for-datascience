@@ -16,6 +16,10 @@
                 top: 100px;
             }
 
+section[data-testid="stSidebar"] {
+            width: 500px !important; # Set the width to your desired value
+        }
+
 [data-testid="stButton"] {
   margin-bottom: 0px;
   margin-top: 0px;
