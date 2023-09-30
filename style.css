@@ -17,7 +17,7 @@
             }
 
 section[data-testid="stSidebar"] {
-            width: 380px !important; # Set the width to your desired value
+            width: 370px !important; # Set the width to your desired value
         }
 
 [data-testid="stButton"] {
