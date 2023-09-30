@@ -6,5 +6,5 @@ st.set_page_config(page_title="Lesson 5 - Data Visualization with Matplotlib", p
 
 load_css()
 
-md = read_md('Lesson-4.md')
+md = read_md('Lesson-5.md')
 st.markdown(md, unsafe_allow_html=True)
