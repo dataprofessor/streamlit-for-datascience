@@ -21,25 +21,25 @@ st.info('The Streamlit for Data Science course will show you how to use Streamli
 st.header('Table of Contents')
 
 if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
-    switch_page('Lesson_0_Streamlit')
+    switch_page('Lesson_0_Intro_to_Streamlit')
   
 if st.button('**Lesson 1** - Getting up to speed with Data Science'):
-    switch_page('Lesson_1_Data_Science')
+    switch_page('Lesson_1_Intro_to_Data_Science')
   
 if st.button('**Lesson 2** - Numerical processing with NumPy'):
-    switch_page('Lesson_2_Numerical_processing')
+    switch_page('Lesson_2_Numerical_processing_with_NumPy')
   
 if st.button('**Lesson 3** - Data wrangling with Pandas'):
-    switch_page('Lesson_3_Data_wrangling')
+    switch_page('Lesson_3_Data_wrangling_with_Pandas')
   
 if st.button('**Lesson 4** - Exploratory Data Analysis with Pandas'):
-    switch_page('Lesson_4_Exploratory_data_analysis')
+    switch_page('Lesson_4_Exploratory_data_analysis_with_Pandas')
   
 if st.button('**Lesson 5** - Data Visualization with Matplotlib'):
-    switch_page('Lesson_5_Data_visualization')
+    switch_page('Lesson_5_Data_visualization_with_Matplotlib')
   
 if st.button('**Lesson 6** - Machine Learning with Scikit-learn'):
-    switch_page('Lesson_6_Machine_learning')  
+    switch_page('Lesson_6_Machine_learning_with_Scikit-learn')  
   
 if st.button('**Project 1** - Using NumPy in Streamlit'):
     switch_page('Project_1_NumPy_in_Streamlit')
