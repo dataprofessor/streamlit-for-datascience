@@ -8,7 +8,7 @@
                 /* background-position: 20px 20px; */
             }
 [data-testid="stSidebarNav"]::before {
-                content: "Generative AI course";
+                content: "Data Science course";
                 margin-left: 20px;
                 margin-top: 20px;
                 font-size: 25px;
