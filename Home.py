@@ -25,8 +25,8 @@ st.markdown('''
   <h3>Table of Contents</h3>
   
 <div class="sidebar">
-  <a href="#state-of-llm-apps-2023">Top</a>
-  <a href="#about-the-report">About the Report</a>
+  <a href="/">Home</a>
+  <a href="Lesson_0_Intro_to_Streamlit"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
   <a href="#key-takeaways">Key Takeaways</a>
   <a href="#key-concerns">Key Concerns</a>
   <a href="#llm-tool-popularity">LLM Tool Popularity</a>
