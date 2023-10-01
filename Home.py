@@ -39,7 +39,7 @@ lessonURL = {
     '11': 'Project_5_Scikit-learn_in_Streamlit',
 }
 
-lessonName = {}
+# lessonName = {}
 
 Lesson_0_Intro_to_Streamlit
 
@@ -50,7 +50,7 @@ st.markdown('''
   
 <div class="sidebar">
   <a href="/">Home</a>
-  <a href="" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
+  <a href="lessonURL[0]" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
   <a href="#key-takeaways">Key Takeaways</a>
   <a href="#key-concerns">Key Concerns</a>
   <a href="#llm-tool-popularity">LLM Tool Popularity</a>
