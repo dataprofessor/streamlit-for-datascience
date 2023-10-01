@@ -30,7 +30,7 @@ else:
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-pandas-example-2) | [Demo app](https://dataprofessor-st-pandas-example-2-streamlit-app-8ywtu6.streamlit.app))
 
 <p align="left">
-  <img src="../img/lesson-5-pandas-eda-example-streamlit-app.gif" height="550">
+  <img src="../img/lesson-5-pandas-eda-example-streamlit-app.gif" width="80%">
 </p>
 
 ### Homework
