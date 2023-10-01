@@ -41,8 +41,6 @@ lessonURL = {
 
 # lessonName = {}
 
-Lesson_0_Intro_to_Streamlit
-
 
 st.markdown('''
 
