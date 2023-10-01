@@ -25,7 +25,7 @@ st.info('The Streamlit for Data Science course will show you how to use Streamli
 baseURL = 'https://datascience-course.streamlit.app/'
 
 lessonURL = {
-    '0': 'Lesson_0_Intro_to_Streamlit',
+    0: 'Lesson_0_Intro_to_Streamlit',
     '1': 'Lesson_1_Intro_to_Data_Science',
     '2': 'Lesson_2_Numerical_processing_with_NumPy',
     '3': 'Lesson_3_Data_wrangling_with_Pandas',
