@@ -61,18 +61,18 @@ st.markdown(f'''
   
 <div class="sidebar">
   <a href="/">Home</a>
-  <a href="{lessonURL[0]}" target="_self">lessonName[0]</a>
-  <a href="{lessonURL[1]}">lessonName[1]</a>
-  <a href="{lessonURL[2]}">lessonName[2]</a>
-  <a href="{lessonURL[3]}">lessonName[3]</a>
-  <a href="{lessonURL[4]}">lessonName[4]</a>
-  <a href="{lessonURL[5]}">lessonName[5]</a>
-  <a href="{lessonURL[6]}">lessonName[6]</a>
-  <a href="{lessonURL[7]}">lessonName[7]</a>
-  <a href="{lessonURL[8]}">lessonName[8]</a>
-  <a href="{lessonURL[9]}">lessonName[9]</a>
-  <a href="{lessonURL[10]}">lessonName[10]</a>
-  <a href="{lessonURL[11]}">lessonName[11]</a>
+  <a href="{lessonURL[0]}" target="_self">{lessonName[0]}</a>
+  <a href="{lessonURL[1]}">{lessonName[1]}</a>
+  <a href="{lessonURL[2]}">{lessonName[2]}</a>
+  <a href="{lessonURL[3]}">{lessonName[3]}</a>
+  <a href="{lessonURL[4]}">{lessonName[4]}</a>
+  <a href="{lessonURL[5]}">{lessonName[5]}</a>
+  <a href="{lessonURL[6]}">{lessonName[6]}</a>
+  <a href="{lessonURL[7]}">{lessonName[7]}</a>
+  <a href="{lessonURL[8]}">{lessonName[8]}</a>
+  <a href="{lessonURL[9]}">{lessonName[9]}</a>
+  <a href="{lessonURL[10]}">{lessonName[10]}</a>
+  <a href="{lessonURL[11]}">{lessonName[11]}</a>
 </div>
 ''', unsafe_allow_html=True)
 
