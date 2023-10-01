@@ -42,7 +42,8 @@ li a:hover {
   margin: 0;
   width: 100%;
   padding: 0;
-  background-color: #494950;
+  background-color: #E5E7E9;
+  color: #2C3E50;
   position: relative;
   height: 100%;
   overflow: auto;
