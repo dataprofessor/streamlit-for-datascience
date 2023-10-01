@@ -80,7 +80,7 @@ with col3:
 The resulting Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-scikit-learn-example) | [Demo app](https://dataprofessor-st-scikit-learn-example-streamlit-app-qgzopo.streamlit.app/)) looks like the following:
 
 <p align="left">
-  <img src="../img/lesson-7-scikit-learn-example-streamlit-app.png" height="550">
+  <img src="../img/lesson-7-scikit-learn-example-streamlit-app.png" width="80%">
 </p>
 
 ### Homework
