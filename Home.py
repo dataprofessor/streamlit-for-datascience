@@ -26,29 +26,29 @@ baseURL = 'https://datascience-course.streamlit.app/'
 
 lessonURL = {
     0: 'Lesson_0_Intro_to_Streamlit',
-    '1': 'Lesson_1_Intro_to_Data_Science',
-    '2': 'Lesson_2_Numerical_processing_with_NumPy',
-    '3': 'Lesson_3_Data_wrangling_with_Pandas',
-    '4': 'Lesson_4_Exploratory_data_analysis_with_Pandas',
-    '5': 'Lesson_5_Data_visualization_with_Matplotlib',
-    '6': 'Lesson_6_Machine_learning_with_Scikit-learn',
-    '7': 'Project_1_NumPy_in_Streamlit',
-    '8': 'Project_2_Pandas_in_Streamlit',
-    '9': 'Project_3_Pandas_for_EDA_in_Streamlit',
-    '10': 'Project_4_Matplotlib_in_Streamlit',
-    '11': 'Project_5_Scikit-learn_in_Streamlit',
+    1: 'Lesson_1_Intro_to_Data_Science',
+    2: 'Lesson_2_Numerical_processing_with_NumPy',
+    3: 'Lesson_3_Data_wrangling_with_Pandas',
+    4: 'Lesson_4_Exploratory_data_analysis_with_Pandas',
+    5: 'Lesson_5_Data_visualization_with_Matplotlib',
+    6: 'Lesson_6_Machine_learning_with_Scikit-learn',
+    7: 'Project_1_NumPy_in_Streamlit',
+    8: 'Project_2_Pandas_in_Streamlit',
+    9: 'Project_3_Pandas_for_EDA_in_Streamlit',
+    10: 'Project_4_Matplotlib_in_Streamlit',
+    11: 'Project_5_Scikit-learn_in_Streamlit',
 }
 
 # lessonName = {}
 
 
-st.markdown('''
+st.markdown(f'''
 
   <h3>Table of Contents</h3>
   
 <div class="sidebar">
   <a href="/">Home</a>
-  <a href="lessonURL[0]" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
+  <a href="{lessonURL[0]}" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
   <a href="#key-takeaways">Key Takeaways</a>
   <a href="#key-concerns">Key Concerns</a>
   <a href="#llm-tool-popularity">LLM Tool Popularity</a>
