@@ -26,7 +26,7 @@ st.markdown('''
   
 <div class="sidebar">
   <a href="/">Home</a>
-  <a href="https://datascience-course.streamlit.app/Lesson_0_Intro_to_Streamlit"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
+  <a href="https://datascience-course.streamlit.app/Lesson_0_Intro_to_Streamlit" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
   <a href="#key-takeaways">Key Takeaways</a>
   <a href="#key-concerns">Key Concerns</a>
   <a href="#llm-tool-popularity">LLM Tool Popularity</a>
