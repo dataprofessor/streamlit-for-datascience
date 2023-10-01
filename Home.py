@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from utilities import load_css
+#from utilities import load_css
 from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-load_css()
+#load_css()
 
 img = Image.open('img/streamlit-datascience-course-logo.png')
 st.image(img)
