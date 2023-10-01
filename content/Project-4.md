@@ -54,7 +54,7 @@ st.pyplot(fig)
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-matplotlib-example) | [Demo app](https://dataprofessor-st-matplotlib-line-plot-streamlit-app-2a0abu.streamlit.app/))
 
 <p align="left">
-  <img src="../img/lesson-6-matplotlib-example-streamlit-app.png" height="550">
+  <img src="../img/lesson-6-matplotlib-example-streamlit-app.png" width="80%">
 </p>
 
 ### Homework
