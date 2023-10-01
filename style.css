@@ -23,7 +23,7 @@ section[data-testid="stSidebar"] {
 [data-testid="stButton"] {
   margin-bottom: 0px;
   margin-top: 0px;
-  border-color: ##E5E7E9;
+  border-color: #E5E7E9;
 }
 
 li a:hover {
