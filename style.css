@@ -32,23 +32,3 @@ li a:hover {
 [id="1-lesson-1"]::after {
   padding-top:100px;
 }
-
-/* Style the button with the class "css-1x5kdwo" */
-.css-1x5kdwo {
-  /* Add your button styles here */
-  background-color: #FEE7ED; /* Change to your preferred background color */
-  /* color: #FFF;  /* Change to your preferred text color */
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-bottom: -20px;
-  margin-top: -20px;
-}
-
-/* Change background color and text color on hover */
-.css-1x5kdwo:hover {
-  background-color: #F63366; /* Change to your preferred hover background color */
-  color: #FFF; /* Change to your preferred hover text color */
-}
