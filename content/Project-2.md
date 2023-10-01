@@ -27,7 +27,7 @@ else:
 The above code gives us the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-pandas-example-1) | [Demo app](https://dataprofessor-st-pandas-example-1-streamlit-app-ho581p.streamlit.app/))
 
 <p align="left">
-  <img src="../img/lesson-4-pandas-example-streamlit-app.png" height="550">
+  <img src="../img/lesson-4-pandas-example-streamlit-app.png" width="80%">
 </p>
 
 ### Homework
