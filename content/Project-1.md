@@ -50,7 +50,7 @@ st.write(data_matrix)
 The above code produces the following Streamlit app ([GitHub repo](https://github.com/dataprofessor/st-numpy-minimum-working-example) | [Demo app](https://dataprofessor-st-numpy-minimum-working-exa-streamlit-app-dskf0i.streamlit.app/)):
 
 <p align="left">
-  <img src="../img/lesson-3-numpy-example-streamlit-app.png" height="550">
+  <img src="../img/lesson-3-numpy-example-streamlit-app.png" width="90%">
 </p>
 
 ### Homework
