@@ -35,3 +35,35 @@ li a:hover {
   padding-top:100px;
 }
 
+
+/* Sidebar */
+
+  .sidebar {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #494950;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  text-indent: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  list-style-type: circle;
+}
+ 
+.sidebar a.active {
+  background-color: #F63366;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  /* background-color: #555; */
+  background-color: #F63366;
+  color: white;
+}
