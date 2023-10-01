@@ -47,7 +47,7 @@ li a:hover {
   height: 100%;
   overflow: auto;
   text-indent: 10px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .sidebar a {
