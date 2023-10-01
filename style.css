@@ -43,7 +43,6 @@ li a:hover {
   width: 100%;
   padding: 0;
   background-color: #E5E7E9;
-  color: #2C3E50;
   position: relative;
   height: 100%;
   overflow: auto;
@@ -52,7 +51,7 @@ li a:hover {
 
 .sidebar a {
   display: block;
-  color: white;
+  color: #2C3E50;
   padding: 12px;
   text-decoration: none;
   list-style-type: circle;
