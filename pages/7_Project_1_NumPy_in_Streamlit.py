@@ -6,5 +6,5 @@ st.set_page_config(page_title="Project 1 - Using NumPy in Streamlit", page_icon=
 
 load_css()
 
-md = read_md('Lesson-7.md')
+md = read_md('Project-1.md')
 st.markdown(md, unsafe_allow_html=True)
