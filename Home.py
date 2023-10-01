@@ -39,7 +39,20 @@ lessonURL = {
     11: 'Project_5_Scikit-learn_in_Streamlit',
 }
 
-# lessonName = {}
+lessonName = {
+    0: 'Lesson 0 - Getting up to speed with Streamlit',
+    1: 'Lesson 1 - Getting up to speed with Data Science',
+    2: 'Lesson 2 - Numerical processing with NumPy',
+    3: 'Lesson 3 - Data wrangling with Pandas',
+    4: 'Lesson 4 - Exploratory Data Analysis with Pandas',
+    5: 'Lesson 5 - Data Visualization with Matplotlib',
+    6: 'Lesson 6 - Machine Learning with Scikit-learn',
+    7: 'Project 1 - Using NumPy in Streamlit',
+    8: 'Project 2 - Using Pandas in Streamlit',
+    9: 'Project 3 - Using Pandas for EDA in Streamlit',
+    10: 'Project 4 - Using Matplotlib to create a plot in Streamlit',
+    11: 'Project 5 - Using Scikit-learn to create an ML model in Streamlit',
+}
 
 
 st.markdown(f'''
@@ -48,16 +61,18 @@ st.markdown(f'''
   
 <div class="sidebar">
   <a href="/">Home</a>
-  <a href="{lessonURL[0]}" target="_self"><b>Lesson 0</b> - Getting up to speed with Streamlit</a>
-  <a href="#key-takeaways">Key Takeaways</a>
-  <a href="#key-concerns">Key Concerns</a>
-  <a href="#llm-tool-popularity">LLM Tool Popularity</a>
-  <a href="#llm-at-a-glance">LLM at a Glance</a>
-  <a href="#llm-app-gallery">LLM App Gallery</a>
-  <a href="#llm-models">LLM Models</a>
-  <a href="#vector-databases">Vector Databases</a>
-  <a href="#llm-orchestration">LLM Orchestration</a>
-  <a href="#methodology">Methodology</a>
+  <a href="{lessonURL[0]}" target="_self">lessonName[0]</a>
+  <a href="{lessonURL[1]}">lessonName[1]</a>
+  <a href="{lessonURL[2]}">lessonName[2]</a>
+  <a href="{lessonURL[3]}">lessonName[3]</a>
+  <a href="{lessonURL[4]}">lessonName[4]</a>
+  <a href="{lessonURL[5]}">lessonName[5]</a>
+  <a href="{lessonURL[6]}">lessonName[6]</a>
+  <a href="{lessonURL[7]}">lessonName[7]</a>
+  <a href="{lessonURL[8]}">lessonName[8]</a>
+  <a href="{lessonURL[9]}">lessonName[9]</a>
+  <a href="{lessonURL[10]}">lessonName[10]</a>
+  <a href="{lessonURL[11]}">lessonName[11]</a>
 </div>
 ''', unsafe_allow_html=True)
 
