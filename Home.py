@@ -18,8 +18,26 @@ st.header('About')
 st.info('The Streamlit for Data Science course will show you how to use Streamlit to prepare and analyze data as well as embed data visualizations and machine learning models right inside the Streamlit app. The best part of is that you can use various input and output widgets to make the app interactive and data-driven! Finally you can deploy the Streamlit app to the cloud and share with the community.')
 
 # Table of Contents
-st.header('Table of Contents')
+# st.header('Table of Contents')
 
+st.markdown('''
+
+  <h3>Table of Contents</h3>
+  
+<div class="sidebar">
+  <a href="#state-of-llm-apps-2023">Top</a>
+  <a href="#about-the-report">About the Report</a>
+  <a href="#key-takeaways">Key Takeaways</a>
+  <a href="#key-concerns">Key Concerns</a>
+  <a href="#llm-tool-popularity">LLM Tool Popularity</a>
+  <a href="#llm-at-a-glance">LLM at a Glance</a>
+  <a href="#llm-app-gallery">LLM App Gallery</a>
+  <a href="#llm-models">LLM Models</a>
+  <a href="#vector-databases">Vector Databases</a>
+  <a href="#llm-orchestration">LLM Orchestration</a>
+  <a href="#methodology">Methodology</a>
+</div>
+''', unsafe_allow_html=True)
 
 
 #if st.button('**Lesson 0** - Getting up to speed with Streamlit'):
