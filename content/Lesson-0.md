@@ -52,7 +52,7 @@ Particularly, we're going to clone the EDA app from a YouTube tutorial video on 
 Create a conda environment called eda:
 
 ```
-conda create -n eda python=3.7.9
+conda create -n eda python=3.9
 ```
 
 **Step 2.** Activate the eda environment:
@@ -76,12 +76,12 @@ pip install -r requirements.txt
 Inside the `requirements.txt` file you'll see the following contents:
 
 ```
-streamlit==0.71.0
-pandas==1.1.3
-numpy==1.19.2
-pandas-profiling==2.10.0
-streamlit-pandas-profiling==0.1.1
-Jinja2==3.0.3
+streamlit
+pandas
+numpy
+ydata-profiling
+streamlit-pandas-profiling
+Jinja2
 ```
 
 You'll notice that in the above contents, we're using legacy versions of the Python libraries, which is to be expected as this is from a tutorial from 2 years ago. In spite of this, the app should still work as the specific dependent Python libraries are specified in the `requirements.txt` file.
