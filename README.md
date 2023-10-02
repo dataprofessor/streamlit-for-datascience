@@ -6,13 +6,13 @@
 > The *Streamlit for Data Science* course will show you how to use Streamlit to prepare and analyze data as well as embed data visualizations and machine learning models right inside the Streamlit app. The best part of is that you can use various input and output widgets to make the app interactive and data-driven! Finally you can deploy the Streamlit app to the cloud and share with the community.
 
 ## Table of contents
-- [**Lesson 1** - Getting up to speed with Streamlit](./content/Lesson-1.md)
-- [**Lesson 2** - Getting up to speed with Data Science](./content/Lesson-2.md)
-- [**Lesson 3** - Numerical processing with NumPy](./content/Lesson-3.md)
-- [**Lesson 4** - Data wrangling with Pandas](./content/Lesson-4.md)
-- [**Lesson 5** - Exploratory Data Analysis with Pandas](./content/Lesson-5.md)
-- [**Lesson 6** - Data Visualization with Matplotlib](./content/Lesson-6.md)
-- [**Lesson 7** - Machine Learning with Scikit-learn](./content/Lesson-7.md)
+- [**Lesson 0** - Getting up to speed with Streamlit](./content/Lesson-0.md)
+- [**Lesson 1** - Getting up to speed with Data Science](./content/Lesson-1.md)
+- [**Lesson 2** - Numerical processing with NumPy](./content/Lesson-2.md)
+- [**Lesson 3** - Data wrangling with Pandas](./content/Lesson-3.md)
+- [**Lesson 4** - Exploratory Data Analysis with Pandas](./content/Lesson-4.md)
+- [**Lesson 5** - Data Visualization with Matplotlib](./content/Lesson-5.md)
+- [**Lesson 6** - Machine Learning with Scikit-learn](./content/Lesson-6.md)
 - [**Project 1** - Using NumPy in Streamlit](./content/Project-1.md)
 - [**Project 2** - Using Pandas in Streamlit](./content/Project-2.md)
 - [**Project 3** - Using Pandas for EDA in Streamlit](./content/Project-3.md)
